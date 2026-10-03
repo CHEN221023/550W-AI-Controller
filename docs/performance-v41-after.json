@@ -1,0 +1,6686 @@
+{
+  "perf": {
+    "frames": [
+      {
+        "phase": "PAGE_READY",
+        "ms": 55.099999999999966
+      },
+      {
+        "phase": "PAGE_READY",
+        "ms": 205
+      },
+      {
+        "phase": "PAGE_READY",
+        "ms": 9.899999999999977
+      },
+      {
+        "phase": "PAGE_READY",
+        "ms": 5.100000000000023
+      },
+      {
+        "phase": "CORE_INITIALIZING",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_SCANNING",
+        "ms": 190.10000000000002
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 4.899999999999977
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 25
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5.100000000000023
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 4.899999999999977
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 4.899999999999977
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5.100000000000023
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5.100000000000023
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 4.899999999999977
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 4.899999999999977
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5.100000000000136
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 4.899999999999864
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5.100000000000136
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 4.899999999999864
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5.100000000000136
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 4.899999999999864
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5.100000000000136
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 4.899999999999864
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5.100000000000136
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_ILLUMINATED",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_ILLUMINATED",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_ILLUMINATED",
+        "ms": 10
+      },
+      {
+        "phase": "CORE_ILLUMINATED",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_ILLUMINATED",
+        "ms": 4.899999999999864
+      },
+      {
+        "phase": "CORE_ILLUMINATED",
+        "ms": 5.100000000000136
+      },
+      {
+        "phase": "CORE_ILLUMINATED",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_ILLUMINATED",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_ILLUMINATED",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_ILLUMINATED",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_ILLUMINATED",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_ILLUMINATED",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_ILLUMINATED",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_ILLUMINATED",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_ILLUMINATED",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_LABEL",
+        "ms": 4.899999999999864
+      },
+      {
+        "phase": "CORE_LABEL",
+        "ms": 5.100000000000136
+      },
+      {
+        "phase": "CORE_LABEL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_LABEL",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_LABEL",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "CORE_LABEL",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "CORE_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_HOLD",
+        "ms": 4.899999999999864
+      },
+      {
+        "phase": "CORE_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_HOLD",
+        "ms": 5.100000000000136
+      },
+      {
+        "phase": "CORE_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 10
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 4.899999999999864
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.100000000000136
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.199999999999818
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 4.800000000000182
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 4.800000000000182
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 4.800000000000182
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.199999999999818
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 4.800000000000182
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 45.09999999999991
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.800000000000182
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.800000000000182
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 4.800000000000182
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5.199999999999818
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 4.800000000000182
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 10
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 10
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5.099999999999909
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 10
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5.199999999999818
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 9.900000000000091
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 10
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 10
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 10.099999999999909
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 10
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 10
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 10
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 10
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 10
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 4.900000000000091
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 10.099999999999909
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 10
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 10
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 10
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 10
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 9.900000000000091
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 10.100000000000364
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 10
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 10
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5.099999999999454
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 9.900000000000546
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5.099999999999454
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 10
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 4.900000000000546
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 10
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5.099999999999454
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 4.900000000000546
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 10
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 4.899999999999636
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5.100000000000364
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 9.899999999999636
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5.100000000000364
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 10
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 10
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 10
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 10
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 10
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5.099999999999454
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 9.900000000000546
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5.099999999999454
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 4.900000000000546
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 10
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5.099999999999454
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 4.900000000000546
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 10.099999999999454
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 4.900000000000546
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 10
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 10
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 10.099999999999454
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 9.900000000000546
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5.099999999999454
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 54.900000000000546
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 20
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 15
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 10
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 10
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 10
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 10
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 10
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 10
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 10
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 10
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 10
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5.099999999999454
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 4.900000000000546
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5.099999999999454
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 10
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 9.900000000000546
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 10
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5.099999999999454
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 4.900000000000546
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 10.099999999999454
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 4.900000000000546
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 10
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5.099999999999454
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 9.900000000000546
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5.099999999999454
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 10
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 4.900000000000546
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 10
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5.099999999999454
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 4.900000000000546
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 10
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5.099999999999454
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 4.900000000000546
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5.099999999999454
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 9.900000000000546
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5.099999999999454
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 10
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 4.900000000000546
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 10.099999999999454
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "MAJOR_MODULE",
+        "ms": 10
+      },
+      {
+        "phase": "MAJOR_MODULE",
+        "ms": 10
+      },
+      {
+        "phase": "MAJOR_MODULE",
+        "ms": 5
+      },
+      {
+        "phase": "MAJOR_MODULE",
+        "ms": 45
+      },
+      {
+        "phase": "MAJOR_MODULE",
+        "ms": 15
+      },
+      {
+        "phase": "MAJOR_MODULE",
+        "ms": 4.900000000000546
+      },
+      {
+        "phase": "MAJOR_MODULE",
+        "ms": 10.099999999999454
+      },
+      {
+        "phase": "MAJOR_MODULE",
+        "ms": 5
+      },
+      {
+        "phase": "MAJOR_MODULE",
+        "ms": 19.900000000000546
+      },
+      {
+        "phase": "MAJOR_MODULE",
+        "ms": 10.099999999999454
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 9.900000000000546
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 10.099999999999454
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 10
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 4.900000000000546
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 10.099999999999454
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 4.900000000000546
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 10
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 10.099999999999454
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 4.900000000000546
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5.099999999999454
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 10
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 10
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 5
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 10
+      },
+      {
+        "phase": "MULTIWINDOW_ACTIVE",
+        "ms": 4.900000000000546
+      },
+      {
+        "phase": "MULTIWINDOW_ACTIVE",
+        "ms": 5.199999999999818
+      }
+    ],
+    "callbacks": [
+      {
+        "phase": "PAGE_READY",
+        "ms": 0
+      },
+      {
+        "phase": "PAGE_READY",
+        "ms": 0
+      },
+      {
+        "phase": "PAGE_READY",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "PAGE_READY",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_SCANNING",
+        "ms": 0.29999999701976776
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_ILLUMINATED",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "CORE_ILLUMINATED",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_ILLUMINATED",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "CORE_ILLUMINATED",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_ILLUMINATED",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_ILLUMINATED",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_ILLUMINATED",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_ILLUMINATED",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_ILLUMINATED",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_ILLUMINATED",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_ILLUMINATED",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_ILLUMINATED",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_ILLUMINATED",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "CORE_ILLUMINATED",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_ILLUMINATED",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_LABEL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_LABEL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_LABEL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_LABEL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_LABEL",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "CORE_LABEL",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_HOLD",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "CORE_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 3.699999999254942
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1.3999999985098839
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.8999999985098839
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1.1000000014901161
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.8999999985098839
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.8999999985098839
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1.0999999977648258
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.8999999985098839
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.9000000022351742
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1.2999999970197678
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1.0999999977648258
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.8000000007450581
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1.0999999977648258
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.8000000007450581
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1.3999999985098839
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1.300000000745058
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1.0999999977648258
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1.199999999254942
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1.0999999977648258
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.9000000022351742
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1.0999999977648258
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1.199999999254942
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1.2999999970197678
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1.0999999977648258
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1.0999999977648258
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1.199999999254942
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1.0999999977648258
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1.0999999977648258
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1.0999999977648258
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1.0999999977648258
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1.0999999977648258
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1.2999999970197678
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1.0999999977648258
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.9000000022351742
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.8999999985098839
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.8999999985098839
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.8999999985098839
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1.0999999977648258
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.8999999985098839
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.8999999985098839
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 1.0999999977648258
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.7999999970197678
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.7999999970197678
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.8000000007450581
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.6999999992549419
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.6999999992549419
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.6999999992549419
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.8000000007450581
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.5999999977648258
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.6999999992549419
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.6999999992549419
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.5999999977648258
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.6999999992549419
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.5999999977648258
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.6999999992549419
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.5999999977648258
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.4000000022351742
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.3999999985098839
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.3999999985098839
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.5
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.3999999985098839
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.4000000022351742
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.3999999985098839
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.29999999701976776
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.30000000074505806
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.30000000074505806
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.29999999701976776
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.7999999970197678
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.5
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.6000000014901161
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.29999999701976776
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.29999999701976776
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.30000000074505806
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.3999999985098839
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.4000000022351742
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.29999999701976776
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.30000000074505806
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.29999999701976776
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.29999999701976776
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.29999999701976776
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.30000000074505806
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.30000000074505806
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.29999999701976776
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.8000000007450581
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.5999999977648258
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.29999999701976776
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.29999999701976776
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.30000000074505806
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.20000000298023224
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.29999999701976776
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.29999999701976776
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.20000000298023224
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.30000000074505806
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.20000000298023224
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.20000000298023224
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.5
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.20000000298023224
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.20000000298023224
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.20000000298023224
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.20000000298023224
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.20000000298023224
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.20000000298023224
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "LOGO_BURST",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 3
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.20000000298023224
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.20000000298023224
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.20000000298023224
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.20000000298023224
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.20000000298023224
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "MAJOR_MODULE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "MAJOR_MODULE",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "MAJOR_MODULE",
+        "ms": 0.20000000298023224
+      },
+      {
+        "phase": "MAJOR_MODULE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "MAJOR_MODULE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "MAJOR_MODULE",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "MAJOR_MODULE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "MAJOR_MODULE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "MAJOR_MODULE",
+        "ms": 0.20000000298023224
+      },
+      {
+        "phase": "MAJOR_MODULE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "MAJOR_MODULE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.19999999925494194
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.10000000149011612
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.09999999776482582
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "ms": 0.20000000298023224
+      },
+      {
+        "phase": "MULTIWINDOW_ACTIVE",
+        "ms": 0.30000000074505806
+      },
+      {
+        "phase": "MULTIWINDOW_ACTIVE",
+        "ms": 0
+      },
+      {
+        "phase": "MULTIWINDOW_ACTIVE",
+        "ms": 0
+      }
+    ],
+    "events": [
+      {
+        "phase": "PAGE_READY",
+        "at": 112.10000000149012
+      },
+      {
+        "phase": "VISUAL_READY",
+        "at": 644.1000000014901
+      },
+      {
+        "phase": "CORE_INITIALIZING",
+        "at": 644.3999999985099
+      },
+      {
+        "phase": "CORE_SCANNING",
+        "at": 649.3000000007451
+      },
+      {
+        "phase": "CORE_REVEAL",
+        "at": 840.8999999985099
+      },
+      {
+        "phase": "CORE_ILLUMINATED",
+        "at": 1134.1000000014901
+      },
+      {
+        "phase": "CORE_LABEL",
+        "at": 1214.1000000014901
+      },
+      {
+        "phase": "CORE_HOLD",
+        "at": 1244.300000000745
+      },
+      {
+        "phase": "CORE_PARTICLES",
+        "at": 1299.199999999255
+      },
+      {
+        "phase": "PARTICLE_RESIDUE",
+        "at": 1949.3999999985099
+      },
+      {
+        "phase": "LOGO_ASSEMBLING",
+        "at": 2299.39999999851
+      },
+      {
+        "phase": "LOGO_BEGIN",
+        "at": 2299.39999999851
+      },
+      {
+        "phase": "LOGO_HOLD",
+        "at": 3149.39999999851
+      },
+      {
+        "phase": "LOGO_BURST",
+        "at": 3599.199999999255
+      },
+      {
+        "phase": "MULTIWINDOW_REVEAL",
+        "at": 4500.60000000149
+      },
+      {
+        "phase": "HUD_VISIBLE",
+        "at": 4500.800000000745
+      },
+      {
+        "phase": "BOOT_INTRO_FINISHED",
+        "at": 4500.89999999851
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "at": 4501.300000000745
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "at": 4917.89999999851
+      },
+      {
+        "phase": "MAJOR_MODULE",
+        "at": 5053
+      },
+      {
+        "phase": "AUTHOR_PHASE",
+        "at": 5188.60000000149
+      },
+      {
+        "phase": "MULTIWINDOW_ACTIVE",
+        "at": 5350.89999999851
+      }
+    ],
+    "calls": {
+      "drawImage": 57714,
+      "fillRect": 0,
+      "fill": 2074,
+      "clearRect": 623
+    },
+    "longTasks": [
+      {
+        "phase": "PAGE_READY",
+        "ms": 68
+      },
+      {
+        "phase": "PAGE_READY",
+        "ms": 197
+      },
+      {
+        "phase": "PAGE_READY",
+        "ms": 228
+      }
+    ]
+  },
+  "state": {
+    "phase": "CORE_INITIALIZING",
+    "finished": false,
+    "choreographyComplete": false,
+    "intro": {
+      "phase": "MULTIWINDOW_ACTIVE",
+      "count": 700,
+      "coverage": {
+        "left": -190.52311782177424,
+        "top": -143.3742574870745,
+        "right": 2115.671033221485,
+        "bottom": 1220.216404996605
+      },
+      "disposed": false,
+      "coreVisible": false,
+      "logoVisible": false,
+      "config": {
+        "coreHoldMs": 650,
+        "coreDissolveMs": 650,
+        "particleResidueMs": 350,
+        "logoRevealMs": 850,
+        "logoHoldMs": 450,
+        "logoBurstMs": 900,
+        "particleCount": 700,
+        "particleSize": 2.2,
+        "particleSpread": 1,
+        "multiWindowRevealMs": 850,
+        "handoffCompressMs": 420
+      }
+    },
+    "handoffInProgress": false,
+    "target": {
+      "processDetected": false,
+      "windowDetected": false,
+      "ready": false,
+      "state": "initializing"
+    },
+    "rows": [
+      {
+        "key": "target",
+        "value": "WAITING FOR PROCESS",
+        "status": "waiting"
+      }
+    ],
+    "events": [
+      {
+        "type": "CORE_INITIALIZING",
+        "detail": "",
+        "at": 506
+      },
+      {
+        "type": "CORE_SCANNING",
+        "detail": "",
+        "at": 511
+      },
+      {
+        "type": "CORE_REVEAL",
+        "detail": "",
+        "at": 703
+      },
+      {
+        "type": "CORE_ILLUMINATED",
+        "detail": "",
+        "at": 996
+      },
+      {
+        "type": "CORE_LABEL",
+        "detail": "",
+        "at": 1076
+      },
+      {
+        "type": "CORE_HOLD",
+        "detail": "",
+        "at": 1106
+      },
+      {
+        "type": "CORE_PARTICLES",
+        "detail": "",
+        "at": 1161
+      },
+      {
+        "type": "PARTICLE_RESIDUE",
+        "detail": "",
+        "at": 1811
+      },
+      {
+        "type": "LOGO_ASSEMBLING",
+        "detail": "",
+        "at": 2161
+      },
+      {
+        "type": "LOGO_BEGIN",
+        "detail": "",
+        "at": 2161
+      },
+      {
+        "type": "LOGO_HOLD",
+        "detail": "",
+        "at": 3011
+      },
+      {
+        "type": "LOGO_BURST",
+        "detail": "",
+        "at": 3461
+      },
+      {
+        "type": "MULTIWINDOW_REVEAL",
+        "detail": "",
+        "at": 4362
+      },
+      {
+        "type": "HUD_VISIBLE",
+        "detail": "",
+        "at": 4363
+      },
+      {
+        "type": "BOOT_INTRO_FINISHED",
+        "detail": "",
+        "at": 4363
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "BOOT",
+        "at": 4363
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "AUTH",
+        "at": 4780
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "ACCESS AUTHORIZATION",
+        "at": 4915
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "LINK",
+        "at": 5050
+      },
+      {
+        "type": "MULTIWINDOW_ACTIVE",
+        "detail": "",
+        "at": 5213
+      }
+    ],
+    "modules": [
+      {
+        "name": "ACCESS AUTHORIZATION",
+        "at": 4915
+      }
+    ],
+    "audioEvents": [],
+    "elapsed": 5223.900000002235,
+    "canvas": {
+      "width": 1920,
+      "height": 1080,
+      "scale": 1
+    },
+    "nodes": 47,
+    "slots": 17
+  },
+  "summary": {
+    "canvasCalls": {
+      "drawImage": 57714,
+      "fillRect": 0,
+      "fill": 2074,
+      "clearRect": 623
+    },
+    "particleCallbackMs": {
+      "count": 594,
+      "p50": 0.10000000149011612,
+      "p95": 1,
+      "max": 3.699999999254942
+    },
+    "particleFrameMs": {
+      "count": 594,
+      "p50": 5,
+      "p95": 10,
+      "max": 45.09999999999991
+    },
+    "longTasks": [
+      {
+        "phase": "PAGE_READY",
+        "ms": 68
+      },
+      {
+        "phase": "PAGE_READY",
+        "ms": 197
+      },
+      {
+        "phase": "PAGE_READY",
+        "ms": 228
+      }
+    ]
+  }
+}

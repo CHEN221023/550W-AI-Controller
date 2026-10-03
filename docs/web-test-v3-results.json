@@ -1,0 +1,1131 @@
+[
+  {
+    "name": "V3 continuous core → particles → 550W → full-screen particles → original windows",
+    "pass": true,
+    "events": [
+      {
+        "type": "CORE_INITIALIZING",
+        "detail": "",
+        "at": 236
+      },
+      {
+        "type": "CORE_HOLD",
+        "detail": "",
+        "at": 329
+      },
+      {
+        "type": "CORE_PARTICLES",
+        "detail": "",
+        "at": 980
+      },
+      {
+        "type": "PARTICLE_RESIDUE",
+        "detail": "",
+        "at": 1635
+      },
+      {
+        "type": "LOGO_ASSEMBLING",
+        "detail": "",
+        "at": 1990
+      },
+      {
+        "type": "LOGO_BEGIN",
+        "detail": "",
+        "at": 1991
+      },
+      {
+        "type": "LOGO_HOLD",
+        "detail": "",
+        "at": 2845
+      },
+      {
+        "type": "LOGO_BURST",
+        "detail": "",
+        "at": 3300
+      },
+      {
+        "type": "HUD_VISIBLE",
+        "detail": "",
+        "at": 4206
+      },
+      {
+        "type": "BOOT_INTRO_FINISHED",
+        "detail": "",
+        "at": 4206
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "BOOT",
+        "at": 4211
+      },
+      {
+        "type": "MULTIWINDOW_REVEAL",
+        "detail": "",
+        "at": 4221
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "AUTH",
+        "at": 4629
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "ACCESS AUTHORIZATION",
+        "at": 4758
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "LINK",
+        "at": 4891
+      },
+      {
+        "type": "MULTIWINDOW_ACTIVE",
+        "detail": "",
+        "at": 5076
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "LINK MONITOR",
+        "at": 5270
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "SIGNAL POLLUTION",
+        "at": 5503
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "TUNNEL",
+        "at": 5648
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "AUTH BYPASS INJECTION",
+        "at": 6102
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "ISOLATE",
+        "at": 6220
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "REWRITE",
+        "at": 6694
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "OVERRIDE CONTROLLER",
+        "at": 6699
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "ANOMALY · UAV-07",
+        "at": 6929
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "ANOMALY · UAV-23",
+        "at": 7524
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "OVERRIDE SUMMARY",
+        "at": 8379
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "VERIFY",
+        "at": 8380
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "ARM",
+        "at": 8712
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "EMERGENCY DISARM",
+        "at": 8805
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "FINISH",
+        "at": 9615
+      },
+      {
+        "type": "CHOREOGRAPHY_COMPLETE",
+        "detail": "",
+        "at": 10647
+      },
+      {
+        "type": "TARGET_READY",
+        "detail": "",
+        "at": 10647
+      },
+      {
+        "type": "INTERFACE_HANDOFF",
+        "detail": "",
+        "at": 11158
+      },
+      {
+        "type": "HANDOFF_BEGIN",
+        "detail": {
+          "compressMs": 700,
+          "fadeMs": 600
+        },
+        "at": 11158
+      },
+      {
+        "type": "REQUEST_FADE",
+        "detail": {
+          "handoffComplete": true
+        },
+        "at": 11896
+      }
+    ],
+    "handoff": {
+      "scaleX": 0.840384,
+      "scaleY": 1,
+      "opacity": 0.906538,
+      "body": "rgba(0, 0, 0, 0)",
+      "stage": "rgba(0, 0, 0, 0)",
+      "children": 2
+    },
+    "spread": {
+      "left": -137.89341314437138,
+      "top": -105.14664763996916,
+      "right": 2059.701330373813,
+      "bottom": 1184.378918340632
+    },
+    "overlapSamples": 721
+  },
+  {
+    "name": "V3 timing and particle controls alter the actual timeline",
+    "pass": true,
+    "events": [
+      {
+        "type": "CORE_INITIALIZING",
+        "detail": "",
+        "at": 70
+      },
+      {
+        "type": "CORE_HOLD",
+        "detail": "",
+        "at": 101
+      },
+      {
+        "type": "CORE_PARTICLES",
+        "detail": "",
+        "at": 524
+      },
+      {
+        "type": "PARTICLE_RESIDUE",
+        "detail": "",
+        "at": 860
+      },
+      {
+        "type": "LOGO_ASSEMBLING",
+        "detail": "",
+        "at": 1125
+      },
+      {
+        "type": "LOGO_BEGIN",
+        "detail": "",
+        "at": 1125
+      },
+      {
+        "type": "LOGO_HOLD",
+        "detail": "",
+        "at": 1520
+      },
+      {
+        "type": "LOGO_BURST",
+        "detail": "",
+        "at": 1774
+      },
+      {
+        "type": "HUD_VISIBLE",
+        "detail": "",
+        "at": 2120
+      },
+      {
+        "type": "BOOT_INTRO_FINISHED",
+        "detail": "",
+        "at": 2120
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "BOOT",
+        "at": 2125
+      },
+      {
+        "type": "MULTIWINDOW_REVEAL",
+        "detail": "",
+        "at": 2135
+      },
+      {
+        "type": "MULTIWINDOW_ACTIVE",
+        "detail": "",
+        "at": 2440
+      }
+    ]
+  },
+  {
+    "name": "V3 cancellation disposes particles during every new intro phase",
+    "pass": true,
+    "phases": [
+      "CORE_HOLD",
+      "CORE_PARTICLES",
+      "PARTICLE_RESIDUE",
+      "LOGO_ASSEMBLING",
+      "LOGO_HOLD",
+      "LOGO_BURST",
+      "MULTIWINDOW_REVEAL"
+    ]
+  },
+  {
+    "name": "Original nine phases / nine windows / 47 nodes / no early handoff",
+    "pass": true,
+    "modules": [
+      {
+        "name": "ACCESS AUTHORIZATION",
+        "at": 4514
+      },
+      {
+        "name": "LINK MONITOR",
+        "at": 5028
+      },
+      {
+        "name": "SIGNAL POLLUTION",
+        "at": 5261
+      },
+      {
+        "name": "AUTH BYPASS INJECTION",
+        "at": 5851
+      },
+      {
+        "name": "OVERRIDE CONTROLLER",
+        "at": 6422
+      },
+      {
+        "name": "ANOMALY · UAV-07",
+        "at": 6652
+      },
+      {
+        "name": "ANOMALY · UAV-23",
+        "at": 7262
+      },
+      {
+        "name": "OVERRIDE SUMMARY",
+        "at": 8102
+      },
+      {
+        "name": "EMERGENCY DISARM",
+        "at": 8496
+      }
+    ],
+    "events": [
+      {
+        "type": "CORE_INITIALIZING",
+        "detail": "",
+        "at": 63
+      },
+      {
+        "type": "CORE_HOLD",
+        "detail": "",
+        "at": 93
+      },
+      {
+        "type": "CORE_PARTICLES",
+        "detail": "",
+        "at": 748
+      },
+      {
+        "type": "PARTICLE_RESIDUE",
+        "detail": "",
+        "at": 1403
+      },
+      {
+        "type": "LOGO_ASSEMBLING",
+        "detail": "",
+        "at": 1758
+      },
+      {
+        "type": "LOGO_BEGIN",
+        "detail": "",
+        "at": 1758
+      },
+      {
+        "type": "LOGO_HOLD",
+        "detail": "",
+        "at": 2613
+      },
+      {
+        "type": "LOGO_BURST",
+        "detail": "",
+        "at": 3068
+      },
+      {
+        "type": "HUD_VISIBLE",
+        "detail": "",
+        "at": 3973
+      },
+      {
+        "type": "BOOT_INTRO_FINISHED",
+        "detail": "",
+        "at": 3974
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "BOOT",
+        "at": 3979
+      },
+      {
+        "type": "MULTIWINDOW_REVEAL",
+        "detail": "",
+        "at": 3989
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "AUTH",
+        "at": 4389
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "ACCESS AUTHORIZATION",
+        "at": 4514
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "LINK",
+        "at": 4644
+      },
+      {
+        "type": "MULTIWINDOW_ACTIVE",
+        "detail": "",
+        "at": 4843
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "LINK MONITOR",
+        "at": 5028
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "SIGNAL POLLUTION",
+        "at": 5261
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "TUNNEL",
+        "at": 5397
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "AUTH BYPASS INJECTION",
+        "at": 5851
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "ISOLATE",
+        "at": 5976
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "REWRITE",
+        "at": 6417
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "OVERRIDE CONTROLLER",
+        "at": 6422
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "ANOMALY · UAV-07",
+        "at": 6652
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "ANOMALY · UAV-23",
+        "at": 7261
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "OVERRIDE SUMMARY",
+        "at": 8102
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "VERIFY",
+        "at": 8103
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "ARM",
+        "at": 8410
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "EMERGENCY DISARM",
+        "at": 8496
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "FINISH",
+        "at": 9278
+      },
+      {
+        "type": "CHOREOGRAPHY_COMPLETE",
+        "detail": "",
+        "at": 10236
+      },
+      {
+        "type": "TARGET_READY",
+        "detail": "",
+        "at": 10237
+      },
+      {
+        "type": "INTERFACE_HANDOFF",
+        "detail": "",
+        "at": 10838
+      },
+      {
+        "type": "HANDOFF_BEGIN",
+        "detail": {
+          "compressMs": 420,
+          "fadeMs": 300
+        },
+        "at": 10838
+      },
+      {
+        "type": "REQUEST_FADE",
+        "detail": {
+          "handoffComplete": true
+        },
+        "at": 11269
+      }
+    ],
+    "nodes": 47
+  },
+  {
+    "name": "Waiting loop holds final mother state and plays no repeated sounds",
+    "pass": true,
+    "waitMs": 1600,
+    "events": [
+      {
+        "type": "CORE_INITIALIZING",
+        "detail": "",
+        "at": 68
+      },
+      {
+        "type": "CORE_HOLD",
+        "detail": "",
+        "at": 98
+      },
+      {
+        "type": "CORE_PARTICLES",
+        "detail": "",
+        "at": 753
+      },
+      {
+        "type": "PARTICLE_RESIDUE",
+        "detail": "",
+        "at": 1408
+      },
+      {
+        "type": "LOGO_ASSEMBLING",
+        "detail": "",
+        "at": 1763
+      },
+      {
+        "type": "LOGO_BEGIN",
+        "detail": "",
+        "at": 1763
+      },
+      {
+        "type": "LOGO_HOLD",
+        "detail": "",
+        "at": 2618
+      },
+      {
+        "type": "LOGO_BURST",
+        "detail": "",
+        "at": 3073
+      },
+      {
+        "type": "HUD_VISIBLE",
+        "detail": "",
+        "at": 3978
+      },
+      {
+        "type": "BOOT_INTRO_FINISHED",
+        "detail": "",
+        "at": 3979
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "BOOT",
+        "at": 3984
+      },
+      {
+        "type": "MULTIWINDOW_REVEAL",
+        "detail": "",
+        "at": 3994
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "AUTH",
+        "at": 4398
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "ACCESS AUTHORIZATION",
+        "at": 4524
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "LINK",
+        "at": 4654
+      },
+      {
+        "type": "MULTIWINDOW_ACTIVE",
+        "detail": "",
+        "at": 4848
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "LINK MONITOR",
+        "at": 5033
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "SIGNAL POLLUTION",
+        "at": 5266
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "TUNNEL",
+        "at": 5402
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "AUTH BYPASS INJECTION",
+        "at": 5855
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "ISOLATE",
+        "at": 5975
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "REWRITE",
+        "at": 6422
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "OVERRIDE CONTROLLER",
+        "at": 6427
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "ANOMALY · UAV-07",
+        "at": 6687
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "ANOMALY · UAV-23",
+        "at": 7321
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "OVERRIDE SUMMARY",
+        "at": 8167
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "VERIFY",
+        "at": 8167
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "ARM",
+        "at": 8484
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "EMERGENCY DISARM",
+        "at": 8570
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "FINISH",
+        "at": 9352
+      },
+      {
+        "type": "CHOREOGRAPHY_COMPLETE",
+        "detail": "",
+        "at": 10315
+      },
+      {
+        "type": "WAITING_LOOP_READY",
+        "detail": "",
+        "at": 10315
+      },
+      {
+        "type": "TARGET_READY",
+        "detail": "",
+        "at": 12129
+      },
+      {
+        "type": "INTERFACE_HANDOFF",
+        "detail": "",
+        "at": 12730
+      },
+      {
+        "type": "HANDOFF_BEGIN",
+        "detail": {
+          "compressMs": 420,
+          "fadeMs": 300
+        },
+        "at": 12730
+      },
+      {
+        "type": "REQUEST_FADE",
+        "detail": {
+          "handoffComplete": true
+        },
+        "at": 13164
+      }
+    ],
+    "audio": [
+      {
+        "key": "POWER_ON",
+        "identity": "POWER_ON",
+        "at": 229
+      },
+      {
+        "key": "CORE_EXPAND",
+        "identity": "CORE_EXPAND",
+        "at": 1884.6000000005588
+      },
+      {
+        "key": "PROCESS_DETECTED",
+        "identity": "PROCESS_DETECTED",
+        "at": 4135.5
+      },
+      {
+        "key": "HUD_SCAN",
+        "identity": "HUD_SCAN",
+        "at": 4135.700000000186
+      },
+      {
+        "key": "CHECK_OK",
+        "identity": "module:ACCESS AUTHORIZATION",
+        "at": 4658.600000000559
+      },
+      {
+        "key": "CHECK_OK",
+        "identity": "module:OVERRIDE CONTROLLER",
+        "at": 6549.100000000559
+      },
+      {
+        "key": "CHECK_OK",
+        "identity": "module:OVERRIDE SUMMARY",
+        "at": 8283.900000000373
+      },
+      {
+        "key": "TARGET_READY",
+        "identity": "TARGET_READY",
+        "at": 12254
+      },
+      {
+        "key": "UNLOCK",
+        "identity": "UNLOCK",
+        "at": 12851.700000000186
+      }
+    ]
+  },
+  {
+    "name": "Shutdown silently preloads, then independently collapses on activation",
+    "pass": true,
+    "events": [
+      {
+        "type": "PRELOAD_READY",
+        "detail": "",
+        "at": 235
+      },
+      {
+        "type": "SHUTDOWN_BEGIN",
+        "detail": "",
+        "at": 0
+      },
+      {
+        "type": "MODULE_OFFLINE",
+        "detail": "#w-code",
+        "at": 1
+      },
+      {
+        "type": "MODULE_OFFLINE",
+        "detail": "#w-tele",
+        "at": 314
+      },
+      {
+        "type": "MODULE_OFFLINE",
+        "detail": "#w-node",
+        "at": 628
+      },
+      {
+        "type": "HUD_OFFLINE",
+        "detail": "",
+        "at": 941
+      },
+      {
+        "type": "CRT_COLLAPSE",
+        "detail": "",
+        "at": 1629
+      },
+      {
+        "type": "POWER_OFF",
+        "detail": "",
+        "at": 2284
+      },
+      {
+        "type": "REQUEST_FADE",
+        "detail": {
+          "handoffComplete": false
+        },
+        "at": 2734
+      }
+    ]
+  },
+  {
+    "name": "Cancel preload releases silently",
+    "pass": true
+  },
+  {
+    "name": "Palette movie_red",
+    "pass": true,
+    "primary": "#e05030"
+  },
+  {
+    "name": "Palette amber",
+    "pass": true,
+    "primary": "#e8a020"
+  },
+  {
+    "name": "Palette green",
+    "pass": true,
+    "primary": "#82ba6b"
+  },
+  {
+    "name": "Palette cyan",
+    "pass": true,
+    "primary": "#57a9b1"
+  },
+  {
+    "name": "Palette white",
+    "pass": true,
+    "primary": "#b5b9bc"
+  },
+  {
+    "name": "Uniform canvas / browser DPI 1",
+    "pass": true,
+    "width": 1365.33349609375,
+    "height": 768,
+    "nodes": 47
+  },
+  {
+    "name": "Uniform canvas / browser DPI 1.25",
+    "pass": true,
+    "width": 1365.33349609375,
+    "height": 768,
+    "nodes": 47
+  },
+  {
+    "name": "Uniform canvas / browser DPI 1.5",
+    "pass": true,
+    "width": 1365.33349609375,
+    "height": 768,
+    "nodes": 47
+  },
+  {
+    "name": "Uniform canvas / browser DPI 2",
+    "pass": true,
+    "width": 1365.33349609375,
+    "height": 768,
+    "nodes": 47
+  },
+  {
+    "name": "Mute removes all SFX and voice",
+    "pass": true
+  },
+  {
+    "name": "Independent switches: voice can stay disabled with SFX on",
+    "pass": true
+  },
+  {
+    "name": "Missing local audio and custom core fall back without FATAL",
+    "pass": true
+  },
+  {
+    "name": "Repeated activation cannot repeat shutdown or relay sounds",
+    "pass": true
+  },
+  {
+    "name": "Escape emergency skip",
+    "pass": true
+  },
+  {
+    "name": "Click skip remains opt-in",
+    "pass": true
+  },
+  {
+    "name": "Watchdog releases a stalled boot",
+    "pass": true
+  },
+  {
+    "name": "MinimumBootDuration remains an absolute floor at a faster theme speed",
+    "pass": true,
+    "events": [
+      {
+        "type": "CORE_INITIALIZING",
+        "detail": "",
+        "at": 62
+      },
+      {
+        "type": "CORE_HOLD",
+        "detail": "",
+        "at": 92
+      },
+      {
+        "type": "CORE_PARTICLES",
+        "detail": "",
+        "at": 256
+      },
+      {
+        "type": "PARTICLE_RESIDUE",
+        "detail": "",
+        "at": 422
+      },
+      {
+        "type": "LOGO_ASSEMBLING",
+        "detail": "",
+        "at": 512
+      },
+      {
+        "type": "LOGO_BEGIN",
+        "detail": "",
+        "at": 512
+      },
+      {
+        "type": "LOGO_HOLD",
+        "detail": "",
+        "at": 726
+      },
+      {
+        "type": "LOGO_BURST",
+        "detail": "",
+        "at": 841
+      },
+      {
+        "type": "HUD_VISIBLE",
+        "detail": "",
+        "at": 1072
+      },
+      {
+        "type": "BOOT_INTRO_FINISHED",
+        "detail": "",
+        "at": 1072
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "BOOT",
+        "at": 1077
+      },
+      {
+        "type": "MULTIWINDOW_REVEAL",
+        "detail": "",
+        "at": 1087
+      },
+      {
+        "type": "MULTIWINDOW_ACTIVE",
+        "detail": "",
+        "at": 1302
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "AUTH",
+        "at": 1407
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "ACCESS AUTHORIZATION",
+        "at": 1487
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "LINK",
+        "at": 1617
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "LINK MONITOR",
+        "at": 2472
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "SIGNAL POLLUTION",
+        "at": 2745
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "TUNNEL",
+        "at": 2875
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "AUTH BYPASS INJECTION",
+        "at": 3284
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "ISOLATE",
+        "at": 3402
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "REWRITE",
+        "at": 3794
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "OVERRIDE CONTROLLER",
+        "at": 3799
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "ANOMALY · UAV-07",
+        "at": 3956
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "ANOMALY · UAV-23",
+        "at": 4321
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "OVERRIDE SUMMARY",
+        "at": 4850
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "VERIFY",
+        "at": 4850
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "ARM",
+        "at": 5168
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "EMERGENCY DISARM",
+        "at": 5221
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "FINISH",
+        "at": 5888
+      },
+      {
+        "type": "CHOREOGRAPHY_COMPLETE",
+        "detail": "",
+        "at": 6161
+      },
+      {
+        "type": "WAITING_LOOP_READY",
+        "detail": "",
+        "at": 6161
+      },
+      {
+        "type": "TARGET_READY",
+        "detail": "",
+        "at": 8096
+      },
+      {
+        "type": "INTERFACE_HANDOFF",
+        "detail": "",
+        "at": 8247
+      },
+      {
+        "type": "HANDOFF_BEGIN",
+        "detail": {
+          "compressMs": 105,
+          "fadeMs": 75
+        },
+        "at": 8247
+      },
+      {
+        "type": "REQUEST_FADE",
+        "detail": {
+          "handoffComplete": true
+        },
+        "at": 8367
+      }
+    ]
+  },
+  {
+    "name": "Completed diagnostic sounds are one-shot per actual item",
+    "pass": true
+  },
+  {
+    "name": "Voice-only mode substitutes app name and keeps its own volume",
+    "pass": true,
+    "said": [
+      {
+        "text": "DeepSeek interface ready",
+        "volume": 0.3700000047683716
+      }
+    ],
+    "sounds": []
+  },
+  {
+    "name": "Voice queue serializes requests and de-duplicates repeated events",
+    "pass": true,
+    "requests": [
+      "BOOT",
+      "CORE",
+      "NETWORK"
+    ],
+    "max": 1
+  },
+  {
+    "name": "Startup and shutdown voice flags work independently",
+    "pass": true
+  },
+  {
+    "name": "Audio disposal stops queued machine voice requests",
+    "pass": true
+  },
+  {
+    "name": "Rendered offline machine voice uses the independent HTML Audio volume",
+    "pass": true,
+    "played": [
+      {
+        "url": "https://audio.550w.local/tts/generated.wav",
+        "volume": 0.42
+      }
+    ],
+    "active": 0,
+    "sounds": 0
+  },
+  {
+    "name": "Final Ready voice completes before interface handoff",
+    "pass": true,
+    "ready": 4867,
+    "handoff": 6668
+  }
+]

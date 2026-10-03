@@ -1,0 +1,52 @@
+550W optional offline machine voice
+==================================
+
+Engine: eSpeak NG 1.52.0, GPL-3.0-or-later.
+Official source: https://github.com/espeak-ng/espeak-ng/tree/1.52.0
+Source commit: 4870adfa25b1a32b4361592f1be8a40337c58d6c
+Complete source: espeak-ng-1.52.0-source.zip (including dictionary/phoneme inputs,
+CMake sources, voice data, source headers and Windows build documentation).
+License: COPYING. Engine and compiled voice data are unmodified.
+
+Binary/data distributor: thewh1teagle/espeakng-loader, Python package 0.2.4.
+Source: https://github.com/thewh1teagle/espeakng-loader
+Distributor source/build workflow snapshot: 0ddc87adf77e5850d7eeb542ac8a87d421b64daa
+(0.2.4 release plus subsequent MIT LICENSE addition), supplied as
+espeakng-loader-build-source.zip. Its espeak-ng submodule pins the exact engine
+commit above. The Python wrapper is neither used nor shipped by 550W.
+
+The Windows DLL needs Microsoft Visual C++ v14 x64 Runtime (MSVCP140,
+VCRUNTIME140, VCRUNTIME140_1) and the Windows 10/11 Universal CRT. Microsoft
+Runtime DLLs and their installer are not redistributed in this voice folder.
+Official prerequisite: https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist
+If unavailable, the application tries an installed SAPI voice and otherwise
+continues silently; this prerequisite never blocks the target AI application.
+
+Original wheel: espeakng_loader-0.2.4-py3-none-win_amd64.whl
+PyPI source metadata: https://pypi.org/pypi/espeakng-loader/0.2.4/json
+Wheel SHA256: 41f1e08ac9deda2efd1ea9de0b81dab9f5ae3c4b24284f76533d0a7b1dd7abd7
+Extracted espeak-ng.dll SHA256:
+646d387acbc7ac2aa45e3625aa00a6835ae5d446ff8b0748298c3900b4dde258
+
+Rebuilding the engine requires the upstream C/C++ toolchain and CMake.
+The included distributor build.sh and .github/workflows/build.yml give the
+actual library and compiled voice-data commands. Library options include
+BUILD_SHARED_LIBS=ON, ENABLE_TESTS=OFF, COMPILE_INTONATIONS=OFF,
+CMAKE_BUILD_TYPE=Release. Voice data are built separately with
+COMPILE_INTONATIONS=ON. No private source or movie audio is needed.
+
+550W.VoiceWorker.exe is a separate GPL-3.0-or-later program, copyright 2026
+550W AI Controller contributors. Its complete source is VoiceWorker.cs,
+also available in src/550W.VoiceWorker in the 550W source archive.
+Build from that source archive using scripts/build-voice-worker.ps1.
+The Framework compiler command is also included in build-voice-worker.ps1.
+Worker reads its own short UTF-8 text file, generates PCM WAV synchronously,
+then exits. The main application receives only that WAV file. There is no
+voice daemon, client injection or access to client chat/account data.
+
+The remaining 550W Controller/Animation/Launcher code retains the MIT license
+stated in the root LICENSE. Microsoft runtimes retain their vendor licenses.
+Redistributors should keep this notice, COPYING, worker source/build scripts
+and both complete source archives together with the offline voice engine.
+
+This package contains generic synthesized speech, not film/actor recordings.

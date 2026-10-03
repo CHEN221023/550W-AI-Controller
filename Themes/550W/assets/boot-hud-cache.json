@@ -1,0 +1,15 @@
+{
+  "source": "Existing APP_MARKUP, CSS_550C, createShow.prepare and controller.css; initial HUD only",
+  "width": 1920,
+  "height": 1080,
+  "motherAssetsSha256": "db474577e105d401abc5620bc36eebb6a1b06322ba3dbe2f178e157bbe3d0591",
+  "motherShowSha256": "7557dc5bcc0762ac374170fa81c9fa93d8b7d9aaf0040bd704413b420f2953a3",
+  "controllerCssSha256": "b46d7a82e87ad67b7f7e0c39f5f5a36134c29cbc6c0c377369a3c0e33dce029e",
+  "images": {
+    "boot-hud-movie_red.png": "b453c44ebd35946359c7ae65960aeb50aa38127c38bce478ceb52a5c2b3e8c00",
+    "boot-hud-amber.png": "81fce7704aa7149f9b4420ebb3efdb62471199453752d2588f6b8e74b2cc52ec",
+    "boot-hud-green.png": "7d73869a09d3403caedff8186a0b97d150b8bd4221b9f0e7d7ff00f36ce1a77e",
+    "boot-hud-cyan.png": "b5feb1c9db0a15cfcc8404baa4b06146bd9874c01c9c451c9641f67fb441d598",
+    "boot-hud-white.png": "30618faea4017e38bb818e93cd0fc3661aea4ae7c633892173797462cac26123"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "pass": true,
+  "checks": [
+    "Three distinct bound timings exist in global/independent controls",
+    "Deprecated regroup/robot timing fields are absent",
+    "Later effective animation fields retained",
+    "Three timing labels use unambiguous Chinese",
+    "Timing help explains subtraction and concurrent preparation",
+    "Timing multiplier is explained",
+    "Three distinct bound timings exist in global/independent controls",
+    "Deprecated regroup/robot timing fields are absent",
+    "Later effective animation fields retained",
+    "Three timing labels use unambiguous Chinese",
+    "Timing help explains subtraction and concurrent preparation",
+    "Timing multiplier is explained",
+    "Invalid global combination blocks save with clear Chinese message",
+    "Invalid global input is not silently changed",
+    "Equal total/idle blocks independent save and names application",
+    "Invalid combination blocks bulk apply before confirmation dialog",
+    "Valid exact new timings reach save callback",
+    "No desktop settings window displayed"
+  ],
+  "desktopWindowsShown": 0
+}

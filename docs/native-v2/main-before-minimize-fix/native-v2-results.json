@@ -1,0 +1,445 @@
+[
+  {
+    "Name": "passive-no-post-shutdown",
+    "pass": true,
+    "boot": 1,
+    "postShutdown": 0,
+    "finished": 1,
+    "maximized": false,
+    "shortcutToVisual": 0,
+    "animationLeft": [],
+    "firstVisual": [
+      "2026-09-30T23:51:21.0287526\u002B08:00 [FIRST_VISUAL] Fixture AI, mode=passive, latency=80.6ms"
+    ],
+    "webReady": [
+      "2026-09-30T23:51:25.0255922\u002B08:00 [WEB_READY] Fixture AI, latency=4076ms"
+    ],
+    "waiting": [],
+    "memoryMB": 106.1,
+    "privateMB": 40.2,
+    "idleCpuPercentOfOneCore": 0.78,
+    "logicalProcessors": 16,
+    "logs": [
+      "2026-09-30T23:51:19.7319095\u002B08:00 [WatcherStart] processEvents=True, fallback=5s",
+      "2026-09-30T23:51:20.9457502\u002B08:00 [BootTrigger] Fixture AI, pids=1, windows=1",
+      "2026-09-30T23:51:21.0287526\u002B08:00 [FIRST_VISUAL] Fixture AI, mode=passive, latency=80.6ms",
+      "2026-09-30T23:51:21.9342379\u002B08:00 [FIRST_FRAME] Fixture AI, hostElapsed=985ms",
+      "2026-09-30T23:51:22.2224524\u002B08:00 [Ready] Fixture AI",
+      "2026-09-30T23:51:23.1546513\u002B08:00 [Diagnostics] asynchronous checks completed",
+      "2026-09-30T23:51:25.0255922\u002B08:00 [WEB_READY] Fixture AI, latency=4076ms",
+      "2026-09-30T23:51:30.1703071\u002B08:00 [BOOT_INTRO_FINISHED] Fixture AI, hostElapsed=9221ms",
+      "2026-09-30T23:51:36.7863970\u002B08:00 [CHOREOGRAPHY_COMPLETE] Fixture AI, hostElapsed=15837ms",
+      "2026-09-30T23:51:36.7873810\u002B08:00 [TARGET_READY] Fixture AI, hostElapsed=15838ms",
+      "2026-09-30T23:51:37.6851507\u002B08:00 [ANIMATION_FINISHED] Fixture AI, hostElapsed=16735ms",
+      "2026-09-30T23:51:37.7959388\u002B08:00 [AnimationExited] Fixture AI, elapsed=16846ms",
+      "2026-09-30T23:51:40.0250277\u002B08:00 [TargetStopped] Fixture AI, pids=0, windows=0"
+    ]
+  },
+  {
+    "Name": "minimize-restore",
+    "pass": false,
+    "boot": 1,
+    "postShutdown": 0,
+    "finished": 0,
+    "maximized": false,
+    "shortcutToVisual": 0,
+    "animationLeft": [],
+    "firstVisual": [
+      "2026-09-30T23:51:45.0965894\u002B08:00 [FIRST_VISUAL] Fixture AI, mode=passive, latency=69.0ms"
+    ],
+    "webReady": [
+      "2026-09-30T23:51:48.9754222\u002B08:00 [WEB_READY] Fixture AI, latency=3946ms"
+    ],
+    "waiting": [],
+    "memoryMB": 106,
+    "privateMB": 40,
+    "idleCpuPercentOfOneCore": 0,
+    "logicalProcessors": 16,
+    "logs": [
+      "2026-09-30T23:51:43.7804439\u002B08:00 [WatcherStart] processEvents=True, fallback=5s",
+      "2026-09-30T23:51:45.0251862\u002B08:00 [BootTrigger] Fixture AI, pids=1, windows=1",
+      "2026-09-30T23:51:45.0965894\u002B08:00 [FIRST_VISUAL] Fixture AI, mode=passive, latency=69.0ms",
+      "2026-09-30T23:51:46.0037359\u002B08:00 [FIRST_FRAME] Fixture AI, hostElapsed=975ms",
+      "2026-09-30T23:51:46.2779407\u002B08:00 [Ready] Fixture AI",
+      "2026-09-30T23:51:47.2121310\u002B08:00 [Diagnostics] asynchronous checks completed",
+      "2026-09-30T23:51:48.9754222\u002B08:00 [WEB_READY] Fixture AI, latency=3946ms",
+      "2026-09-30T23:51:51.9575802\u002B08:00 [BootTargetGone] Fixture AI",
+      "2026-09-30T23:52:04.7339781\u002B08:00 [TargetStopped] Fixture AI, pids=1, windows=0"
+    ]
+  },
+  {
+    "Name": "helper-dedup",
+    "pass": true,
+    "boot": 1,
+    "postShutdown": 0,
+    "finished": 1,
+    "maximized": false,
+    "shortcutToVisual": 0,
+    "animationLeft": [],
+    "firstVisual": [
+      "2026-09-30T23:52:09.7081235\u002B08:00 [FIRST_VISUAL] Fixture AI, mode=passive, latency=64.6ms"
+    ],
+    "webReady": [
+      "2026-09-30T23:52:13.5741404\u002B08:00 [WEB_READY] Fixture AI, latency=3928ms"
+    ],
+    "waiting": [],
+    "memoryMB": 105.6,
+    "privateMB": 40.1,
+    "idleCpuPercentOfOneCore": 0,
+    "logicalProcessors": 16,
+    "logs": [
+      "2026-09-30T23:52:08.3585786\u002B08:00 [WatcherStart] processEvents=True, fallback=5s",
+      "2026-09-30T23:52:09.6412128\u002B08:00 [BootTrigger] Fixture AI, pids=1, windows=1",
+      "2026-09-30T23:52:09.7081235\u002B08:00 [FIRST_VISUAL] Fixture AI, mode=passive, latency=64.6ms",
+      "2026-09-30T23:52:10.6009937\u002B08:00 [FIRST_FRAME] Fixture AI, hostElapsed=956ms",
+      "2026-09-30T23:52:10.8947138\u002B08:00 [Ready] Fixture AI",
+      "2026-09-30T23:52:11.8241943\u002B08:00 [Diagnostics] asynchronous checks completed",
+      "2026-09-30T23:52:13.5741404\u002B08:00 [WEB_READY] Fixture AI, latency=3928ms",
+      "2026-09-30T23:52:18.7156028\u002B08:00 [BOOT_INTRO_FINISHED] Fixture AI, hostElapsed=9070ms",
+      "2026-09-30T23:52:25.3160762\u002B08:00 [CHOREOGRAPHY_COMPLETE] Fixture AI, hostElapsed=15671ms",
+      "2026-09-30T23:52:25.3170889\u002B08:00 [TARGET_READY] Fixture AI, hostElapsed=15672ms",
+      "2026-09-30T23:52:26.2147963\u002B08:00 [ANIMATION_FINISHED] Fixture AI, hostElapsed=16570ms",
+      "2026-09-30T23:52:26.3020007\u002B08:00 [AnimationExited] Fixture AI, elapsed=16657ms",
+      "2026-09-30T23:52:28.6563995\u002B08:00 [TargetStopped] Fixture AI, pids=0, windows=0"
+    ]
+  },
+  {
+    "Name": "slow-ready-15s",
+    "pass": true,
+    "boot": 1,
+    "postShutdown": 0,
+    "finished": 1,
+    "maximized": false,
+    "shortcutToVisual": 0,
+    "animationLeft": [],
+    "firstVisual": [
+      "2026-09-30T23:52:33.7397202\u002B08:00 [FIRST_VISUAL] Fixture AI, mode=passive, latency=65.1ms"
+    ],
+    "webReady": [
+      "2026-09-30T23:52:37.6164149\u002B08:00 [WEB_READY] Fixture AI, latency=3940ms"
+    ],
+    "waiting": [],
+    "memoryMB": 105.4,
+    "privateMB": 39.7,
+    "idleCpuPercentOfOneCore": 0.78,
+    "logicalProcessors": 16,
+    "logs": [
+      "2026-09-30T23:52:32.4260614\u002B08:00 [WatcherStart] processEvents=True, fallback=5s",
+      "2026-09-30T23:52:33.6722939\u002B08:00 [BootTrigger] Fixture AI, pids=1, windows=1",
+      "2026-09-30T23:52:33.7397202\u002B08:00 [FIRST_VISUAL] Fixture AI, mode=passive, latency=65.1ms",
+      "2026-09-30T23:52:34.6288313\u002B08:00 [FIRST_FRAME] Fixture AI, hostElapsed=952ms",
+      "2026-09-30T23:52:35.7875132\u002B08:00 [Diagnostics] asynchronous checks completed",
+      "2026-09-30T23:52:37.6164149\u002B08:00 [WEB_READY] Fixture AI, latency=3940ms",
+      "2026-09-30T23:52:42.7933259\u002B08:00 [BOOT_INTRO_FINISHED] Fixture AI, hostElapsed=9117ms",
+      "2026-09-30T23:52:49.0567648\u002B08:00 [Ready] Fixture AI",
+      "2026-09-30T23:52:49.3512952\u002B08:00 [CHOREOGRAPHY_COMPLETE] Fixture AI, hostElapsed=15675ms",
+      "2026-09-30T23:52:49.3524257\u002B08:00 [TARGET_READY] Fixture AI, hostElapsed=15676ms",
+      "2026-09-30T23:52:50.2536550\u002B08:00 [ANIMATION_FINISHED] Fixture AI, hostElapsed=16577ms",
+      "2026-09-30T23:52:50.3476656\u002B08:00 [AnimationExited] Fixture AI, elapsed=16671ms",
+      "2026-09-30T23:52:53.7766271\u002B08:00 [TargetStopped] Fixture AI, pids=1, windows=0"
+    ]
+  },
+  {
+    "Name": "managed-shortcut-maximize",
+    "pass": true,
+    "boot": 1,
+    "postShutdown": 0,
+    "finished": 1,
+    "maximized": true,
+    "shortcutToVisual": 1444.5101,
+    "animationLeft": [],
+    "firstVisual": [
+      "2026-09-30T23:52:58.6317046\u002B08:00 [FIRST_VISUAL] Fixture AI, mode=optimized, latency=91.4ms"
+    ],
+    "webReady": [
+      "2026-09-30T23:53:02.6451900\u002B08:00 [WEB_READY] Fixture AI, latency=4081ms"
+    ],
+    "waiting": [],
+    "memoryMB": 116.2,
+    "privateMB": 40.7,
+    "idleCpuPercentOfOneCore": 0.78,
+    "logicalProcessors": 16,
+    "logs": [
+      "2026-09-30T23:52:57.8285312\u002B08:00 [WatcherStart] processEvents=True, fallback=5s",
+      "2026-09-30T23:52:58.5605702\u002B08:00 [ManagedLaunchSession] Fixture AI, session=668a90e6faa1488987f42e3e0ff9daa8",
+      "2026-09-30T23:52:58.6317046\u002B08:00 [FIRST_VISUAL] Fixture AI, mode=optimized, latency=91.4ms",
+      "2026-09-30T23:52:59.5965469\u002B08:00 [FIRST_FRAME] Fixture AI, hostElapsed=1032ms",
+      "2026-09-30T23:53:00.7471121\u002B08:00 [Diagnostics] asynchronous checks completed",
+      "2026-09-30T23:53:00.8271552\u002B08:00 [WindowPresentation] Fixture AI, Maximize, hwnd=1249340",
+      "2026-09-30T23:53:00.8282578\u002B08:00 [Ready] Fixture AI",
+      "2026-09-30T23:53:02.6451900\u002B08:00 [WEB_READY] Fixture AI, latency=4081ms",
+      "2026-09-30T23:53:07.7919777\u002B08:00 [BOOT_INTRO_FINISHED] Fixture AI, hostElapsed=9227ms",
+      "2026-09-30T23:53:14.4195306\u002B08:00 [CHOREOGRAPHY_COMPLETE] Fixture AI, hostElapsed=15855ms",
+      "2026-09-30T23:53:14.4205746\u002B08:00 [TARGET_READY] Fixture AI, hostElapsed=15856ms",
+      "2026-09-30T23:53:15.0213099\u002B08:00 [WindowPresentation] Fixture AI, Maximize, hwnd=1249340",
+      "2026-09-30T23:53:15.3177648\u002B08:00 [ANIMATION_FINISHED] Fixture AI, hostElapsed=16753ms",
+      "2026-09-30T23:53:15.4049377\u002B08:00 [AnimationExited] Fixture AI, elapsed=16840ms",
+      "2026-09-30T23:53:18.9389686\u002B08:00 [TargetStopped] Fixture AI, pids=1, windows=0"
+    ]
+  },
+  {
+    "Name": "optimized-close-disabled",
+    "pass": true,
+    "boot": 1,
+    "postShutdown": 0,
+    "finished": 1,
+    "maximized": false,
+    "shortcutToVisual": 0,
+    "animationLeft": [],
+    "firstVisual": [
+      "2026-09-30T23:53:23.8032787\u002B08:00 [FIRST_VISUAL] Fixture AI, mode=passive, latency=75.8ms"
+    ],
+    "webReady": [
+      "2026-09-30T23:53:27.6955357\u002B08:00 [WEB_READY] Fixture AI, latency=3966ms"
+    ],
+    "waiting": [],
+    "memoryMB": 105.3,
+    "privateMB": 39.6,
+    "idleCpuPercentOfOneCore": 0.78,
+    "logicalProcessors": 16,
+    "logs": [
+      "2026-09-30T23:53:22.5452093\u002B08:00 [WatcherStart] processEvents=True, fallback=5s",
+      "2026-09-30T23:53:23.7250381\u002B08:00 [BootTrigger] Fixture AI, pids=1, windows=1",
+      "2026-09-30T23:53:23.8032787\u002B08:00 [FIRST_VISUAL] Fixture AI, mode=passive, latency=75.8ms",
+      "2026-09-30T23:53:24.7125173\u002B08:00 [FIRST_FRAME] Fixture AI, hostElapsed=983ms",
+      "2026-09-30T23:53:25.0101830\u002B08:00 [Ready] Fixture AI",
+      "2026-09-30T23:53:25.2115149\u002B08:00 [Diagnostics] asynchronous checks completed",
+      "2026-09-30T23:53:27.6955357\u002B08:00 [WEB_READY] Fixture AI, latency=3966ms",
+      "2026-09-30T23:53:32.8615824\u002B08:00 [BOOT_INTRO_FINISHED] Fixture AI, hostElapsed=9132ms",
+      "2026-09-30T23:53:39.4311950\u002B08:00 [CHOREOGRAPHY_COMPLETE] Fixture AI, hostElapsed=15702ms",
+      "2026-09-30T23:53:39.4322199\u002B08:00 [TARGET_READY] Fixture AI, hostElapsed=15703ms",
+      "2026-09-30T23:53:40.3294918\u002B08:00 [ANIMATION_FINISHED] Fixture AI, hostElapsed=16600ms",
+      "2026-09-30T23:53:40.4174410\u002B08:00 [AnimationExited] Fixture AI, elapsed=16688ms",
+      "2026-09-30T23:53:42.8397679\u002B08:00 [TargetStopped] Fixture AI, pids=0, windows=0"
+    ]
+  },
+  {
+    "Name": "confirmed-native-fallback",
+    "pass": true,
+    "boot": 1,
+    "postShutdown": 0,
+    "finished": 0,
+    "maximized": false,
+    "shortcutToVisual": 0,
+    "animationLeft": [],
+    "firstVisual": [
+      "2026-09-30T23:53:47.8048848\u002B08:00 [FIRST_VISUAL] Fixture AI, mode=passive, latency=66.6ms"
+    ],
+    "webReady": [],
+    "waiting": [],
+    "memoryMB": 110,
+    "privateMB": 41.3,
+    "idleCpuPercentOfOneCore": 0,
+    "logicalProcessors": 16,
+    "logs": [
+      "2026-09-30T23:53:46.4810176\u002B08:00 [WatcherStart] processEvents=True, fallback=5s",
+      "2026-09-30T23:53:47.7358484\u002B08:00 [BootTrigger] Fixture AI, pids=1, windows=1",
+      "2026-09-30T23:53:47.8048848\u002B08:00 [FIRST_VISUAL] Fixture AI, mode=passive, latency=66.6ms",
+      "2026-09-30T23:53:48.7333913\u002B08:00 [FIRST_FRAME] Fixture AI, hostElapsed=994ms",
+      "2026-09-30T23:53:48.7835835\u002B08:00 [Diagnostics] asynchronous checks completed",
+      "2026-09-30T23:53:49.0247647\u002B08:00 [Ready] Fixture AI",
+      "2026-09-30T23:53:49.1742811\u002B08:00 [ManagedCloseState] Fixture AI, CloseRequested, session=d7345d858d934197948d187672e975b2",
+      "2026-09-30T23:53:49.1753693\u002B08:00 [ManagedCloseState] Fixture AI, ShutdownPreparing, session=d7345d858d934197948d187672e975b2",
+      "2026-09-30T23:53:49.1835740\u002B08:00 [ManagedCloseState] Fixture AI, WaitingConfirmation, session=d7345d858d934197948d187672e975b2",
+      "2026-09-30T23:53:49.1847106\u002B08:00 [ManagedCloseState] Fixture AI, ShutdownAnimating, session=d7345d858d934197948d187672e975b2",
+      "2026-09-30T23:53:49.3188380\u002B08:00 [SHUTDOWN_OVERLAY_VISIBLE] Fixture AI, confirmElapsed=104ms",
+      "2026-09-30T23:53:49.3197163\u002B08:00 [ShutdownNativeFallback] Fixture AI",
+      "2026-09-30T23:53:49.3219432\u002B08:00 [SHUTDOWN_BEGIN_CONFIRMED] Fixture AI",
+      "2026-09-30T23:53:49.3227287\u002B08:00 [ManagedCloseState] Fixture AI, AppClosing, session=d7345d858d934197948d187672e975b2",
+      "2026-09-30T23:53:49.3239981\u002B08:00 [WM_CLOSE] Fixture AI, hwnd=528538, sent=True",
+      "2026-09-30T23:53:49.3332768\u002B08:00 [CloseTargetUnavailable] Fixture AI",
+      "2026-09-30T23:53:49.3428044\u002B08:00 [CloseTargetUnavailable] Fixture AI",
+      "2026-09-30T23:53:50.0495949\u002B08:00 [FIRST_FRAME] Fixture AI, ",
+      "2026-09-30T23:53:51.7838636\u002B08:00 [TargetStopped] Fixture AI, pids=0, windows=0",
+      "2026-09-30T23:53:51.9308645\u002B08:00 [ManagedCloseState] Fixture AI, Stopped, session=d7345d858d934197948d187672e975b2"
+    ]
+  },
+  {
+    "Name": "crash-no-post-shutdown",
+    "pass": true,
+    "boot": 1,
+    "postShutdown": 0,
+    "finished": 0,
+    "maximized": false,
+    "shortcutToVisual": 0,
+    "animationLeft": [],
+    "firstVisual": [
+      "2026-09-30T23:53:57.5305668\u002B08:00 [FIRST_VISUAL] Fixture AI, mode=passive, latency=70.1ms"
+    ],
+    "webReady": [],
+    "waiting": [],
+    "memoryMB": 99.7,
+    "privateMB": 34.6,
+    "idleCpuPercentOfOneCore": 0.78,
+    "logicalProcessors": 16,
+    "logs": [
+      "2026-09-30T23:53:56.2827883\u002B08:00 [WatcherStart] processEvents=True, fallback=5s",
+      "2026-09-30T23:53:57.4580250\u002B08:00 [BootTrigger] Fixture AI, pids=1, windows=1",
+      "2026-09-30T23:53:57.5305668\u002B08:00 [FIRST_VISUAL] Fixture AI, mode=passive, latency=70.1ms",
+      "2026-09-30T23:53:58.4401878\u002B08:00 [FIRST_FRAME] Fixture AI, hostElapsed=978ms",
+      "2026-09-30T23:53:58.7138394\u002B08:00 [BootTargetGone] Fixture AI",
+      "2026-09-30T23:53:58.7421932\u002B08:00 [Diagnostics] asynchronous checks completed"
+    ]
+  },
+  {
+    "Name": "missing-webview",
+    "pass": true,
+    "boot": 1,
+    "postShutdown": 0,
+    "finished": 0,
+    "maximized": false,
+    "shortcutToVisual": 0,
+    "animationLeft": [],
+    "firstVisual": [
+      "2026-09-30T23:54:03.7612133\u002B08:00 [FIRST_VISUAL] Fixture AI, mode=passive, latency=70.2ms"
+    ],
+    "webReady": [],
+    "waiting": [],
+    "memoryMB": 97.5,
+    "privateMB": 32.7,
+    "idleCpuPercentOfOneCore": 0,
+    "logicalProcessors": 16,
+    "logs": [
+      "2026-09-30T23:54:02.5104251\u002B08:00 [WatcherStart] processEvents=True, fallback=5s",
+      "2026-09-30T23:54:03.6883993\u002B08:00 [BootTrigger] Fixture AI, pids=1, windows=1",
+      "2026-09-30T23:54:03.7612133\u002B08:00 [FIRST_VISUAL] Fixture AI, mode=passive, latency=70.2ms",
+      "2026-09-30T23:54:04.6660405\u002B08:00 [FIRST_FRAME] Fixture AI, hostElapsed=973ms",
+      "2026-09-30T23:54:04.6813673\u002B08:00 [AnimationUnavailable] \u672A\u68C0\u6D4B\u5230 Microsoft Edge WebView2 Evergreen Runtime\u3002\u8BF7\u4ECE\u5FAE\u8F6F\u5B98\u65B9\u5B89\u88C5 Runtime\uFF1B550W \u672A\u81EA\u52A8\u4E0B\u8F7D\u4EFB\u4F55\u5185\u5BB9\u3002",
+      "2026-09-30T23:54:04.7482781\u002B08:00 [Diagnostics] asynchronous checks completed",
+      "2026-09-30T23:54:04.7493396\u002B08:00 [AnimationExited] Fixture AI, elapsed=1057ms",
+      "2026-09-30T23:54:10.8267482\u002B08:00 [TargetStopped] Fixture AI, pids=1, windows=0"
+    ]
+  },
+  {
+    "Name": "watchdog",
+    "pass": true,
+    "boot": 1,
+    "postShutdown": 0,
+    "finished": 0,
+    "maximized": false,
+    "shortcutToVisual": 0,
+    "animationLeft": [],
+    "firstVisual": [
+      "2026-09-30T23:54:15.7865868\u002B08:00 [FIRST_VISUAL] Fixture AI, mode=passive, latency=68.6ms"
+    ],
+    "webReady": [
+      "2026-09-30T23:54:19.6369607\u002B08:00 [WEB_READY] Fixture AI, latency=3918ms"
+    ],
+    "waiting": [],
+    "memoryMB": 104,
+    "privateMB": 36.9,
+    "idleCpuPercentOfOneCore": 0,
+    "logicalProcessors": 16,
+    "logs": [
+      "2026-09-30T23:54:14.4425872\u002B08:00 [WatcherStart] processEvents=True, fallback=5s",
+      "2026-09-30T23:54:15.7156315\u002B08:00 [BootTrigger] Fixture AI, pids=1, windows=1",
+      "2026-09-30T23:54:15.7865868\u002B08:00 [FIRST_VISUAL] Fixture AI, mode=passive, latency=68.6ms",
+      "2026-09-30T23:54:16.6910681\u002B08:00 [FIRST_FRAME] Fixture AI, hostElapsed=972ms",
+      "2026-09-30T23:54:17.9091310\u002B08:00 [Diagnostics] asynchronous checks completed",
+      "2026-09-30T23:54:19.6369607\u002B08:00 [WEB_READY] Fixture AI, latency=3918ms",
+      "2026-09-30T23:54:21.4063390\u002B08:00 [WATCHDOG] Fixture AI, hostElapsed=5687ms",
+      "2026-09-30T23:54:21.5142749\u002B08:00 [AnimationExited] Fixture AI, elapsed=5795ms",
+      "2026-09-30T23:54:38.3209783\u002B08:00 [TargetStopped] Fixture AI, pids=1, windows=0"
+    ]
+  },
+  {
+    "Name": "tray-hide-reopen",
+    "pass": true,
+    "boot": 2,
+    "postShutdown": 0,
+    "finished": 2,
+    "maximized": false,
+    "shortcutToVisual": 0,
+    "animationLeft": [],
+    "firstVisual": [
+      "2026-09-30T23:54:43.2333153\u002B08:00 [FIRST_VISUAL] Fixture AI, mode=passive, latency=35.2ms",
+      "2026-09-30T23:55:04.4413778\u002B08:00 [FIRST_VISUAL] Fixture AI, mode=passive, latency=18.4ms"
+    ],
+    "webReady": [
+      "2026-09-30T23:54:47.1272426\u002B08:00 [WEB_READY] Fixture AI, latency=3928ms",
+      "2026-09-30T23:55:08.3236491\u002B08:00 [WEB_READY] Fixture AI, latency=3899ms"
+    ],
+    "waiting": [],
+    "memoryMB": 108.1,
+    "privateMB": 44.1,
+    "idleCpuPercentOfOneCore": 0,
+    "logicalProcessors": 16,
+    "logs": [
+      "2026-09-30T23:54:41.9355020\u002B08:00 [WatcherStart] processEvents=True, fallback=5s",
+      "2026-09-30T23:54:43.1957108\u002B08:00 [BootTrigger] Fixture AI, pids=1, windows=1",
+      "2026-09-30T23:54:43.2333153\u002B08:00 [FIRST_VISUAL] Fixture AI, mode=passive, latency=35.2ms",
+      "2026-09-30T23:54:44.1370080\u002B08:00 [FIRST_FRAME] Fixture AI, hostElapsed=937ms",
+      "2026-09-30T23:54:44.4158129\u002B08:00 [Ready] Fixture AI",
+      "2026-09-30T23:54:45.0719424\u002B08:00 [Diagnostics] asynchronous checks completed",
+      "2026-09-30T23:54:47.1272426\u002B08:00 [WEB_READY] Fixture AI, latency=3928ms",
+      "2026-09-30T23:54:52.2805532\u002B08:00 [BOOT_INTRO_FINISHED] Fixture AI, hostElapsed=9081ms",
+      "2026-09-30T23:54:58.7845319\u002B08:00 [CHOREOGRAPHY_COMPLETE] Fixture AI, hostElapsed=15585ms",
+      "2026-09-30T23:54:58.7855295\u002B08:00 [TARGET_READY] Fixture AI, hostElapsed=15586ms",
+      "2026-09-30T23:54:59.6780720\u002B08:00 [ANIMATION_FINISHED] Fixture AI, hostElapsed=16478ms",
+      "2026-09-30T23:54:59.8011669\u002B08:00 [AnimationExited] Fixture AI, elapsed=16601ms",
+      "2026-09-30T23:55:01.8007239\u002B08:00 [TargetStopped] Fixture AI, pids=1, windows=0",
+      "2026-09-30T23:55:04.4219291\u002B08:00 [BootTrigger] Fixture AI, pids=1, windows=1",
+      "2026-09-30T23:55:04.4413778\u002B08:00 [FIRST_VISUAL] Fixture AI, mode=passive, latency=18.4ms",
+      "2026-09-30T23:55:05.3566083\u002B08:00 [FIRST_FRAME] Fixture AI, hostElapsed=932ms",
+      "2026-09-30T23:55:06.0801514\u002B08:00 [Ready] Fixture AI",
+      "2026-09-30T23:55:06.2604862\u002B08:00 [Diagnostics] asynchronous checks completed",
+      "2026-09-30T23:55:08.3236491\u002B08:00 [WEB_READY] Fixture AI, latency=3899ms",
+      "2026-09-30T23:55:13.4829202\u002B08:00 [BOOT_INTRO_FINISHED] Fixture AI, hostElapsed=9059ms",
+      "2026-09-30T23:55:20.0718363\u002B08:00 [CHOREOGRAPHY_COMPLETE] Fixture AI, hostElapsed=15647ms",
+      "2026-09-30T23:55:20.0727604\u002B08:00 [TARGET_READY] Fixture AI, hostElapsed=15648ms",
+      "2026-09-30T23:55:20.9722704\u002B08:00 [ANIMATION_FINISHED] Fixture AI, hostElapsed=16548ms",
+      "2026-09-30T23:55:21.0894505\u002B08:00 [AnimationExited] Fixture AI, elapsed=16665ms",
+      "2026-09-30T23:55:23.6277443\u002B08:00 [TargetStopped] Fixture AI, pids=1, windows=0"
+    ]
+  },
+  {
+    "Name": "two-profile-queue",
+    "pass": true,
+    "boot": 2,
+    "postShutdown": 0,
+    "finished": 2,
+    "maximized": false,
+    "shortcutToVisual": 0,
+    "animationLeft": [],
+    "firstVisual": [
+      "2026-09-30T23:55:28.6065045\u002B08:00 [FIRST_VISUAL] Fixture AI, mode=passive, latency=74.6ms",
+      "2026-09-30T23:55:45.3876355\u002B08:00 [FIRST_VISUAL] Fixture B, mode=passive, latency=16596.3ms"
+    ],
+    "webReady": [
+      "2026-09-30T23:55:32.5117240\u002B08:00 [WEB_READY] Fixture AI, latency=3978ms",
+      "2026-09-30T23:55:49.2764017\u002B08:00 [WEB_READY] Fixture B, latency=3907ms"
+    ],
+    "waiting": [],
+    "memoryMB": 122.1,
+    "privateMB": 52.4,
+    "idleCpuPercentOfOneCore": 0,
+    "logicalProcessors": 16,
+    "logs": [
+      "2026-09-30T23:55:27.2683183\u002B08:00 [WatcherStart] processEvents=True, fallback=5s",
+      "2026-09-30T23:55:28.5294504\u002B08:00 [BootTrigger] Fixture AI, pids=1, windows=1",
+      "2026-09-30T23:55:28.6065045\u002B08:00 [FIRST_VISUAL] Fixture AI, mode=passive, latency=74.6ms",
+      "2026-09-30T23:55:28.7901328\u002B08:00 [BootTrigger] Fixture B, pids=2, windows=1",
+      "2026-09-30T23:55:29.5060493\u002B08:00 [FIRST_FRAME] Fixture AI, hostElapsed=973ms",
+      "2026-09-30T23:55:29.7879067\u002B08:00 [Ready] Fixture AI",
+      "2026-09-30T23:55:30.1291346\u002B08:00 [Diagnostics] asynchronous checks completed",
+      "2026-09-30T23:55:32.5117240\u002B08:00 [WEB_READY] Fixture AI, latency=3978ms",
+      "2026-09-30T23:55:37.6718884\u002B08:00 [BOOT_INTRO_FINISHED] Fixture AI, hostElapsed=9138ms",
+      "2026-09-30T23:55:44.2510824\u002B08:00 [CHOREOGRAPHY_COMPLETE] Fixture AI, hostElapsed=15718ms",
+      "2026-09-30T23:55:44.2520517\u002B08:00 [TARGET_READY] Fixture AI, hostElapsed=15719ms",
+      "2026-09-30T23:55:45.1491434\u002B08:00 [ANIMATION_FINISHED] Fixture AI, hostElapsed=16616ms",
+      "2026-09-30T23:55:45.2673504\u002B08:00 [AnimationExited] Fixture AI, elapsed=16734ms",
+      "2026-09-30T23:55:45.3876355\u002B08:00 [FIRST_VISUAL] Fixture B, mode=passive, latency=16596.3ms",
+      "2026-09-30T23:55:46.2742698\u002B08:00 [FIRST_FRAME] Fixture B, hostElapsed=905ms",
+      "2026-09-30T23:55:46.5567596\u002B08:00 [Ready] Fixture B",
+      "2026-09-30T23:55:46.9213184\u002B08:00 [Diagnostics] asynchronous checks completed",
+      "2026-09-30T23:55:49.2764017\u002B08:00 [WEB_READY] Fixture B, latency=3907ms",
+      "2026-09-30T23:55:54.4297809\u002B08:00 [BOOT_INTRO_FINISHED] Fixture B, hostElapsed=9060ms",
+      "2026-09-30T23:56:01.0393508\u002B08:00 [CHOREOGRAPHY_COMPLETE] Fixture B, hostElapsed=15670ms",
+      "2026-09-30T23:56:01.0405450\u002B08:00 [TARGET_READY] Fixture B, hostElapsed=15671ms",
+      "2026-09-30T23:56:01.9406832\u002B08:00 [ANIMATION_FINISHED] Fixture B, hostElapsed=16571ms",
+      "2026-09-30T23:56:02.0425206\u002B08:00 [AnimationExited] Fixture B, elapsed=16673ms",
+      "2026-09-30T23:56:05.1325565\u002B08:00 [TargetStopped] Fixture AI, pids=2, windows=0",
+      "2026-09-30T23:56:05.9275013\u002B08:00 [TargetStopped] Fixture B, pids=2, windows=0"
+    ]
+  }
+]

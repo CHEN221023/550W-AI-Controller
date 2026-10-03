@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Ready duration is not extended by optional speech",
+    "pass": true,
+    "expected": 50,
+    "actual": 51,
+    "voiceDuration": 1600
+  }
+]

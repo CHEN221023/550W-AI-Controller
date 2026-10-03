@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup><OutputType>WinExe</OutputType><TargetFramework>net8.0-windows10.0.17763.0</TargetFramework><UseWPF>true</UseWPF><UseWindowsForms>true</UseWindowsForms><ImplicitUsings>disable</ImplicitUsings><AssemblyName>550W.Animation</AssemblyName><ApplicationManifest>../550W.Controller/app.manifest</ApplicationManifest><ApplicationIcon>../../assets/controller.ico</ApplicationIcon></PropertyGroup>
+ <ItemGroup><ProjectReference Include="../550W.Core/550W.Core.csproj"/><PackageReference Include="Microsoft.Web.WebView2" Version="1.0.4258.31"/></ItemGroup>
+ <ItemGroup><Content Include="../../Themes/**/*" Link="Themes/%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest"/></ItemGroup>
+ <ItemGroup><Compile Include="../Shared/MechanicalCore.cs" Link="MechanicalCore.cs"/></ItemGroup>
+  <ItemGroup><Compile Include="../Shared/OverlayCoverGuard.cs" Link="Native/OverlayCoverGuard.cs"/></ItemGroup>
+  <ItemGroup><Compile Include="../Shared/ParticleFirstFrame.cs" Link="ParticleFirstFrame.cs"/></ItemGroup>
+</Project>

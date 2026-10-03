@@ -1,0 +1,108 @@
+[
+  {
+    "name": "V4.1 short exact durations / synchronous scan / stable layers",
+    "pass": true,
+    "timings": [
+      {
+        "from": "CORE_SCANNING",
+        "to": "CORE_PARTICLES",
+        "expected": 500,
+        "actual": 494
+      },
+      {
+        "from": "CORE_PARTICLES",
+        "to": "PARTICLE_RESIDUE",
+        "expected": 180,
+        "actual": 180
+      },
+      {
+        "from": "PARTICLE_RESIDUE",
+        "to": "LOGO_ASSEMBLING",
+        "expected": 180,
+        "actual": 180
+      },
+      {
+        "from": "LOGO_ASSEMBLING",
+        "to": "LOGO_HOLD",
+        "expected": 180,
+        "actual": 180
+      },
+      {
+        "from": "LOGO_HOLD",
+        "to": "LOGO_BURST",
+        "expected": 180,
+        "actual": 180
+      },
+      {
+        "from": "LOGO_BURST",
+        "to": "MULTIWINDOW_REVEAL",
+        "expected": 180,
+        "actual": 185
+      },
+      {
+        "from": "MULTIWINDOW_REVEAL",
+        "to": "MULTIWINDOW_ACTIVE",
+        "expected": 180,
+        "actual": 177
+      }
+    ],
+    "samples": 163,
+    "scanSamples": 20,
+    "persistentParticleCanvases": 1,
+    "background": "opaque black until formal handoff",
+    "errors": []
+  },
+  {
+    "name": "V4.1 long exact durations / synchronous scan / stable layers",
+    "pass": true,
+    "timings": [
+      {
+        "from": "CORE_SCANNING",
+        "to": "CORE_PARTICLES",
+        "expected": 2400,
+        "actual": 2395
+      },
+      {
+        "from": "CORE_PARTICLES",
+        "to": "PARTICLE_RESIDUE",
+        "expected": 975,
+        "actual": 976
+      },
+      {
+        "from": "PARTICLE_RESIDUE",
+        "to": "LOGO_ASSEMBLING",
+        "expected": 975,
+        "actual": 975
+      },
+      {
+        "from": "LOGO_ASSEMBLING",
+        "to": "LOGO_HOLD",
+        "expected": 975,
+        "actual": 975
+      },
+      {
+        "from": "LOGO_HOLD",
+        "to": "LOGO_BURST",
+        "expected": 975,
+        "actual": 975
+      },
+      {
+        "from": "LOGO_BURST",
+        "to": "MULTIWINDOW_REVEAL",
+        "expected": 975,
+        "actual": 980
+      },
+      {
+        "from": "MULTIWINDOW_REVEAL",
+        "to": "MULTIWINDOW_ACTIVE",
+        "expected": 975,
+        "actual": 977
+      }
+    ],
+    "samples": 829,
+    "scanSamples": 132,
+    "persistentParticleCanvases": 1,
+    "background": "opaque black until formal handoff",
+    "errors": []
+  }
+]

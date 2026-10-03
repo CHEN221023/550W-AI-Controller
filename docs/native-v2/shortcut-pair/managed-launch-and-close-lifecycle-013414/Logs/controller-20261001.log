@@ -1,0 +1,26 @@
+2026-10-01T01:34:15.7212596+08:00 [WatcherStart] processEvents=True, fallback=5s
+2026-10-01T01:34:16.4223085+08:00 [ManagedLaunchSession] Fixture AI, session=ef11734656e44b3090fc38716fd338cc
+2026-10-01T01:34:16.4964968+08:00 [FIRST_VISUAL] Fixture AI, mode=optimized, latency=96.0ms
+2026-10-01T01:34:17.4636563+08:00 [FIRST_FRAME] Fixture AI, hostElapsed=1037ms
+2026-10-01T01:34:17.6058595+08:00 [Diagnostics] asynchronous checks completed
+2026-10-01T01:34:18.6977407+08:00 [WindowPresentation] Fixture AI, Maximize, hwnd=3674060
+2026-10-01T01:34:18.6988534+08:00 [Ready] Fixture AI
+2026-10-01T01:34:20.5108516+08:00 [WEB_READY] Fixture AI, latency=4084ms
+2026-10-01T01:34:25.6585010+08:00 [BOOT_INTRO_FINISHED] Fixture AI, hostElapsed=9232ms
+2026-10-01T01:34:32.2839936+08:00 [CHOREOGRAPHY_COMPLETE] Fixture AI, hostElapsed=15857ms
+2026-10-01T01:34:32.2855990+08:00 [TARGET_READY] Fixture AI, hostElapsed=15859ms
+2026-10-01T01:34:32.8855842+08:00 [WindowPresentation] Fixture AI, Maximize, hwnd=3674060
+2026-10-01T01:34:33.1821456+08:00 [ANIMATION_FINISHED] Fixture AI, hostElapsed=16756ms
+2026-10-01T01:34:33.2727470+08:00 [AnimationExited] Fixture AI, elapsed=16846ms
+2026-10-01T01:34:33.3022372+08:00 [ManagedCloseState] Fixture AI, CloseRequested, session=698c18e7438d49b7b850b4e57bacacdf
+2026-10-01T01:34:33.3031318+08:00 [ManagedCloseState] Fixture AI, ShutdownPreparing, session=698c18e7438d49b7b850b4e57bacacdf
+2026-10-01T01:34:33.3116088+08:00 [ManagedCloseState] Fixture AI, WaitingConfirmation, session=698c18e7438d49b7b850b4e57bacacdf
+2026-10-01T01:34:33.3127526+08:00 [ManagedCloseState] Fixture AI, ShutdownAnimating, session=698c18e7438d49b7b850b4e57bacacdf
+2026-10-01T01:34:33.4139887+08:00 [SHUTDOWN_OVERLAY_VISIBLE] Fixture AI, confirmElapsed=100ms
+2026-10-01T01:34:33.4148555+08:00 [ShutdownNativeFallback] Fixture AI
+2026-10-01T01:34:33.4171461+08:00 [SHUTDOWN_BEGIN_CONFIRMED] Fixture AI
+2026-10-01T01:34:33.4179366+08:00 [ManagedCloseState] Fixture AI, AppClosing, session=698c18e7438d49b7b850b4e57bacacdf
+2026-10-01T01:34:33.4189287+08:00 [WM_CLOSE] Fixture AI, hwnd=3674060, sent=True
+2026-10-01T01:34:34.1065861+08:00 [TargetStopped] Fixture AI, pids=1, windows=0
+2026-10-01T01:34:34.1944587+08:00 [FIRST_FRAME] Fixture AI, 
+2026-10-01T01:34:36.0235848+08:00 [ManagedCloseState] Fixture AI, Stopped, session=698c18e7438d49b7b850b4e57bacacdf

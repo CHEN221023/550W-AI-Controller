@@ -1,0 +1,54 @@
+[
+  {
+    "name": "offline-machine-voice-render-and-release",
+    "pass": true,
+    "detail": {
+      "ExitCode": 0,
+      "output": "C:\\Users\\Administrator\\Documents\\codex\\2026-09-30\\files-pasted-by-the-user-windows\\work\\desktop-v2-evidence\\20261001-011958-9e90ba\\native-voice.json",
+      "result": {
+        "available": true,
+        "engine": "eSpeak NG 1.52.0",
+        "released": true,
+        "clips": [
+          {
+            "phrase": "550W \u7CFB\u7EDF\u5C31\u7EEA\u3002",
+            "file": "C:\\Users\\Administrator\\Documents\\codex\\2026-09-30\\files-pasted-by-the-user-windows\\work\\desktop-v2-evidence\\20261001-011958-9e90ba\\1ffca14bc1ad4ee5b5660b1eef183e2e.wav",
+            "bytes": 116618
+          },
+          {
+            "phrase": "DeepSeek interface ready",
+            "file": "C:\\Users\\Administrator\\Documents\\codex\\2026-09-30\\files-pasted-by-the-user-windows\\work\\desktop-v2-evidence\\20261001-011958-9e90ba\\c72619300e004138944c4cbcfff69185.wav",
+            "bytes": 68510
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "native-webview-offline-voice-playback-and-release",
+    "pass": true,
+    "detail": {
+      "played": 5,
+      "released": true,
+      "voiceVolume": 0,
+      "note": "Real HTML Audio play/decode; muted test gain avoids disturbing the desktop.",
+      "logs": [
+        "2026-10-01T01:20:01.2471438\u002B08:00 [WatcherStart] processEvents=True, fallback=5s",
+        "2026-10-01T01:20:01.9153145\u002B08:00 [FIRST_VISUAL] Demo AI, mode=preview, latency=76.7ms",
+        "2026-10-01T01:20:02.8636523\u002B08:00 [FIRST_FRAME] Demo AI, hostElapsed=1023ms",
+        "2026-10-01T01:20:03.2960964\u002B08:00 [Ready] Demo AI",
+        "2026-10-01T01:20:06.0139061\u002B08:00 [WEB_READY] Demo AI, latency=4173ms",
+        "2026-10-01T01:20:06.3142692\u002B08:00 [VOICE_PLAYING] Demo AI, hostElapsed=4474ms",
+        "2026-10-01T01:20:09.2846654\u002B08:00 [VOICE_PLAYING] Demo AI, hostElapsed=7444ms",
+        "2026-10-01T01:20:11.1778687\u002B08:00 [BOOT_INTRO_FINISHED] Demo AI, hostElapsed=9337ms",
+        "2026-10-01T01:20:11.8815432\u002B08:00 [VOICE_PLAYING] Demo AI, hostElapsed=10041ms",
+        "2026-10-01T01:20:14.2456826\u002B08:00 [VOICE_PLAYING] Demo AI, hostElapsed=12405ms",
+        "2026-10-01T01:20:17.7292250\u002B08:00 [CHOREOGRAPHY_COMPLETE] Demo AI, hostElapsed=15888ms",
+        "2026-10-01T01:20:17.7302326\u002B08:00 [TARGET_READY] Demo AI, hostElapsed=15890ms",
+        "2026-10-01T01:20:17.9883255\u002B08:00 [VOICE_PLAYING] Demo AI, hostElapsed=16148ms",
+        "2026-10-01T01:20:21.7400019\u002B08:00 [ANIMATION_FINISHED] Demo AI, hostElapsed=19899ms",
+        "2026-10-01T01:20:21.8376496\u002B08:00 [AnimationExited] Demo AI, elapsed=19997ms"
+      ]
+    }
+  }
+]

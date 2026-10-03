@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup><TargetFramework>net8.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><IsPackable>false</IsPackable><IsTestProject>true</IsTestProject></PropertyGroup>
+ <ItemGroup><ProjectReference Include="../../src/550W.Core/550W.Core.csproj"/><PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0"/><PackageReference Include="xunit" Version="2.9.3"/><PackageReference Include="xunit.runner.visualstudio" Version="2.8.2" PrivateAssets="all"/></ItemGroup>
+ <ItemGroup>
+  <Compile Include="../../src/550W.Controller/Services/DiagnosticPrivacy.cs" Link="Diagnostics/DiagnosticPrivacy.cs"/>
+  <Compile Include="../../src/550W.Controller/Services/DiagnosticArchive.cs" Link="Diagnostics/DiagnosticArchive.cs"/>
+  <Compile Include="../../src/550W.Controller/Services/LogService.cs" Link="Diagnostics/LogService.cs"/>
+ </ItemGroup>
+</Project>

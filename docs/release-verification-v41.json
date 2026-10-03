@@ -1,0 +1,204 @@
+{
+  "version": "4.1.0",
+  "date": "2026-10-02",
+  "releaseBuild": "PASS: Controller and Animation win-x64 self-contained 4.1.0.0",
+  "webChecks": [
+    {
+      "name": "V4.1 short exact durations / synchronous scan / stable layers",
+      "pass": true,
+      "timings": [
+        {
+          "from": "CORE_SCANNING",
+          "to": "CORE_PARTICLES",
+          "expected": 500,
+          "actual": 494
+        },
+        {
+          "from": "CORE_PARTICLES",
+          "to": "PARTICLE_RESIDUE",
+          "expected": 180,
+          "actual": 180
+        },
+        {
+          "from": "PARTICLE_RESIDUE",
+          "to": "LOGO_ASSEMBLING",
+          "expected": 180,
+          "actual": 180
+        },
+        {
+          "from": "LOGO_ASSEMBLING",
+          "to": "LOGO_HOLD",
+          "expected": 180,
+          "actual": 180
+        },
+        {
+          "from": "LOGO_HOLD",
+          "to": "LOGO_BURST",
+          "expected": 180,
+          "actual": 180
+        },
+        {
+          "from": "LOGO_BURST",
+          "to": "MULTIWINDOW_REVEAL",
+          "expected": 180,
+          "actual": 185
+        },
+        {
+          "from": "MULTIWINDOW_REVEAL",
+          "to": "MULTIWINDOW_ACTIVE",
+          "expected": 180,
+          "actual": 177
+        }
+      ],
+      "samples": 163,
+      "scanSamples": 20,
+      "persistentParticleCanvases": 1,
+      "background": "opaque black until formal handoff",
+      "errors": []
+    },
+    {
+      "name": "V4.1 long exact durations / synchronous scan / stable layers",
+      "pass": true,
+      "timings": [
+        {
+          "from": "CORE_SCANNING",
+          "to": "CORE_PARTICLES",
+          "expected": 2400,
+          "actual": 2395
+        },
+        {
+          "from": "CORE_PARTICLES",
+          "to": "PARTICLE_RESIDUE",
+          "expected": 975,
+          "actual": 976
+        },
+        {
+          "from": "PARTICLE_RESIDUE",
+          "to": "LOGO_ASSEMBLING",
+          "expected": 975,
+          "actual": 975
+        },
+        {
+          "from": "LOGO_ASSEMBLING",
+          "to": "LOGO_HOLD",
+          "expected": 975,
+          "actual": 975
+        },
+        {
+          "from": "LOGO_HOLD",
+          "to": "LOGO_BURST",
+          "expected": 975,
+          "actual": 975
+        },
+        {
+          "from": "LOGO_BURST",
+          "to": "MULTIWINDOW_REVEAL",
+          "expected": 975,
+          "actual": 980
+        },
+        {
+          "from": "MULTIWINDOW_REVEAL",
+          "to": "MULTIWINDOW_ACTIVE",
+          "expected": 975,
+          "actual": 977
+        }
+      ],
+      "samples": 829,
+      "scanSamples": 132,
+      "persistentParticleCanvases": 1,
+      "background": "opaque black until formal handoff",
+      "errors": []
+    }
+  ],
+  "readyDurationCheck": [
+    {
+      "name": "Ready duration is not extended by optional speech",
+      "pass": true,
+      "expected": 50,
+      "actual": 51,
+      "voiceDuration": 1600
+    }
+  ],
+  "performance": {
+    "baseline": {
+      "canvasCalls": {
+        "drawImage": 48365,
+        "fillRect": 436307,
+        "fill": 0,
+        "clearRect": 615
+      },
+      "particleCallbackMs": {
+        "count": 1250,
+        "p50": 0,
+        "p95": 0.8000000007450581,
+        "max": 2.199999999254942
+      },
+      "particleFrameMs": {
+        "count": 625,
+        "p50": 5,
+        "p95": 5.100000000000364,
+        "max": 215.0999999999999
+      },
+      "longTasks": [
+        {
+          "phase": "PAGE_READY",
+          "ms": 64
+        },
+        {
+          "phase": "PAGE_READY",
+          "ms": 199
+        },
+        {
+          "phase": "CORE_SCANNING",
+          "ms": 58
+        }
+      ]
+    },
+    "patched": {
+      "canvasCalls": {
+        "drawImage": 57714,
+        "fillRect": 0,
+        "fill": 2074,
+        "clearRect": 623
+      },
+      "particleCallbackMs": {
+        "count": 594,
+        "p50": 0.10000000149011612,
+        "p95": 1,
+        "max": 3.699999999254942
+      },
+      "particleFrameMs": {
+        "count": 594,
+        "p50": 5,
+        "p95": 10,
+        "max": 45.09999999999991
+      },
+      "longTasks": [
+        {
+          "phase": "PAGE_READY",
+          "ms": 68
+        },
+        {
+          "phase": "PAGE_READY",
+          "ms": 197
+        },
+        {
+          "phase": "PAGE_READY",
+          "ms": 228
+        }
+      ]
+    },
+    "scope": "Same headless Edge, same 700 particles and 1920x1080 canvas. RAF timings are relative test measurements, not a real WebView desktop FPS guarantee."
+  },
+  "nativeWebView": {
+    "status": "BLOCKED_RUNTIME_LAUNCH",
+    "result": {
+      "pass": false,
+      "error": "System.Exception: {\"type\":\"error\",\"message\":\"\\u52A8\\u753B\\u6E32\\u67D3\\u5668\\u5F02\\u5E38\\uFF0C\\u906E\\u7F69\\u5DF2\\u5173\\u95ED\\u3002RenderProcessExited; LaunchFailed; exit=49; \"}\r\n   at Program.Check(String binary, String desktop) in C:\\Users\\Administrator\\Documents\\Codex\\2026-09-30\\files-pasted-by-the-user-windows\\outputs\\550W-AI-Controller-Source\\tests\\550W.AnimationChecks\\Program.cs:line 57\r\n   at Program.<>c__DisplayClass13_0.<<Main>b__0>d.MoveNext() in C:\\Users\\Administrator\\Documents\\Codex\\2026-09-30\\files-pasted-by-the-user-windows\\outputs\\550W-AI-Controller-Source\\tests\\550W.AnimationChecks\\Program.cs:line 33"
+    },
+    "note": "Recoverable GPU process failures retain cover; the final native attempt failed to start the main renderer (RenderProcessExited / LaunchFailed / exit 49). Native target-flash verification did not reach the animation. No real ChatGPT client was driven."
+  },
+  "coreAssetUnchanged": true,
+  "original550CAndHudMarkupUnchanged": true,
+  "nativeFullscreenDesktopTests": 0
+}

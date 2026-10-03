@@ -1,0 +1,14 @@
+{
+  "name": "550w-controller-themes",
+  "version": "4.6.0-beta",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "port-theme": "node scripts/port-theme.mjs",
+    "verify-web": "node scripts/test-web-v3.cjs",
+    "audit-source": "node scripts/audit-preservation.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

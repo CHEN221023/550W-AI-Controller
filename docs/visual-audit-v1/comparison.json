@@ -1,0 +1,65 @@
+[
+  {
+    "name": "original",
+    "opened": [
+      {
+        "name": "ACCESS AUTHORIZATION",
+        "at": 4792.0999999996275,
+        "left": "1200px",
+        "top": "44px"
+      },
+      {
+        "name": "LINK MONITOR",
+        "at": 5292.700000001118,
+        "left": "20px",
+        "top": "44px"
+      },
+      {
+        "name": "SIGNAL POLLUTION",
+        "at": 5524,
+        "left": "23px",
+        "top": "376px"
+      },
+      {
+        "name": "AUTH BYPASS INJECTION",
+        "at": 6107.300000000745,
+        "left": "1200px",
+        "top": "716px"
+      },
+      {
+        "name": "OVERRIDE CONTROLLER",
+        "at": 6681.700000001118,
+        "left": "96px",
+        "top": "151px"
+      },
+      {
+        "name": "ANOMALY · UAV-07",
+        "at": 6913.4000000003725,
+        "left": "1200px",
+        "top": "140px"
+      },
+      {
+        "name": "ANOMALY · UAV-23",
+        "at": 7506.200000001118,
+        "left": "30px",
+        "top": "660px"
+      },
+      {
+        "name": "OVERRIDE SUMMARY",
+        "at": 8374.700000001118,
+        "left": "610px",
+        "top": "400px"
+      },
+      {
+        "name": "EMERGENCY DISARM",
+        "at": 8823.900000000373,
+        "left": "610px",
+        "top": "400px"
+      }
+    ]
+  },
+  {
+    "name": "v1",
+    "opened": []
+  }
+]

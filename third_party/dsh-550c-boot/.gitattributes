@@ -1,0 +1,8 @@
+# 统一换行：CI 会检查 lib/client.js 与源码是否同步，行尾必须稳定
+* text=auto eol=lf
+*.png binary
+*.ico binary
+*.jpg binary
+*.woff binary
+*.woff2 binary
+*.tgz binary

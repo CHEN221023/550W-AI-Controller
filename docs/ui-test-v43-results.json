@@ -1,0 +1,20 @@
+{
+  "pass": true,
+  "checks": [
+    "Removed core timing controls in global/independent settings",
+    "Retained active particle/logo/HUD/handoff settings",
+    "Removed obsolete visible descriptions",
+    "Removed core timing controls in global/independent settings",
+    "Retained active particle/logo/HUD/handoff settings",
+    "Removed obsolete visible descriptions",
+    "Removed robot voice/sound selectors",
+    "Retained logo/HUD audio selectors",
+    "Removed robot voice/sound selectors",
+    "Retained logo/HUD audio selectors",
+    "Removed obsolete core asset picker",
+    "Changelog starts at V4.2 Beta and includes V4.3 Beta",
+    "Beta notice is present above changelog entries",
+    "No settings window displayed"
+  ],
+  "desktopWindowsShown": 0
+}

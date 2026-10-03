@@ -1,0 +1,98 @@
+[
+  {
+    "name": "existing particle visual is pixel-identical from residue through HUD crossfade",
+    "pass": true,
+    "comparisons": [
+      {
+        "phase": "residue-start",
+        "particleSha256": "ce77b11e0211f4ff76f6cd049604791f172cb332702c271c94cd93915b68f56c",
+        "logoSha256": "0da3e54dc0b83e71fe471d182d0ddaf852b6a11ae5a2a117a2d4a024b2fff203"
+      },
+      {
+        "phase": "residue-middle",
+        "particleSha256": "9979497a45dfae00bb857afea7bc18ae6d0b0a6419beb20cf46c2e53b072d0b9",
+        "logoSha256": "0da3e54dc0b83e71fe471d182d0ddaf852b6a11ae5a2a117a2d4a024b2fff203"
+      },
+      {
+        "phase": "logo-assembling",
+        "particleSha256": "c9296cada6c310a21ff8eb4ad360f8d5f0cd4b9acd2127a7501be37b72d4b56b",
+        "logoSha256": "0da3e54dc0b83e71fe471d182d0ddaf852b6a11ae5a2a117a2d4a024b2fff203"
+      },
+      {
+        "phase": "logo-hold",
+        "particleSha256": "cd6c7a7a75babee806b588a78f3501588f0b04bbf8b6c567a3b8f009ad43f2a9",
+        "logoSha256": "0da3e54dc0b83e71fe471d182d0ddaf852b6a11ae5a2a117a2d4a024b2fff203"
+      },
+      {
+        "phase": "logo-burst",
+        "particleSha256": "86cb413df2a07dbbe4b3c2c8a7b50d3de547ab87c75010d453919c044d049bf9",
+        "logoSha256": "0da3e54dc0b83e71fe471d182d0ddaf852b6a11ae5a2a117a2d4a024b2fff203"
+      },
+      {
+        "phase": "hud-crossfade",
+        "particleSha256": "21896b60fa25f4cfd525453fd91af3bfc2b176fcd21a895b87f6838519526735",
+        "logoSha256": "0da3e54dc0b83e71fe471d182d0ddaf852b6a11ae5a2a117a2d4a024b2fff203"
+      }
+    ],
+    "events": [
+      "PARTICLE_RESIDUE",
+      "LOGO_ASSEMBLING",
+      "LOGO_BEGIN",
+      "LOGO_HOLD",
+      "LOGO_BURST",
+      "MULTIWINDOW_REVEAL"
+    ]
+  },
+  {
+    "name": "web first frame does not wait for slow audio preload",
+    "pass": true,
+    "at": 442.1000000014901,
+    "opacity": "1",
+    "colored": 18505,
+    "background": "rgb(0, 0, 0)"
+  },
+  {
+    "name": "full boot starts at residue; no robot requests or obsolete sound; existing HUD and handoff complete",
+    "pass": true,
+    "timing": [
+      {
+        "from": "PARTICLE_RESIDUE",
+        "to": "LOGO_ASSEMBLING",
+        "expected": 350,
+        "actual": 355
+      },
+      {
+        "from": "LOGO_ASSEMBLING",
+        "to": "LOGO_HOLD",
+        "expected": 850,
+        "actual": 845
+      },
+      {
+        "from": "LOGO_HOLD",
+        "to": "LOGO_BURST",
+        "expected": 450,
+        "actual": 450
+      },
+      {
+        "from": "LOGO_BURST",
+        "to": "MULTIWINDOW_REVEAL",
+        "expected": 900,
+        "actual": 905
+      },
+      {
+        "from": "MULTIWINDOW_REVEAL",
+        "to": "MULTIWINDOW_ACTIVE",
+        "expected": 850,
+        "actual": 846
+      }
+    ],
+    "removedNodes": 0,
+    "robotRequests": 0,
+    "obsoleteAudioRequests": 0,
+    "oldCoreDurationSettingsIgnored": true,
+    "particles": 700,
+    "hudNodes": 47,
+    "hudWindows": 9,
+    "errors": []
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "passed": 12,
+  "idleMs": 500,
+  "totalMs": 1000,
+  "holdMs": 450,
+  "targetCount": 3365,
+  "drawMeanMs": 1.632207
+}

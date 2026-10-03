@@ -1,0 +1,137 @@
+{
+  "commit": "bddc507d7c717fe7cda440cec83f330e8b3e5004",
+  "bootMarkupExact": true,
+  "appMarkupExact": true,
+  "cssExactAfterUniformCanvasConversion": true,
+  "originalHtmlSha256": "0832f9794d3ec1e73deec8548d00b97704a896352ff3b0fa4ac6be03f2461152",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "e41f799fda49821d278f152f68d686c12a0d3178580c5b0ef85bf936230c5b7a"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "85052e95aefa96b2f66130262af085b2c1c3312c6497f3a543ea806f2a61d829"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "e705844289b6e2ab7b2e0d36e8f9a12cea647be85b646e2f21a521e78ab8b2d1"
+    },
+    {
+      "path": "assets/550C-source.html",
+      "sha256": "0832f9794d3ec1e73deec8548d00b97704a896352ff3b0fa4ac6be03f2461152"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "05de89b12a6d9d042b4549f53d8e4f32e919094bed25e8ba5a4c8a8aa04e9d8c"
+    },
+    {
+      "path": "cordis.patch.yml",
+      "sha256": "bf3c2ec17b71f03d54fa996ccb8273b2593f596fc8b0c9c3f94dc30048cd6a10"
+    },
+    {
+      "path": "CREDITS.md",
+      "sha256": "66acd3d814bdbb285e079bdb5e94515998cc546ea294082a46acaadb12715049"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "2713fe905c1a0c248f801deae4b91f9397e9a4ff38300161b5b58e6305b107dd"
+    },
+    {
+      "path": "docs/DESKTOP-CHROME.md",
+      "sha256": "eac263a97b9bba712e33c315af9e5e6d3ed6aa3b8c56aa7b7d857a2599cc0e95"
+    },
+    {
+      "path": "docs/ENHANCEMENTS.md",
+      "sha256": "bbdd560610850de8a17764cd161acecefad6c168d718543372ef6c5e1d5102b0"
+    },
+    {
+      "path": "docs/PLAN-macos-and-update-check.md",
+      "sha256": "80efa080a20fad4cb1a8b04eb8567a977158e56d464294ecdda8a9d7d600e6bf"
+    },
+    {
+      "path": "docs/preview-cyan.png",
+      "sha256": "655a8c4a2b50f9bffcc68b0769588fa266b138c37018d64710628e6a549b8b83"
+    },
+    {
+      "path": "docs/preview-full.png",
+      "sha256": "8d4b5595a97042136778a50bb1e49b988f8fbeeb37504c694afd77528fff5a61"
+    },
+    {
+      "path": "docs/preview-simple.png",
+      "sha256": "fc7d1d08020c441cb966e64f0725edb81d5fb86545de13ee67fd2f04b1729ef6"
+    },
+    {
+      "path": "docs/PUBLISHING.md",
+      "sha256": "1136529e965dc1d876396e9bfb9453ae8d9904e28da9ce65a45f88cf3c522c87"
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "sha256": "8f4d3c66e443d939fa59c9611e21845cfee838f19e3348c598002d5bfc7960f3"
+    },
+    {
+      "path": "lib/client.js",
+      "sha256": "2b415aa35f732826d70ae5b608b7e1e6424ce1a212b6f2ffce7021fe5f165fe6"
+    },
+    {
+      "path": "lib/index.js",
+      "sha256": "c0cc359348a226fff638afd3754164182e6bed8bade2d0c32d29f2fe99b67fc6"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "45e1504df986a59134ca21151abbfe8bc7920c37a6b6d8327576e55a0a01e143"
+    },
+    {
+      "path": "package.json",
+      "sha256": "ba5b4e50579059a20d35a954058935a134127bf31eecb2100881d494d368ed19"
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "6a0a3f2d1862339633da28a0eff191c6ad687b87ac3f3aa5f5c09aa35983c9b6"
+    },
+    {
+      "path": "README.md",
+      "sha256": "6f6b6ca2756e8361fed15c0237e0137d4be69ccaa1c32d1c51589c9e4e1b789d"
+    },
+    {
+      "path": "screenshots.json",
+      "sha256": "6de2dafc4dff6f073e25d5c440f52cdb38ad497a19c1d641dd8113c8895d4855"
+    },
+    {
+      "path": "scripts/build.mjs",
+      "sha256": "fd0cf17acfff7126c01df08198b4ed4a79c6541da82a82bb6255fce01f86e744"
+    },
+    {
+      "path": "scripts/extract.mjs",
+      "sha256": "ea475f943f16ebb71a0be4b6fd45fe12d1c96f86562f5596fb7f9aa1bf448a6f"
+    },
+    {
+      "path": "scripts/make-submission.mjs",
+      "sha256": "a4a75780ebfe66b2e3793f574571f655be67330fd0e2fcaeb11cf9e853713dc7"
+    },
+    {
+      "path": "scripts/verify.mjs",
+      "sha256": "e35398f4de6d76e85fb3289f78298db244dc26e4b54a58c48afbfae203ab3b03"
+    },
+    {
+      "path": "src/assets.js",
+      "sha256": "5578519cfd3e92e6788d54485acbffa28c381c42a41042897211752ed09641b4"
+    },
+    {
+      "path": "src/client.js",
+      "sha256": "3832f54b51d4b4040847f66c89f67adbc79cdebf7ceacd12f1a3d9cc8da281ae"
+    },
+    {
+      "path": "src/enhance.js",
+      "sha256": "0a3150cbc25e5c1baa54ed61c6c494d75f0b316f0df9a63c6be885bbf1682910"
+    },
+    {
+      "path": "src/show.js",
+      "sha256": "daa680a2febcd3bc9a824b769be15fa16ddda71d8282fa71437c79a526c74dd8"
+    },
+    {
+      "path": "submission/data/plugins/yannicksong0106__dsh-550c-boot.yml",
+      "sha256": "da40875883579895af9c5d007ee183ffa2e92db9b81e963da8abf1fbca93a8c1"
+    }
+  ]
+}

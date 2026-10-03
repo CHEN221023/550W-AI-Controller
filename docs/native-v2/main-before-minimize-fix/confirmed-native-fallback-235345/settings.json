@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "startWithWindows": false,
+  "paused": false,
+  "firstRunComplete": true,
+  "hardwareDiagnostics": true,
+  "fallbackPollingSeconds": 5,
+  "profiles": [
+    {
+      "id": "fixture-a",
+      "displayName": "Fixture AI",
+      "processNames": [
+        "550W.ExternalFixture.exe"
+      ],
+      "executablePath": "C:\\Users\\Administrator\\Documents\\codex\\2026-09-30\\files-pasted-by-the-user-windows\\outputs\\550W-AI-Controller-Source\\tests\\550W.Fixture\\bin\\Release\\net8.0-windows\\550W.ExternalFixture.exe",
+      "matchExecutablePath": false,
+      "windowTitleMatch": "Fixture-c6d9b60cc2",
+      "startTrigger": "window_show",
+      "stopTrigger": "window_hide",
+      "bootTheme": "550W",
+      "shutdownTheme": "550W",
+      "launchMode": "passive_detection",
+      "launchKind": "executable",
+      "launchTarget": "C:\\Users\\Administrator\\Documents\\codex\\2026-09-30\\files-pasted-by-the-user-windows\\outputs\\550W-AI-Controller-Source\\tests\\550W.Fixture\\bin\\Release\\net8.0-windows\\550W.ExternalFixture.exe",
+      "launchArguments": "--lifetime 60000 --title Fixture-c6d9b60cc2",
+      "workingDirectory": "",
+      "sourceShortcut": "",
+      "iconSource": "",
+      "iconCachePath": "",
+      "optimizedShortcutPath": "",
+      "appLaunchOffsetMs": 300,
+      "windowPresentation": "maximize",
+      "presentationTiming": "after_stable",
+      "applyPresentationToPassive": false,
+      "startupCorePath": "",
+      "coreCachePath": "",
+      "colorProfile": "",
+      "startupGraceMs": 2500,
+      "optimizedShutdown": true,
+      "closeConfirmation": false,
+      "closeEntry": "managed_close",
+      "enabled": true,
+      "hardwareDiagnostics": true,
+      "networkDiagnostics": true,
+      "allowMinimizedReady": false,
+      "readyDelayMs": 350,
+      "minimumBootTimeMs": 4000,
+      "cooldownMs": 650
+    }
+  ],
+  "animation": {
+    "preset": "Standard",
+    "durationMultiplier": 1,
+    "colorProfile": "movie_red",
+    "systemLabel": "550W",
+    "centerRevealMs": 900,
+    "minimumBootMs": 4000,
+    "diagnosticsMinimumMs": 1400,
+    "readyMs": 600,
+    "shutdownMs": 2600,
+    "fadeMs": 300,
+    "bootWatchdogMs": 20000,
+    "shutdownWatchdogMs": 5000,
+    "allowEscape": true,
+    "allowClickSkip": false,
+    "waitForReady": true,
+    "monitor": "target_window",
+    "monitorDevice": "",
+    "sound": false
+  },
+  "network": {
+    "enabled": true,
+    "timeoutMs": 2000,
+    "dnsHost": "www.microsoft.com",
+    "domesticEndpoints": [
+      "https://www.baidu.com/",
+      "https://www.qq.com/"
+    ],
+    "externalEndpoints": [
+      "https://www.microsoft.com/",
+      "https://www.cloudflare.com/cdn-cgi/trace"
+    ],
+    "vpnMode": "auto",
+    "vpnAdapterId": ""
+  },
+  "audio": {
+    "soundEnabled": true,
+    "soundVolume": 0,
+    "voiceEnabled": false,
+    "voiceVolume": 60,
+    "muted": false,
+    "bootVoice": true,
+    "shutdownVoice": true,
+    "voiceName": "",
+    "audioFiles": {},
+    "voiceFiles": {},
+    "phrases": {
+      "BOOT": "{system} \u7CFB\u7EDF\u542F\u52A8\u3002",
+      "CORE": "\u6838\u5FC3\u6A21\u5757\u521D\u59CB\u5316\u3002",
+      "NETWORK": "\u7F51\u7EDC\u8FDE\u63A5\u5DF2\u5EFA\u7ACB\u3002",
+      "PROCESS": "\u76EE\u6807\u4EBA\u5DE5\u667A\u80FD\u8FDB\u7A0B\u5DF2\u68C0\u6D4B\u3002",
+      "READY": "{app} \u754C\u9762\u5DF2\u5C31\u7EEA\u3002\u7CFB\u7EDF\u5C31\u7EEA\u3002",
+      "SHUTDOWN": "\u6B63\u5728\u7EC8\u6B62\u4EBA\u5DE5\u667A\u80FD\u4F1A\u8BDD\u3002",
+      "NETWORK_CLOSED": "\u7F51\u7EDC\u8FDE\u63A5\u5173\u95ED\u3002",
+      "STANDBY": "\u6838\u5FC3\u6A21\u5757\u8FDB\u5165\u5F85\u673A\u3002",
+      "POWER_OFF": "{system} \u7CFB\u7EDF\u5173\u95ED\u3002"
+    }
+  }
+}

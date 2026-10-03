@@ -1,0 +1,13 @@
+{
+  "pass": true,
+  "rasterMs": 11.3026,
+  "litPixels": 18477,
+  "pureBlackOutsideCenter": true,
+  "noWindowsShown": true,
+  "monitor": {
+    "triggerMs": 361.3723,
+    "triggers": 1,
+    "windowRequired": false,
+    "stopObserved": true
+  }
+}

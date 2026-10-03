@@ -1,0 +1,225 @@
+[
+  {
+    "name": "three exact deadlines, mild motion, zero hold, multiplier and invalid combinations",
+    "pass": true,
+    "records": [
+      {
+        "idle": 100,
+        "total": 400,
+        "hold": 200,
+        "multiplier": 1,
+        "regroupMs": 300,
+        "events": [
+          {
+            "type": "PARTICLE_RESIDUE",
+            "time": 0
+          },
+          {
+            "type": "LOGO_ASSEMBLING",
+            "time": 100
+          },
+          {
+            "type": "LOGO_BEGIN",
+            "time": 100
+          },
+          {
+            "type": "LOGO_HOLD",
+            "time": 400
+          },
+          {
+            "type": "LOGO_BURST",
+            "time": 600
+          }
+        ]
+      },
+      {
+        "idle": 500,
+        "total": 1000,
+        "hold": 450,
+        "multiplier": 1,
+        "regroupMs": 500,
+        "events": [
+          {
+            "type": "PARTICLE_RESIDUE",
+            "time": 0
+          },
+          {
+            "type": "LOGO_ASSEMBLING",
+            "time": 500
+          },
+          {
+            "type": "LOGO_BEGIN",
+            "time": 500
+          },
+          {
+            "type": "LOGO_HOLD",
+            "time": 1000
+          },
+          {
+            "type": "LOGO_BURST",
+            "time": 1450
+          }
+        ]
+      },
+      {
+        "idle": 1000,
+        "total": 1800,
+        "hold": 300,
+        "multiplier": 1,
+        "regroupMs": 800,
+        "events": [
+          {
+            "type": "PARTICLE_RESIDUE",
+            "time": 0
+          },
+          {
+            "type": "LOGO_ASSEMBLING",
+            "time": 1000
+          },
+          {
+            "type": "LOGO_BEGIN",
+            "time": 1000
+          },
+          {
+            "type": "LOGO_HOLD",
+            "time": 1800
+          },
+          {
+            "type": "LOGO_BURST",
+            "time": 2100
+          }
+        ]
+      },
+      {
+        "idle": 1500,
+        "total": 2100,
+        "hold": 0,
+        "multiplier": 1,
+        "regroupMs": 600,
+        "events": [
+          {
+            "type": "PARTICLE_RESIDUE",
+            "time": 0
+          },
+          {
+            "type": "LOGO_ASSEMBLING",
+            "time": 1500
+          },
+          {
+            "type": "LOGO_BEGIN",
+            "time": 1500
+          },
+          {
+            "type": "LOGO_HOLD",
+            "time": 2100
+          },
+          {
+            "type": "LOGO_BURST",
+            "time": 2100
+          }
+        ]
+      },
+      {
+        "idle": 500,
+        "total": 1000,
+        "hold": 450,
+        "multiplier": 0.75,
+        "regroupMs": 375,
+        "events": [
+          {
+            "type": "PARTICLE_RESIDUE",
+            "time": 0
+          },
+          {
+            "type": "LOGO_ASSEMBLING",
+            "time": 375
+          },
+          {
+            "type": "LOGO_BEGIN",
+            "time": 375
+          },
+          {
+            "type": "LOGO_HOLD",
+            "time": 750
+          },
+          {
+            "type": "LOGO_BURST",
+            "time": 1087.5
+          }
+        ]
+      },
+      {
+        "idle": 100,
+        "total": 101,
+        "hold": 0,
+        "multiplier": 1,
+        "regroupMs": 1,
+        "events": [
+          {
+            "type": "PARTICLE_RESIDUE",
+            "time": 0
+          },
+          {
+            "type": "LOGO_ASSEMBLING",
+            "time": 100
+          },
+          {
+            "type": "LOGO_BEGIN",
+            "time": 100
+          },
+          {
+            "type": "LOGO_HOLD",
+            "time": 101
+          },
+          {
+            "type": "LOGO_BURST",
+            "time": 101
+          }
+        ]
+      }
+    ],
+    "invalidRejected": [
+      true,
+      true
+    ]
+  },
+  {
+    "name": "late web preparation continues native time instead of restarting idle",
+    "pass": true,
+    "lateAttachMs": 750,
+    "completeAt": 1000,
+    "burstAt": 1450
+  },
+  {
+    "name": "original 550C and later particle burst/HUD fade remain pixel-identical",
+    "pass": true,
+    "comparisons": [
+      {
+        "name": "initial",
+        "particleHash": "ce77b11e0211f4ff76f6cd049604791f172cb332702c271c94cd93915b68f56c"
+      },
+      {
+        "name": "logo-complete",
+        "particleHash": "cd6c7a7a75babee806b588a78f3501588f0b04bbf8b6c567a3b8f009ad43f2a9"
+      },
+      {
+        "name": "burst",
+        "particleHash": "86cb413df2a07dbbe4b3c2c8a7b50d3de547ab87c75010d453919c044d049bf9"
+      },
+      {
+        "name": "hud-crossfade",
+        "particleHash": "21896b60fa25f4cfd525453fd91af3bfc2b176fcd21a895b87f6838519526735"
+      }
+    ]
+  },
+  {
+    "name": "full boot with blocked audio uses elapsed clock; HUD/handoff complete",
+    "pass": true,
+    "firstWebPhase": "LOGO_ASSEMBLING",
+    "logoCompleteAfterAttachMs": 1350,
+    "burstAfterAttachMs": 1800,
+    "nodes": 47,
+    "windows": 9,
+    "errors": []
+  }
+]

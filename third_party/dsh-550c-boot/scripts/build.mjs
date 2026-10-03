@@ -1,0 +1,67 @@
+#!/usr/bin/env node
+/**
+ * Builds lib/client.js — the single browser module the client loader expects.
+ *
+ * No bundler and no build dependencies on purpose. The client half may be
+ * written in plain JavaScript: the loader's factory hands the module a
+ * `require` that resolves the externals a plugin is allowed to use (`react`,
+ * `react/jsx-runtime`), and the plugin's own sources are concatenated below
+ * into that factory's body. That is exactly the shape tsdown emits for the
+ * published client plugins — see any `lib/client.js` under
+ * $DSH_HOME/profiles/*\/node_modules.
+ *
+ * Order matters: assets (stylesheet + markup) → show (the animation) → client
+ * (the React surfaces and the plugin export). All three are plain top-level
+ * declarations, so concatenation is a valid module body.
+ *
+ * Usage: node scripts/build.mjs
+ */
+import { readFileSync, writeFileSync } from 'node:fs'
+import { dirname, resolve } from 'node:path'
+import { fileURLToPath } from 'node:url'
+import { Script } from 'node:vm'
+
+const here = dirname(fileURLToPath(import.meta.url))
+const root = resolve(here, '..')
+const PLUGIN_ID = 'dsh-550c-boot'
+const PARTS = ['src/assets.js', 'src/show.js', 'src/enhance.js', 'src/client.js']
+
+const read = (file) => readFileSync(resolve(root, file), 'utf8')
+const body = PARTS.map((file) => `//#region ${file}\n${read(file).trimEnd()}\n//#endregion`).join('\n\n')
+
+const out = `window.__ModuleLoader__.load({
+\tid: ${JSON.stringify(PLUGIN_ID)},
+\tfactory: (require) => {
+\t\tvar module = { exports: {} };
+\t\tvar exports = module.exports;
+${body
+  .split('\n')
+  .map((line) => (line.length > 0 ? `\t\t${line}` : line))
+  .join('\n')}
+\t\treturn module.exports;
+\t}
+});
+`
+
+// A client bundle is loaded as a <script> by the browser: the parser ends the
+// block at the first `</script`, whatever the JavaScript around it means. The
+// same trap the reference plugin documents for backticks in its CSS.
+if (/<\/script/i.test(out)) throw new Error('build: output contains </script and would truncate in the browser')
+if (/<!--/.test(out)) throw new Error('build: output contains <!-- (HTML comment open) and is unsafe in a script block')
+
+// Parse the bundle before shipping it. The usual way this file goes wrong is a
+// stray backtick inside a CSS template literal — the sheet is one template
+// string, so a single backtick ends it early and the rest of the stylesheet
+// becomes JavaScript. Compiling (not running) the output turns that into a loud
+// build failure instead of a client that silently fails to load.
+try {
+  new Script(out)
+} catch (error) {
+  throw new Error(
+    `build: generated bundle does not parse — ${error.message}\n` +
+      '  (most likely a backtick inside a CSS template literal in src/enhance.js or src/assets.js)',
+  )
+}
+
+writeFileSync(resolve(root, 'lib/client.js'), out)
+process.stdout.write(`build: wrote lib/client.js (${out.length} chars)\n`)

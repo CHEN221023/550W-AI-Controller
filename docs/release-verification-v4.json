@@ -1,0 +1,224 @@
+{
+  "version": "4.0.0",
+  "date": "2026-10-01",
+  "focusedWebSequence": [
+    {
+      "name": "V4 focused visual chain, original vectors, preserved HUD and transparent handoff",
+      "pass": true,
+      "core": {
+        "gap": 100,
+        "chinese": "12px",
+        "english": "9px",
+        "label": "MOSS 核心接入中550C JOINT CONTROL NODE",
+        "lensOpacity": "0",
+        "imageFilter": "brightness(1)",
+        "backgrounds": [
+          "rgb(0, 0, 0)",
+          "rgb(0, 0, 0)",
+          "rgb(0, 0, 0)",
+          "rgb(0, 0, 0)",
+          "rgb(0, 0, 0)",
+          "rgb(0, 0, 0)"
+        ],
+        "crt": "none"
+      },
+      "logoPaths": 6,
+      "originalVectorPathsExact": true,
+      "overlapSamples": 1408,
+      "phases": [
+        "CORE_SCANNING",
+        "CORE_REVEAL",
+        "CORE_ILLUMINATED",
+        "CORE_LABEL",
+        "CORE_HOLD",
+        "CORE_PARTICLES",
+        "PARTICLE_RESIDUE",
+        "LOGO_ASSEMBLING",
+        "LOGO_HOLD",
+        "LOGO_BURST",
+        "MULTIWINDOW_REVEAL",
+        "MULTIWINDOW_ACTIVE"
+      ],
+      "handoff": {
+        "scale": 0.796578,
+        "opacity": 0.916045,
+        "body": "rgba(0, 0, 0, 0)"
+      },
+      "originalWindows": 9,
+      "originalNodes": 47,
+      "errors": [],
+      "desktopWindowsShown": 0
+    }
+  ],
+  "blackPixelChecks": [
+    {
+      "image": "03-core-letterbox.png",
+      "points": [
+        [
+          30,
+          20
+        ],
+        [
+          30,
+          600
+        ],
+        [
+          30,
+          1180
+        ],
+        [
+          960,
+          20
+        ],
+        [
+          960,
+          1180
+        ],
+        [
+          1890,
+          600
+        ],
+        [
+          480,
+          600
+        ],
+        [
+          1440,
+          600
+        ]
+      ],
+      "rgb": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "image": "06-550c-pillarbox.png",
+      "points": [
+        [
+          30,
+          20
+        ],
+        [
+          30,
+          540
+        ],
+        [
+          30,
+          1060
+        ],
+        [
+          1280,
+          20
+        ],
+        [
+          1280,
+          1060
+        ],
+        [
+          2530,
+          540
+        ],
+        [
+          640,
+          540
+        ],
+        [
+          1920,
+          540
+        ]
+      ],
+      "rgb": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ],
+  "coreUnchangedSha256": "51a26921618ac45089320b03ed1ae3bc76538bfbca5709ecd1fa4f18266d833c",
+  "upstreamVectorsAndHudPreserved": true,
+  "releaseBuild": {
+    "controller": "PASS",
+    "animation": "PASS",
+    "fileVersion": "4.0.0.0",
+    "platform": "win-x64",
+    "selfContained": true
+  },
+  "nativeDesktopRuns": 0,
+  "scope": "One focused headless animation run; no repeated full suite or foreground desktop run. Native startup surface compiled and source-reviewed, not visually exercised on the desktop."
+}

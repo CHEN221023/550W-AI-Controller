@@ -1,0 +1,8 @@
+2026-09-30T23:59:47.3403851+08:00 [WatcherStart] processEvents=True, fallback=5s
+2026-09-30T23:59:48.5066678+08:00 [BootTrigger] Fixture AI, pids=1, windows=1
+2026-09-30T23:59:48.5795604+08:00 [FIRST_VISUAL] Fixture AI, mode=passive, latency=70.5ms
+2026-09-30T23:59:49.4819984+08:00 [FIRST_FRAME] Fixture AI, hostElapsed=971ms
+2026-09-30T23:59:49.4975370+08:00 [AnimationUnavailable] 未检测到 Microsoft Edge WebView2 Evergreen Runtime。请从微软官方安装 Runtime；550W 未自动下载任何内容。
+2026-09-30T23:59:49.5763636+08:00 [Diagnostics] asynchronous checks completed
+2026-09-30T23:59:49.5774549+08:00 [AnimationExited] Fixture AI, elapsed=1067ms
+2026-09-30T23:59:55.6447920+08:00 [TargetStopped] Fixture AI, pids=1, windows=0

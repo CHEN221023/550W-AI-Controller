@@ -1,0 +1,25 @@
+# CI: the committed browser bundle must be produced by the committed sources.
+#
+# No dependencies on purpose — the build is `node scripts/*.mjs`, so this
+# workflow needs no install step and cannot be broken by a lockfile drift.
+name: ci
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build the browser bundle
+        run: npm run build
+      - name: Parse both halves
+        run: npm run check
+      - name: The committed bundle must match the sources
+        run: git diff --exit-code -- lib/client.js

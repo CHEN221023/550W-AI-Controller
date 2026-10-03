@@ -1,0 +1,40 @@
+[
+  {
+    "Name": "managed-shortcut-maximize",
+    "pass": true,
+    "boot": 1,
+    "postShutdown": 0,
+    "finished": 1,
+    "maximized": true,
+    "shortcutToVisual": 314.7657,
+    "animationLeft": [],
+    "firstVisual": [
+      "2026-10-01T01:06:41.3259906\u002B08:00 [FIRST_VISUAL] Fixture AI, mode=optimized, latency=104.9ms"
+    ],
+    "webReady": [
+      "2026-10-01T01:06:45.3500627\u002B08:00 [WEB_READY] Fixture AI, latency=4099ms"
+    ],
+    "waiting": [],
+    "memoryMB": 119.2,
+    "privateMB": 42,
+    "idleCpuPercentOfOneCore": 0,
+    "logicalProcessors": 16,
+    "logs": [
+      "2026-10-01T01:06:40.4100804\u002B08:00 [WatcherStart] processEvents=True, fallback=5s",
+      "2026-10-01T01:06:41.2464956\u002B08:00 [ManagedLaunchSession] Fixture AI, session=0149e4af309241f0a2cad13e80b3e6fd",
+      "2026-10-01T01:06:41.3259906\u002B08:00 [FIRST_VISUAL] Fixture AI, mode=optimized, latency=104.9ms",
+      "2026-10-01T01:06:42.2771469\u002B08:00 [FIRST_FRAME] Fixture AI, hostElapsed=1026ms",
+      "2026-10-01T01:06:42.8106533\u002B08:00 [Diagnostics] asynchronous checks completed",
+      "2026-10-01T01:06:43.5486069\u002B08:00 [WindowPresentation] Fixture AI, Maximize, hwnd=2429360",
+      "2026-10-01T01:06:43.5497617\u002B08:00 [Ready] Fixture AI",
+      "2026-10-01T01:06:45.3500627\u002B08:00 [WEB_READY] Fixture AI, latency=4099ms",
+      "2026-10-01T01:06:50.4985761\u002B08:00 [BOOT_INTRO_FINISHED] Fixture AI, hostElapsed=9247ms",
+      "2026-10-01T01:06:57.0371629\u002B08:00 [CHOREOGRAPHY_COMPLETE] Fixture AI, hostElapsed=15786ms",
+      "2026-10-01T01:06:57.0382227\u002B08:00 [TARGET_READY] Fixture AI, hostElapsed=15787ms",
+      "2026-10-01T01:06:57.6384241\u002B08:00 [WindowPresentation] Fixture AI, Maximize, hwnd=2429360",
+      "2026-10-01T01:06:57.9296230\u002B08:00 [ANIMATION_FINISHED] Fixture AI, hostElapsed=16678ms",
+      "2026-10-01T01:06:58.0350837\u002B08:00 [AnimationExited] Fixture AI, elapsed=16784ms",
+      "2026-10-01T01:07:01.6200736\u002B08:00 [TargetStopped] Fixture AI, pids=1, windows=0"
+    ]
+  }
+]

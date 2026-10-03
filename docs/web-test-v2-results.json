@@ -1,0 +1,694 @@
+[
+  {
+    "name": "Original nine phases / nine windows / 47 nodes / no early handoff",
+    "pass": true,
+    "modules": [
+      {
+        "name": "ACCESS AUTHORIZATION",
+        "at": 5913
+      },
+      {
+        "name": "LINK MONITOR",
+        "at": 6424
+      },
+      {
+        "name": "SIGNAL POLLUTION",
+        "at": 6657
+      },
+      {
+        "name": "AUTH BYPASS INJECTION",
+        "at": 7241
+      },
+      {
+        "name": "OVERRIDE CONTROLLER",
+        "at": 7826
+      },
+      {
+        "name": "ANOMALY · UAV-07",
+        "at": 8081
+      },
+      {
+        "name": "ANOMALY · UAV-23",
+        "at": 8715
+      },
+      {
+        "name": "OVERRIDE SUMMARY",
+        "at": 9571
+      },
+      {
+        "name": "EMERGENCY DISARM",
+        "at": 9985
+      }
+    ],
+    "events": [
+      {
+        "type": "CORE_INITIALIZING",
+        "detail": "",
+        "at": 222
+      },
+      {
+        "type": "LOGO_BEGIN",
+        "detail": "",
+        "at": 1422
+      },
+      {
+        "type": "HUD_VISIBLE",
+        "detail": "",
+        "at": 5375
+      },
+      {
+        "type": "BOOT_INTRO_FINISHED",
+        "detail": "",
+        "at": 5376
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "BOOT",
+        "at": 5381
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "AUTH",
+        "at": 5787
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "ACCESS AUTHORIZATION",
+        "at": 5913
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "LINK",
+        "at": 6044
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "LINK MONITOR",
+        "at": 6424
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "SIGNAL POLLUTION",
+        "at": 6657
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "TUNNEL",
+        "at": 6791
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "AUTH BYPASS INJECTION",
+        "at": 7241
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "ISOLATE",
+        "at": 7366
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "REWRITE",
+        "at": 7821
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "OVERRIDE CONTROLLER",
+        "at": 7826
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "ANOMALY · UAV-07",
+        "at": 8081
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "ANOMALY · UAV-23",
+        "at": 8715
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "OVERRIDE SUMMARY",
+        "at": 9571
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "VERIFY",
+        "at": 9571
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "ARM",
+        "at": 9905
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "EMERGENCY DISARM",
+        "at": 9985
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "FINISH",
+        "at": 10781
+      },
+      {
+        "type": "CHOREOGRAPHY_COMPLETE",
+        "detail": "",
+        "at": 11745
+      },
+      {
+        "type": "TARGET_READY",
+        "detail": "",
+        "at": 11745
+      },
+      {
+        "type": "INTERFACE_HANDOFF",
+        "detail": "",
+        "at": 12346
+      },
+      {
+        "type": "REQUEST_FADE",
+        "detail": "",
+        "at": 12346
+      }
+    ],
+    "nodes": 47
+  },
+  {
+    "name": "Waiting loop holds final mother state and plays no repeated sounds",
+    "pass": true,
+    "waitMs": 1600,
+    "events": [
+      {
+        "type": "CORE_INITIALIZING",
+        "detail": "",
+        "at": 53
+      },
+      {
+        "type": "LOGO_BEGIN",
+        "detail": "",
+        "at": 1238
+      },
+      {
+        "type": "HUD_VISIBLE",
+        "detail": "",
+        "at": 5192
+      },
+      {
+        "type": "BOOT_INTRO_FINISHED",
+        "detail": "",
+        "at": 5192
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "BOOT",
+        "at": 5197
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "AUTH",
+        "at": 5603
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "ACCESS AUTHORIZATION",
+        "at": 5728
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "LINK",
+        "at": 5868
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "LINK MONITOR",
+        "at": 6250
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "SIGNAL POLLUTION",
+        "at": 6480
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "TUNNEL",
+        "at": 6611
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "AUTH BYPASS INJECTION",
+        "at": 7061
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "ISOLATE",
+        "at": 7186
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "REWRITE",
+        "at": 7626
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "OVERRIDE CONTROLLER",
+        "at": 7631
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "ANOMALY · UAV-07",
+        "at": 7857
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "ANOMALY · UAV-23",
+        "at": 8491
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "OVERRIDE SUMMARY",
+        "at": 9352
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "VERIFY",
+        "at": 9352
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "ARM",
+        "at": 9676
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "EMERGENCY DISARM",
+        "at": 9756
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "FINISH",
+        "at": 10537
+      },
+      {
+        "type": "CHOREOGRAPHY_COMPLETE",
+        "detail": "",
+        "at": 11500
+      },
+      {
+        "type": "WAITING_LOOP_READY",
+        "detail": "",
+        "at": 11500
+      },
+      {
+        "type": "TARGET_READY",
+        "detail": "",
+        "at": 13313
+      },
+      {
+        "type": "INTERFACE_HANDOFF",
+        "detail": "",
+        "at": 13914
+      },
+      {
+        "type": "REQUEST_FADE",
+        "detail": "",
+        "at": 13914
+      }
+    ],
+    "audio": [
+      {
+        "key": "POWER_ON",
+        "identity": "POWER_ON",
+        "at": 167.39999999850988
+      },
+      {
+        "key": "CORE_EXPAND",
+        "identity": "CORE_EXPAND",
+        "at": 449.19999999925494
+      },
+      {
+        "key": "PROCESS_DETECTED",
+        "identity": "PROCESS_DETECTED",
+        "at": 5331.79999999702
+      },
+      {
+        "key": "HUD_SCAN",
+        "identity": "HUD_SCAN",
+        "at": 5332
+      },
+      {
+        "key": "CHECK_OK",
+        "identity": "module:ACCESS AUTHORIZATION",
+        "at": 5861.199999999255
+      },
+      {
+        "key": "CHECK_OK",
+        "identity": "module:OVERRIDE CONTROLLER",
+        "at": 7745.599999997765
+      },
+      {
+        "key": "CHECK_OK",
+        "identity": "module:OVERRIDE SUMMARY",
+        "at": 9461.099999997765
+      },
+      {
+        "key": "TARGET_READY",
+        "identity": "TARGET_READY",
+        "at": 13427.39999999851
+      },
+      {
+        "key": "UNLOCK",
+        "identity": "UNLOCK",
+        "at": 14024.599999997765
+      }
+    ]
+  },
+  {
+    "name": "Shutdown silently preloads, then independently collapses on activation",
+    "pass": true,
+    "events": [
+      {
+        "type": "PRELOAD_READY",
+        "detail": "",
+        "at": 118
+      },
+      {
+        "type": "SHUTDOWN_BEGIN",
+        "detail": "",
+        "at": 0
+      },
+      {
+        "type": "MODULE_OFFLINE",
+        "detail": "#w-code",
+        "at": 1
+      },
+      {
+        "type": "MODULE_OFFLINE",
+        "detail": "#w-tele",
+        "at": 314
+      },
+      {
+        "type": "MODULE_OFFLINE",
+        "detail": "#w-node",
+        "at": 627
+      },
+      {
+        "type": "HUD_OFFLINE",
+        "detail": "",
+        "at": 940
+      },
+      {
+        "type": "CRT_COLLAPSE",
+        "detail": "",
+        "at": 1625
+      },
+      {
+        "type": "POWER_OFF",
+        "detail": "",
+        "at": 2280
+      },
+      {
+        "type": "REQUEST_FADE",
+        "detail": "",
+        "at": 2731
+      }
+    ]
+  },
+  {
+    "name": "Cancel preload releases silently",
+    "pass": true
+  },
+  {
+    "name": "Palette movie_red",
+    "pass": true,
+    "primary": "#e05030"
+  },
+  {
+    "name": "Palette amber",
+    "pass": true,
+    "primary": "#e8a020"
+  },
+  {
+    "name": "Palette green",
+    "pass": true,
+    "primary": "#82ba6b"
+  },
+  {
+    "name": "Palette cyan",
+    "pass": true,
+    "primary": "#57a9b1"
+  },
+  {
+    "name": "Palette white",
+    "pass": true,
+    "primary": "#b5b9bc"
+  },
+  {
+    "name": "Uniform canvas / browser DPI 1",
+    "pass": true,
+    "width": 1365.33349609375,
+    "height": 768,
+    "nodes": 47
+  },
+  {
+    "name": "Uniform canvas / browser DPI 1.25",
+    "pass": true,
+    "width": 1365.33349609375,
+    "height": 768,
+    "nodes": 47
+  },
+  {
+    "name": "Uniform canvas / browser DPI 1.5",
+    "pass": true,
+    "width": 1365.33349609375,
+    "height": 768,
+    "nodes": 47
+  },
+  {
+    "name": "Uniform canvas / browser DPI 2",
+    "pass": true,
+    "width": 1365.33349609375,
+    "height": 768,
+    "nodes": 47
+  },
+  {
+    "name": "Mute removes all SFX and voice",
+    "pass": true
+  },
+  {
+    "name": "Independent switches: voice can stay disabled with SFX on",
+    "pass": true
+  },
+  {
+    "name": "Missing local audio and custom core fall back without FATAL",
+    "pass": true
+  },
+  {
+    "name": "Repeated activation cannot repeat shutdown or relay sounds",
+    "pass": true
+  },
+  {
+    "name": "Escape emergency skip",
+    "pass": true
+  },
+  {
+    "name": "Click skip remains opt-in",
+    "pass": true
+  },
+  {
+    "name": "Watchdog releases a stalled boot",
+    "pass": true
+  },
+  {
+    "name": "MinimumBootDuration remains an absolute floor at a faster theme speed",
+    "pass": true,
+    "events": [
+      {
+        "type": "CORE_INITIALIZING",
+        "detail": "",
+        "at": 43
+      },
+      {
+        "type": "LOGO_BEGIN",
+        "detail": "",
+        "at": 342
+      },
+      {
+        "type": "HUD_VISIBLE",
+        "detail": "",
+        "at": 1333
+      },
+      {
+        "type": "BOOT_INTRO_FINISHED",
+        "detail": "",
+        "at": 1333
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "BOOT",
+        "at": 1339
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "AUTH",
+        "at": 1658
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "ACCESS AUTHORIZATION",
+        "at": 1738
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "LINK",
+        "at": 1866
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "LINK MONITOR",
+        "at": 2244
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "SIGNAL POLLUTION",
+        "at": 2474
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "TUNNEL",
+        "at": 2605
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "AUTH BYPASS INJECTION",
+        "at": 3004
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "ISOLATE",
+        "at": 3122
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "REWRITE",
+        "at": 3515
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "OVERRIDE CONTROLLER",
+        "at": 3520
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "ANOMALY · UAV-07",
+        "at": 3690
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "ANOMALY · UAV-23",
+        "at": 4056
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "OVERRIDE SUMMARY",
+        "at": 4561
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "VERIFY",
+        "at": 4562
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "ARM",
+        "at": 4874
+      },
+      {
+        "type": "MAJOR_MODULE",
+        "detail": "EMERGENCY DISARM",
+        "at": 4927
+      },
+      {
+        "type": "AUTHOR_PHASE",
+        "detail": "FINISH",
+        "at": 5604
+      },
+      {
+        "type": "CHOREOGRAPHY_COMPLETE",
+        "detail": "",
+        "at": 5875
+      },
+      {
+        "type": "WAITING_LOOP_READY",
+        "detail": "",
+        "at": 5875
+      },
+      {
+        "type": "TARGET_READY",
+        "detail": "",
+        "at": 8052
+      },
+      {
+        "type": "INTERFACE_HANDOFF",
+        "detail": "",
+        "at": 8203
+      },
+      {
+        "type": "REQUEST_FADE",
+        "detail": "",
+        "at": 8203
+      }
+    ]
+  },
+  {
+    "name": "Completed diagnostic sounds are one-shot per actual item",
+    "pass": true
+  },
+  {
+    "name": "Voice-only mode substitutes app name and keeps its own volume",
+    "pass": true,
+    "said": [
+      {
+        "text": "DeepSeek interface ready",
+        "volume": 0.3700000047683716
+      }
+    ],
+    "sounds": []
+  },
+  {
+    "name": "Voice queue serializes requests and de-duplicates repeated events",
+    "pass": true,
+    "requests": [
+      "BOOT",
+      "CORE",
+      "NETWORK"
+    ],
+    "max": 1
+  },
+  {
+    "name": "Startup and shutdown voice flags work independently",
+    "pass": true
+  },
+  {
+    "name": "Audio disposal stops queued machine voice requests",
+    "pass": true
+  },
+  {
+    "name": "Rendered offline machine voice uses the independent HTML Audio volume",
+    "pass": true,
+    "played": [
+      {
+        "url": "https://audio.550w.local/tts/generated.wav",
+        "volume": 0.42
+      }
+    ],
+    "active": 0,
+    "sounds": 0
+  },
+  {
+    "name": "Final Ready voice completes before interface handoff",
+    "pass": true,
+    "ready": 5078,
+    "handoff": 6880
+  }
+]

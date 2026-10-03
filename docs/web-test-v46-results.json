@@ -1,0 +1,26 @@
+[
+  {
+    "pass": true,
+    "nativeElapsedMs": 0,
+    "rootSamples": 1291,
+    "allRootLayersStable": true,
+    "hudFirstVisibleAfterRevealMs": 11,
+    "hudMonotonicReveal": true,
+    "hudWindows": 9,
+    "nodes": 47,
+    "handoffCompleted": true,
+    "errors": []
+  },
+  {
+    "pass": true,
+    "nativeElapsedMs": 4400,
+    "rootSamples": 1169,
+    "allRootLayersStable": true,
+    "hudFirstVisibleAfterRevealMs": 10,
+    "hudMonotonicReveal": true,
+    "hudWindows": 9,
+    "nodes": 47,
+    "handoffCompleted": true,
+    "errors": []
+  }
+]

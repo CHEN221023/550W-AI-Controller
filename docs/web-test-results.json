@@ -1,0 +1,265 @@
+[
+  {
+    "test": "ready-after-2s",
+    "pass": true,
+    "elapsed": 4203,
+    "events": [
+      {
+        "type": "CORE_INITIALIZING",
+        "at": 143
+      },
+      {
+        "type": "BOOT_INTRO_FINISHED",
+        "at": 1532
+      },
+      {
+        "type": "TARGET_READY",
+        "at": 3597
+      },
+      {
+        "type": "INTERFACE_HANDOFF",
+        "at": 4199
+      },
+      {
+        "type": "REQUEST_FADE",
+        "at": 4200
+      }
+    ]
+  },
+  {
+    "test": "ready-after-5s",
+    "pass": true,
+    "elapsed": 5754,
+    "events": [
+      {
+        "type": "CORE_INITIALIZING",
+        "at": 96
+      },
+      {
+        "type": "BOOT_INTRO_FINISHED",
+        "at": 1384
+      },
+      {
+        "type": "WAITING_LOOP_READY",
+        "at": 3573
+      },
+      {
+        "type": "TARGET_READY",
+        "at": 5149
+      },
+      {
+        "type": "INTERFACE_HANDOFF",
+        "at": 5750
+      },
+      {
+        "type": "REQUEST_FADE",
+        "at": 5750
+      }
+    ]
+  },
+  {
+    "test": "ready-after-15s",
+    "pass": true,
+    "elapsed": 15666,
+    "events": [
+      {
+        "type": "CORE_INITIALIZING",
+        "at": 96
+      },
+      {
+        "type": "BOOT_INTRO_FINISHED",
+        "at": 1392
+      },
+      {
+        "type": "WAITING_LOOP_READY",
+        "at": 3574
+      },
+      {
+        "type": "TARGET_READY",
+        "at": 15061
+      },
+      {
+        "type": "INTERFACE_HANDOFF",
+        "at": 15662
+      },
+      {
+        "type": "REQUEST_FADE",
+        "at": 15662
+      }
+    ]
+  },
+  {
+    "test": "diagnostic-sounds-once",
+    "pass": true,
+    "audioEvents": [
+      {
+        "key": "CORE_EXPAND",
+        "identity": "CORE_EXPAND",
+        "at": 211.5
+      },
+      {
+        "key": "POWER_ON",
+        "identity": "POWER_ON",
+        "at": 211.90000000037253
+      },
+      {
+        "key": "HUD_SCAN",
+        "identity": "HUD_SCAN",
+        "at": 1261.5999999996275
+      },
+      {
+        "key": "CHECK_OK",
+        "identity": "check:cpu",
+        "at": 1508.9000000003725
+      },
+      {
+        "key": "CHECK_OK",
+        "identity": "check:memory",
+        "at": 1508.9000000003725
+      },
+      {
+        "key": "CHECK_OK",
+        "identity": "check:gpu",
+        "at": 1508.9000000003725
+      },
+      {
+        "key": "CHECK_OK",
+        "identity": "check:local",
+        "at": 1508.9000000003725
+      },
+      {
+        "key": "CHECK_OK",
+        "identity": "check:dns",
+        "at": 1508.9000000003725
+      },
+      {
+        "key": "CHECK_OK",
+        "identity": "check:external",
+        "at": 1508.9000000003725
+      },
+      {
+        "key": "PROCESS_DETECTED",
+        "identity": "PROCESS_DETECTED",
+        "at": 2121.699999999255
+      },
+      {
+        "key": "TARGET_READY",
+        "identity": "TARGET_READY",
+        "at": 3688.5999999996275
+      }
+    ]
+  },
+  {
+    "test": "palette-amber",
+    "pass": true
+  },
+  {
+    "test": "palette-green",
+    "pass": true
+  },
+  {
+    "test": "palette-cyan",
+    "pass": true
+  },
+  {
+    "test": "palette-white",
+    "pass": true
+  },
+  {
+    "test": "independent-shutdown-audio",
+    "pass": true,
+    "events": [
+      {
+        "type": "SHUTDOWN_BEGIN",
+        "at": 89
+      },
+      {
+        "type": "HUD_OFFLINE",
+        "at": 1247
+      },
+      {
+        "type": "CRT_COLLAPSE",
+        "at": 1578
+      },
+      {
+        "type": "POWER_OFF",
+        "at": 2002
+      },
+      {
+        "type": "REQUEST_FADE",
+        "at": 2267
+      }
+    ],
+    "audioEvents": [
+      {
+        "key": "RELAY_OFF",
+        "identity": "relay:0",
+        "at": 223.2999999988824
+      },
+      {
+        "key": "SHUTDOWN_BEGIN",
+        "identity": "SHUTDOWN_BEGIN",
+        "at": 225.69999999925494
+      },
+      {
+        "key": "RELAY_OFF",
+        "identity": "relay:1",
+        "at": 406.09999999962747
+      },
+      {
+        "key": "RELAY_OFF",
+        "identity": "relay:2",
+        "at": 595.1999999992549
+      },
+      {
+        "key": "RELAY_OFF",
+        "identity": "relay:3",
+        "at": 785
+      },
+      {
+        "key": "RELAY_OFF",
+        "identity": "relay:4",
+        "at": 972.6999999992549
+      },
+      {
+        "key": "RELAY_OFF",
+        "identity": "relay:5",
+        "at": 1162.3999999985099
+      },
+      {
+        "key": "CRT_COLLAPSE",
+        "identity": "CRT_COLLAPSE",
+        "at": 1685.699999999255
+      },
+      {
+        "key": "POWER_OFF",
+        "identity": "POWER_OFF",
+        "at": 2110.5
+      }
+    ]
+  },
+  {
+    "test": "escape-during-intro",
+    "pass": true
+  },
+  {
+    "test": "click-skip-default-disabled",
+    "pass": true
+  },
+  {
+    "test": "click-skip-enabled",
+    "pass": true
+  },
+  {
+    "test": "javascript-watchdog",
+    "pass": true
+  },
+  {
+    "test": "javascript-failure-releases-overlay",
+    "pass": true
+  },
+  {
+    "test": "browser-125-percent-dpi",
+    "pass": true
+  }
+]

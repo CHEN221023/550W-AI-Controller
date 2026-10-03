@@ -1,0 +1,15 @@
+2026-10-01T01:33:50.7221189+08:00 [WatcherStart] processEvents=True, fallback=5s
+2026-10-01T01:33:51.4812814+08:00 [ManagedLaunchSession] Fixture AI, session=11cf81fa65bd4f53a7ad94fd220601c6
+2026-10-01T01:33:51.6800800+08:00 [FIRST_VISUAL] Fixture AI, mode=optimized, latency=224.4ms
+2026-10-01T01:33:52.6585176+08:00 [FIRST_FRAME] Fixture AI, hostElapsed=1173ms
+2026-10-01T01:33:53.3507238+08:00 [WindowPresentation] Fixture AI, Maximize, hwnd=857240
+2026-10-01T01:33:53.3519461+08:00 [Ready] Fixture AI
+2026-10-01T01:33:53.4935410+08:00 [Diagnostics] asynchronous checks completed
+2026-10-01T01:33:55.7888119+08:00 [WEB_READY] Fixture AI, latency=4303ms
+2026-10-01T01:34:00.9382529+08:00 [BOOT_INTRO_FINISHED] Fixture AI, hostElapsed=9452ms
+2026-10-01T01:34:07.6097134+08:00 [CHOREOGRAPHY_COMPLETE] Fixture AI, hostElapsed=16124ms
+2026-10-01T01:34:07.6107727+08:00 [TARGET_READY] Fixture AI, hostElapsed=16125ms
+2026-10-01T01:34:08.2117716+08:00 [WindowPresentation] Fixture AI, Maximize, hwnd=857240
+2026-10-01T01:34:08.5052511+08:00 [ANIMATION_FINISHED] Fixture AI, hostElapsed=17019ms
+2026-10-01T01:34:08.6310836+08:00 [AnimationExited] Fixture AI, elapsed=17145ms
+2026-10-01T01:34:11.5569630+08:00 [TargetStopped] Fixture AI, pids=1, windows=0

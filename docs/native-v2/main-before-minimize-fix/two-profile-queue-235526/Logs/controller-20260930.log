@@ -1,0 +1,25 @@
+2026-09-30T23:55:27.2683183+08:00 [WatcherStart] processEvents=True, fallback=5s
+2026-09-30T23:55:28.5294504+08:00 [BootTrigger] Fixture AI, pids=1, windows=1
+2026-09-30T23:55:28.6065045+08:00 [FIRST_VISUAL] Fixture AI, mode=passive, latency=74.6ms
+2026-09-30T23:55:28.7901328+08:00 [BootTrigger] Fixture B, pids=2, windows=1
+2026-09-30T23:55:29.5060493+08:00 [FIRST_FRAME] Fixture AI, hostElapsed=973ms
+2026-09-30T23:55:29.7879067+08:00 [Ready] Fixture AI
+2026-09-30T23:55:30.1291346+08:00 [Diagnostics] asynchronous checks completed
+2026-09-30T23:55:32.5117240+08:00 [WEB_READY] Fixture AI, latency=3978ms
+2026-09-30T23:55:37.6718884+08:00 [BOOT_INTRO_FINISHED] Fixture AI, hostElapsed=9138ms
+2026-09-30T23:55:44.2510824+08:00 [CHOREOGRAPHY_COMPLETE] Fixture AI, hostElapsed=15718ms
+2026-09-30T23:55:44.2520517+08:00 [TARGET_READY] Fixture AI, hostElapsed=15719ms
+2026-09-30T23:55:45.1491434+08:00 [ANIMATION_FINISHED] Fixture AI, hostElapsed=16616ms
+2026-09-30T23:55:45.2673504+08:00 [AnimationExited] Fixture AI, elapsed=16734ms
+2026-09-30T23:55:45.3876355+08:00 [FIRST_VISUAL] Fixture B, mode=passive, latency=16596.3ms
+2026-09-30T23:55:46.2742698+08:00 [FIRST_FRAME] Fixture B, hostElapsed=905ms
+2026-09-30T23:55:46.5567596+08:00 [Ready] Fixture B
+2026-09-30T23:55:46.9213184+08:00 [Diagnostics] asynchronous checks completed
+2026-09-30T23:55:49.2764017+08:00 [WEB_READY] Fixture B, latency=3907ms
+2026-09-30T23:55:54.4297809+08:00 [BOOT_INTRO_FINISHED] Fixture B, hostElapsed=9060ms
+2026-09-30T23:56:01.0393508+08:00 [CHOREOGRAPHY_COMPLETE] Fixture B, hostElapsed=15670ms
+2026-09-30T23:56:01.0405450+08:00 [TARGET_READY] Fixture B, hostElapsed=15671ms
+2026-09-30T23:56:01.9406832+08:00 [ANIMATION_FINISHED] Fixture B, hostElapsed=16571ms
+2026-09-30T23:56:02.0425206+08:00 [AnimationExited] Fixture B, elapsed=16673ms
+2026-09-30T23:56:05.1325565+08:00 [TargetStopped] Fixture AI, pids=2, windows=0
+2026-09-30T23:56:05.9275013+08:00 [TargetStopped] Fixture B, pids=2, windows=0

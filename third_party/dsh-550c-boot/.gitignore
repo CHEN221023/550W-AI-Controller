@@ -1,0 +1,9 @@
+node_modules/
+
+# 验证脚手架：里面有从 app.asar 取出的 DSH 包文件、浏览器 profile 和一次性截图，
+# 都不该进仓库。对外展示的截图在 docs/。
+.verify/
+
+*.log
+.DS_Store
+Thumbs.db

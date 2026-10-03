@@ -1,0 +1,26 @@
+{
+  "pass": true,
+  "checks": [
+    "Unchanged V4.5 native pixels: 01-initial",
+    "Unchanged V4.5 native pixels: 02-idle",
+    "Unchanged V4.5 native pixels: 03-reveal",
+    "Unchanged V4.5 native pixels: 04-logo",
+    "No black frame in 265 native frames through delayed 4400ms WebView readiness",
+    "HUD already complete at configured crossfade end and remains until web commit",
+    "Original HUD appears during particle crossfade, not after a delay",
+    "Zero-duration transition preserves original HUD palette: movie_red",
+    "Zero-duration transition preserves original HUD palette: green",
+    "Zero-duration transition preserves original HUD palette: cyan",
+    "Zero-duration transition preserves original HUD palette: white",
+    "Zero-duration transition preserves original HUD palette: amber",
+    "Buffered native paint preserves a complete frame across 12 backdrop repaints",
+    "Buffered surface released; repeated close is safe",
+    "Baseline help hover reproduces NotSupportedException notification trigger",
+    "20 hover/click/dismiss cycles cause no exception and no generic error notification",
+    "ToolTipService owns normal dismissal; help remains usable"
+  ],
+  "hudStartMs": 1725,
+  "hudCompleteMs": 1800,
+  "lateWebviewMs": 4400,
+  "desktopWindowsShown": 0
+}

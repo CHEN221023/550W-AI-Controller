@@ -1,0 +1,12 @@
+# Bundle patch for dsh-550c-boot.
+#
+# This is what makes the package a PROFILE LAYER rather than an inert
+# dependency: the row below mounts the plugin, and the package's `dsh.client`
+# block (package.json) is what gets the browser half served and loaded.
+#
+# A package that declares only `dsh.client` is not installable — the plugin
+# market's own submission gate rejects it with "declares only dsh.client —
+# that alone is not installable". Both blocks are required.
+- insert:
+    - id: boot-550c
+      name: dsh-550c-boot

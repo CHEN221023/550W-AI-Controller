@@ -1,0 +1,12 @@
+{
+  "version": "3.0.0",
+  "unitTests": 59,
+  "webTests": 31,
+  "uiAndExportChecks": 28,
+  "desktopWindowsShown": 0,
+  "realClientTestsThisRound": false,
+  "nativeDpiAndMultiMonitorThisRound": false,
+  "originalMarkupPreserved": true,
+  "backupFolder": "backup-pre-v3",
+  "extraDirectExeSmoke": "blocked by environment; actual service verified internally"
+}

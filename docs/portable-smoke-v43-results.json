@@ -1,0 +1,16 @@
+{
+  "pass": true,
+  "exitCode": 0,
+  "fileVersion": "4.3.0.0",
+  "productVersion": "4.3.0-beta",
+  "profileCount": 0,
+  "controllerStarted": true,
+  "controllerStopped": true,
+  "watcherStopped": true,
+  "errors": false,
+  "settingsWindowsShown": 0,
+  "targetAppsStarted": 0,
+  "fullscreenAnimations": 0,
+  "isolatedDataDirectory": true,
+  "log": "2026-10-02T17:23:23.0918911+08:00 [ControllerStart] level=INFO, \r\n2026-10-02T17:23:23.8380688+08:00 [ProcessEventsUnavailable] level=WARN, ManagementException\r\n2026-10-02T17:23:23.8415769+08:00 [WatcherStart] level=INFO, processEvents=False, fallback=5s\r\n2026-10-02T17:23:25.1806848+08:00 [WatcherStop] level=INFO, \r\n2026-10-02T17:23:25.1819286+08:00 [ControllerStop] level=INFO, \r\n"
+}

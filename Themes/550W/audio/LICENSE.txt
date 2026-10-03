@@ -1,0 +1,4 @@
+Original synthesized audio created for 550W AI Controller.
+Copyright (c) 2026 550W AI Controller contributors.
+Licensed under the MIT License in the distribution root.
+No film sound samples or actor recordings are included.

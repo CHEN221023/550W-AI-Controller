@@ -1,0 +1,16 @@
+{
+  "pass": true,
+  "exitCode": 0,
+  "fileVersion": "4.4.0.0",
+  "productVersion": "4.4.0-beta",
+  "profileCount": 0,
+  "controllerStarted": true,
+  "controllerStopped": true,
+  "watcherStopped": true,
+  "errors": false,
+  "settingsWindowsShown": 0,
+  "targetAppsStarted": 0,
+  "fullscreenAnimations": 0,
+  "isolatedDataDirectory": true,
+  "log": "2026-10-02T23:07:57.3124472+08:00 [ControllerStart] level=INFO, \r\n2026-10-02T23:07:58.1356924+08:00 [ProcessEventsUnavailable] level=WARN, ManagementException\r\n2026-10-02T23:07:58.1388931+08:00 [ProcessPollingFallback] level=WARN, configured process names only, interval=200ms\r\n2026-10-02T23:07:58.1408536+08:00 [WatcherStart] level=INFO, processEvents=False, fallback=5s\r\n2026-10-02T23:07:59.4999753+08:00 [WatcherStop] level=INFO, \r\n2026-10-02T23:07:59.5013302+08:00 [ControllerStop] level=INFO, \r\n"
+}

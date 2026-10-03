@@ -1,0 +1,13 @@
+{
+  "source": "../js/mother-assets.js:BOOT_MARKUP",
+  "sourceMarkupSha256": "be51c7b66832d6a6655477175ea1b08a29b9baf0707af459de5b5c9240cca2ee",
+  "renderedSvgSha256": "b2a5557baf2490d82291df0b0904f33e619d465af6fbc75e3b267ac9030e31e2",
+  "pngSha256": "155efffd64aeccace9a01590f781cd042769310308df7a42a06d0edfe9513e54",
+  "targetsSha256": "e24cbe2538d5d69765a3178ef8be7a7675f6a3d144b07a97dae416886fb1cf31",
+  "width": 800,
+  "height": 230,
+  "targetStep": 3,
+  "targetCount": 3365,
+  "coordinates": "logical 1920x1080; SVG offset x=560,y=425",
+  "renderer": "154.0.4258.48"
+}

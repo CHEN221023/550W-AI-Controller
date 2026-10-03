@@ -1,0 +1,34 @@
+:host{display:block;background:#000000;}
+.dsh550c-stage{position:relative;width:1920px;height:1080px;overflow:hidden;background:#000000;}
+/* Palette only: original panel positions, sizes, SVGs and overlaps are in mother-assets. */
+:host([data-scheme="movie_red"]){--amber:#e05030;--amber-b:#ff7050;--amber-d:#8f3625;--amber-fade:rgba(224,80,48,.35);--text:#cbb9af;--text-dim:#8c7368;--text-faint:#59443a;--red:#e05030;--red-b:#ff2d2d;--green:#b8c840;}
+:host([data-scheme="green"]){--amber:#82ba6b;--amber-b:#b4e69b;--amber-d:#55764c;--red:#b87965;--red-b:#e4a184;}
+:host([data-scheme="cyan"]){--amber:#57a9b1;--amber-b:#92d5de;--amber-d:#437579;--red:#bc8175;--red-b:#e7b09a;}
+:host([data-scheme="white"]){--amber:#b5b9bc;--amber-b:#e4e7e8;--amber-d:#74787c;--red:#b4978b;--red-b:#dec1b6;}
+.mechanical-core{position:absolute;left:50%;top:50%;width:250px;height:330px;z-index:10000;transform:translate(-50%,-50%);opacity:1;pointer-events:none;transition:opacity .28s ease;}
+.mechanical-core img{width:100%;height:100%;object-fit:contain;filter:brightness(.82);transition:filter .3s ease;}
+.mechanical-core.charged img{filter:brightness(1.16) drop-shadow(0 0 9px #ff2d2d42);}
+.mechanical-core.expanding img{filter:brightness(1) drop-shadow(0 0 15px #e0503040);}
+.mechanical-core.released{opacity:0;}
+.intro-particles{position:absolute;inset:0;width:1920px;height:1080px;z-index:10001;pointer-events:none;opacity:0;}
+.intro-logo{position:absolute;left:560px;top:425px;width:800px;height:230px;z-index:9999;visibility:hidden;}
+.intro-logo svg{width:100%;height:100%;overflow:visible;opacity:0;will-change:opacity;}
+.intro-logo .white{fill:#ffffff;stroke:none;}
+.intro-logo .red{fill:#ff2d2d;stroke:none;}
+.intro-active::before,.intro-active::after{display:none;}
+.composition-layer{background:#000000;position:absolute;inset:0;width:1920px;height:1080px;transform-origin:50% 50%;will-change:transform,opacity;}
+.dsh550c-stage.handoff{background:transparent;}
+/* The original CRT finish travels with the rendered frame during handoff. */
+:host::before,:host::after{display:none;}
+.composition-layer::before{content:"";position:absolute;inset:0;pointer-events:none;z-index:900;background:repeating-linear-gradient(to bottom,rgba(232,160,32,.04) 0,rgba(232,160,32,.04) 1px,transparent 1px,transparent 3px);}
+.composition-layer::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:899;background:radial-gradient(ellipse at center,transparent 45%,rgba(0,0,0,.85) 100%);}
+.power-point{position:absolute;left:50%;top:50%;width:5px;height:5px;background:#fff8ec;border-radius:50%;box-shadow:0 0 12px #ff7050;z-index:11000;transform:translate(-50%,-50%);}
+.dt .v.waiting{color:var(--text-dim);}
+.dt .v.online,.dt .v.stable,.dt .v.ready{color:var(--green);}
+.dt[data-real] .v{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+:host([data-scheme="movie_red"]) #hud-top,:host([data-scheme="movie_red"]) .w-head,:host([data-scheme="movie_red"]) .wp-title{background:linear-gradient(180deg,#1a100c,#0a0807);}
+:host([data-scheme="movie_red"]) .win-popup.danger .wp-title{background:linear-gradient(180deg,#2a0e08,#150805);}
+:host([data-scheme="movie_red"]) .win-popup.info .wp-title{background:linear-gradient(180deg,#08201c,#051210);}
+:host([data-scheme="movie_red"]) #final{box-shadow:0 0 80px rgba(224,80,48,.55),0 0 180px rgba(224,80,48,.22),inset 0 0 80px rgba(224,80,48,.08);text-shadow:0 0 14px rgba(224,80,48,.95),0 0 40px rgba(224,80,48,.6);}
+
+.intro-logo-raster{position:absolute;inset:0;width:800px;height:230px;opacity:0;will-change:opacity;}

@@ -1,0 +1,35 @@
+{
+  "name": "550W Industrial Terminal",
+  "author": "Voidpoket / Ziyang Song / 550W Controller contributors",
+  "version": "4.6.0-beta",
+  "bootPage": "boot.html",
+  "shutdownPage": "shutdown.html",
+  "defaultDuration": 4000,
+  "supportsDiagnostics": true,
+  "colorProfiles": [
+    "movie_red",
+    "amber",
+    "green",
+    "cyan",
+    "white"
+  ],
+  "audioEnabled": true,
+  "voiceEnabled": true,
+  "audioFiles": {
+    "CORE_EXPAND": "audio/core_expand.wav",
+    "HUD_SCAN": "audio/scan.wav",
+    "CHECK_OK": "audio/check_ok.wav",
+    "PROCESS_DETECTED": "audio/process_detected.wav",
+    "TARGET_READY": "audio/ready.wav",
+    "UNLOCK": "audio/unlock.wav",
+    "SHUTDOWN_BEGIN": "audio/shutdown_begin.wav",
+    "RELAY_OFF": "audio/relay_off.wav",
+    "CRT_COLLAPSE": "audio/crt_collapse.wav",
+    "POWER_OFF": "audio/power_off.wav"
+  },
+  "voiceProfile": {
+    "engine": "eSpeak NG offline / optional installed Windows SAPI",
+    "language": "zh-CN",
+    "copyright": "Generic offline machine synthesis, GPL-3.0-or-later eSpeak NG. Optional installed system voices. No movie recordings distributed."
+  }
+}

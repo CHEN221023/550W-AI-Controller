@@ -1,0 +1,2 @@
+html,body,#screen{height:100%;width:100%;margin:0;overflow:hidden;background:#000000}body{user-select:none}#screen{position:fixed;inset:0}.controller-host{position:absolute;left:50%;top:50%;transform-origin:50% 50%;}
+html.handoff,html.handoff body,html.handoff #screen{background:transparent}

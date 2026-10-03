@@ -1,0 +1,363 @@
+{
+  "version": "V4.5 Beta",
+  "productVersion": "4.5.0-beta",
+  "releaseBuild": "PASS",
+  "unitChecks": {
+    "total": "29",
+    "executed": "29",
+    "passed": "29",
+    "failed": "0",
+    "error": "0",
+    "timeout": "0",
+    "aborted": "0",
+    "inconclusive": "0",
+    "passedButRunAborted": "0",
+    "notRunnable": "0",
+    "notExecuted": "0",
+    "disconnected": "0",
+    "warning": "0",
+    "completed": "0",
+    "inProgress": "0",
+    "pending": "0"
+  },
+  "hiddenUiChecks": {
+    "pass": true,
+    "checks": [
+      "Three distinct bound timings exist in global/independent controls",
+      "Deprecated regroup/robot timing fields are absent",
+      "Later effective animation fields retained",
+      "Three timing labels use unambiguous Chinese",
+      "Timing help explains subtraction and concurrent preparation",
+      "Timing multiplier is explained",
+      "Three distinct bound timings exist in global/independent controls",
+      "Deprecated regroup/robot timing fields are absent",
+      "Later effective animation fields retained",
+      "Three timing labels use unambiguous Chinese",
+      "Timing help explains subtraction and concurrent preparation",
+      "Timing multiplier is explained",
+      "Invalid global combination blocks save with clear Chinese message",
+      "Invalid global input is not silently changed",
+      "Equal total/idle blocks independent save and names application",
+      "Invalid combination blocks bulk apply before confirmation dialog",
+      "Valid exact new timings reach save callback",
+      "No desktop settings window displayed"
+    ],
+    "desktopWindowsShown": 0
+  },
+  "webChecks": [
+    {
+      "name": "three exact deadlines, mild motion, zero hold, multiplier and invalid combinations",
+      "pass": true,
+      "records": [
+        {
+          "idle": 100,
+          "total": 400,
+          "hold": 200,
+          "multiplier": 1,
+          "regroupMs": 300,
+          "events": [
+            {
+              "type": "PARTICLE_RESIDUE",
+              "time": 0
+            },
+            {
+              "type": "LOGO_ASSEMBLING",
+              "time": 100
+            },
+            {
+              "type": "LOGO_BEGIN",
+              "time": 100
+            },
+            {
+              "type": "LOGO_HOLD",
+              "time": 400
+            },
+            {
+              "type": "LOGO_BURST",
+              "time": 600
+            }
+          ]
+        },
+        {
+          "idle": 500,
+          "total": 1000,
+          "hold": 450,
+          "multiplier": 1,
+          "regroupMs": 500,
+          "events": [
+            {
+              "type": "PARTICLE_RESIDUE",
+              "time": 0
+            },
+            {
+              "type": "LOGO_ASSEMBLING",
+              "time": 500
+            },
+            {
+              "type": "LOGO_BEGIN",
+              "time": 500
+            },
+            {
+              "type": "LOGO_HOLD",
+              "time": 1000
+            },
+            {
+              "type": "LOGO_BURST",
+              "time": 1450
+            }
+          ]
+        },
+        {
+          "idle": 1000,
+          "total": 1800,
+          "hold": 300,
+          "multiplier": 1,
+          "regroupMs": 800,
+          "events": [
+            {
+              "type": "PARTICLE_RESIDUE",
+              "time": 0
+            },
+            {
+              "type": "LOGO_ASSEMBLING",
+              "time": 1000
+            },
+            {
+              "type": "LOGO_BEGIN",
+              "time": 1000
+            },
+            {
+              "type": "LOGO_HOLD",
+              "time": 1800
+            },
+            {
+              "type": "LOGO_BURST",
+              "time": 2100
+            }
+          ]
+        },
+        {
+          "idle": 1500,
+          "total": 2100,
+          "hold": 0,
+          "multiplier": 1,
+          "regroupMs": 600,
+          "events": [
+            {
+              "type": "PARTICLE_RESIDUE",
+              "time": 0
+            },
+            {
+              "type": "LOGO_ASSEMBLING",
+              "time": 1500
+            },
+            {
+              "type": "LOGO_BEGIN",
+              "time": 1500
+            },
+            {
+              "type": "LOGO_HOLD",
+              "time": 2100
+            },
+            {
+              "type": "LOGO_BURST",
+              "time": 2100
+            }
+          ]
+        },
+        {
+          "idle": 500,
+          "total": 1000,
+          "hold": 450,
+          "multiplier": 0.75,
+          "regroupMs": 375,
+          "events": [
+            {
+              "type": "PARTICLE_RESIDUE",
+              "time": 0
+            },
+            {
+              "type": "LOGO_ASSEMBLING",
+              "time": 375
+            },
+            {
+              "type": "LOGO_BEGIN",
+              "time": 375
+            },
+            {
+              "type": "LOGO_HOLD",
+              "time": 750
+            },
+            {
+              "type": "LOGO_BURST",
+              "time": 1087.5
+            }
+          ]
+        },
+        {
+          "idle": 100,
+          "total": 101,
+          "hold": 0,
+          "multiplier": 1,
+          "regroupMs": 1,
+          "events": [
+            {
+              "type": "PARTICLE_RESIDUE",
+              "time": 0
+            },
+            {
+              "type": "LOGO_ASSEMBLING",
+              "time": 100
+            },
+            {
+              "type": "LOGO_BEGIN",
+              "time": 100
+            },
+            {
+              "type": "LOGO_HOLD",
+              "time": 101
+            },
+            {
+              "type": "LOGO_BURST",
+              "time": 101
+            }
+          ]
+        }
+      ],
+      "invalidRejected": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "late web preparation continues native time instead of restarting idle",
+      "pass": true,
+      "lateAttachMs": 750,
+      "completeAt": 1000,
+      "burstAt": 1450
+    },
+    {
+      "name": "original 550C and later particle burst/HUD fade remain pixel-identical",
+      "pass": true,
+      "comparisons": [
+        {
+          "name": "initial",
+          "particleHash": "ce77b11e0211f4ff76f6cd049604791f172cb332702c271c94cd93915b68f56c"
+        },
+        {
+          "name": "logo-complete",
+          "particleHash": "cd6c7a7a75babee806b588a78f3501588f0b04bbf8b6c567a3b8f009ad43f2a9"
+        },
+        {
+          "name": "burst",
+          "particleHash": "86cb413df2a07dbbe4b3c2c8a7b50d3de547ab87c75010d453919c044d049bf9"
+        },
+        {
+          "name": "hud-crossfade",
+          "particleHash": "21896b60fa25f4cfd525453fd91af3bfc2b176fcd21a895b87f6838519526735"
+        }
+      ]
+    },
+    {
+      "name": "full boot with blocked audio uses elapsed clock; HUD/handoff complete",
+      "pass": true,
+      "firstWebPhase": "LOGO_ASSEMBLING",
+      "logoCompleteAfterAttachMs": 1350,
+      "burstAfterAttachMs": 1800,
+      "nodes": 47,
+      "windows": 9,
+      "errors": []
+    }
+  ],
+  "nativeChecks": {
+    "passed": 12,
+    "idleMs": 500,
+    "totalMs": 1000,
+    "holdMs": 450,
+    "targetCount": 3365,
+    "drawMeanMs": 1.632207
+  },
+  "portableSmoke": {
+    "pass": true,
+    "exitCode": 0,
+    "fileVersion": "4.5.0.0",
+    "productVersion": "4.5.0-beta",
+    "profileCount": 0,
+    "controllerStarted": true,
+    "controllerStopped": true,
+    "watcherStopped": true,
+    "errors": false,
+    "settingsWindowsShown": 0,
+    "targetAppsStarted": 0,
+    "fullscreenAnimations": 0,
+    "isolatedDataDirectory": true,
+    "log": "2026-10-03T21:09:43.8880731+08:00 [ControllerStart] level=INFO, \r\n2026-10-03T21:09:44.6718876+08:00 [ProcessEventsUnavailable] level=WARN, ManagementException\r\n2026-10-03T21:09:44.6752795+08:00 [ProcessPollingFallback] level=WARN, configured process names only, interval=200ms\r\n2026-10-03T21:09:44.6771670+08:00 [WatcherStart] level=INFO, processEvents=False, fallback=5s\r\n2026-10-03T21:09:46.0267304+08:00 [WatcherStop] level=INFO, \r\n2026-10-03T21:09:46.0280407+08:00 [ControllerStop] level=INFO, \r\n"
+  },
+  "desktopAcceptance": "Not run this patch; no target app or fullscreen tests",
+  "originalHistoryRestored": {
+    "V4.0 Beta": {
+      "sourceArchive": "550W-AI-Controller-V4-Source.zip",
+      "originalEntriesRetained": 5
+    },
+    "V4.1 Beta": {
+      "sourceArchive": "550W-AI-Controller-V4.1-Source.zip",
+      "originalEntriesRetained": 5
+    }
+  },
+  "olderBetaEntriesUnchanged": [
+    "V4.2",
+    "V4.3",
+    "V4.4"
+  ],
+  "originalBootShutdownHandoffFunctionBodiesUnchanged": true,
+  "logoCache": {
+    "source": "../js/mother-assets.js:BOOT_MARKUP",
+    "sourceMarkupSha256": "be51c7b66832d6a6655477175ea1b08a29b9baf0707af459de5b5c9240cca2ee",
+    "renderedSvgSha256": "b2a5557baf2490d82291df0b0904f33e619d465af6fbc75e3b267ac9030e31e2",
+    "pngSha256": "155efffd64aeccace9a01590f781cd042769310308df7a42a06d0edfe9513e54",
+    "targetsSha256": "e24cbe2538d5d69765a3178ef8be7a7675f6a3d144b07a97dae416886fb1cf31",
+    "width": 800,
+    "height": 230,
+    "targetStep": 3,
+    "targetCount": 3365,
+    "coordinates": "logical 1920x1080; SVG offset x=560,y=425",
+    "renderer": "154.0.4258.48"
+  },
+  "protectedFiles": {
+    "Themes/550W/assets/core.png": "51a26921618ac45089320b03ed1ae3bc76538bfbca5709ecd1fa4f18266d833c",
+    "Themes/550W/js/mother-assets.js": "db474577e105d401abc5620bc36eebb6a1b06322ba3dbe2f178e157bbe3d0591",
+    "Themes/550W/js/mother-show.js": "7557dc5bcc0762ac374170fa81c9fa93d8b7d9aaf0040bd704413b420f2953a3",
+    "Themes/550W/js/audio.js": "c6f184dd294b63f8e7ff3fab9c7ffce9d568508d5d5adf709d1caca3aec6a697",
+    "Themes/550W/css/controller.css": "b46d7a82e87ad67b7f7e0c39f5f5a36134c29cbc6c0c377369a3c0e33dce029e",
+    "src/Shared/OverlayCoverGuard.cs": "ba4178bf71f6dd042c6bc0eaf99b1e174ee9851aa1fda7f6692a5056aed32278",
+    "src/550W.Controller/Services/ApplicationMonitor.cs": "6f5c59cfdaa0a6a37bb013abdc95de1daea1c35e5f4227b4edfae26e2dbb325c",
+    "src/550W.Controller/Services/ProcessMonitor.cs": "9ea3739adc1d551fdc9dd890caf42dbdafb18ae397bb3491f20fb7e30911f23b",
+    "src/550W.Controller/Services/OptimizedLaunchService.cs": "abb50af9454214aab40f89dce6a024d837cad5abfb2231250efa074232e20dcc",
+    "src/550W.Controller/Native/WindowProbe.cs": "c7ca612649faa6523a4df6c97b77f594733a463b1ff99b56513d1c5cde7ccf5c",
+    "src/550W.Controller/Native/WindowPresentationService.cs": "fd04b379bc23a4d9f8fccbf9ff90c5804cbf929f6a4adc1d07845bd4e6fda9d2",
+    "src/550W.Controller/Services/AnimationHostSession.cs": "f16be707ace64b174a896e8b8ad1a245b51d294770d84a85ed7e4ea566ea3029"
+  },
+  "changedExistingSourceFiles": [
+    "Build.ps1",
+    "CHANGELOG.md",
+    "Directory.Build.props",
+    "package.json",
+    "README.md",
+    "src/550W.Animation/AnimationWindow.cs",
+    "src/550W.Controller/Services/AnimationCoordinator.cs",
+    "src/550W.Controller/Services/ProductChangelog.cs",
+    "src/550W.Controller/Views/FirstFrameWindow.cs",
+    "src/550W.Controller/Views/SettingsWindow.cs",
+    "src/550W.Core/ConfigStore.cs",
+    "src/550W.Core/Models.cs",
+    "src/550W.Core/ProfileSettingsResolver.cs",
+    "src/Shared/ParticleFirstFrame.cs",
+    "TEST-REPORT.md",
+    "tests/550W.Tests/ConfigurationTests.cs",
+    "tests/550W.Tests/V3ConfigurationTests.cs",
+    "Themes/550W/js/controller.js",
+    "Themes/550W/js/intro.js",
+    "Themes/550W/theme.json"
+  ],
+  "unchangedExistingSourceFiles": 759
+}

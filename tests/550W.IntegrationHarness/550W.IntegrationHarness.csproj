@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup><OutputType>WinExe</OutputType><TargetFramework>net8.0-windows</TargetFramework><UseWPF>true</UseWPF><ImplicitUsings>enable</ImplicitUsings><AssemblyName>550W.IntegrationHarness</AssemblyName></PropertyGroup>
+ <ItemGroup><ProjectReference Include="../../src/550W.Core/550W.Core.csproj"/></ItemGroup>
+</Project>

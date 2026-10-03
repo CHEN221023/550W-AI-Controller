@@ -1,0 +1,7 @@
+2026-09-30T23:59:40.9871083+08:00 [WatcherStart] processEvents=True, fallback=5s
+2026-09-30T23:59:42.2561602+08:00 [BootTrigger] Fixture AI, pids=1, windows=1
+2026-09-30T23:59:42.3282633+08:00 [FIRST_VISUAL] Fixture AI, mode=passive, latency=69.7ms
+2026-09-30T23:59:43.2454384+08:00 [FIRST_FRAME] Fixture AI, hostElapsed=985ms
+2026-09-30T23:59:43.5324574+08:00 [BootTargetGone] Fixture AI
+2026-09-30T23:59:43.5595849+08:00 [Diagnostics] asynchronous checks completed
+2026-09-30T23:59:46.2858116+08:00 [TargetStopped] Fixture AI, pids=0, windows=0

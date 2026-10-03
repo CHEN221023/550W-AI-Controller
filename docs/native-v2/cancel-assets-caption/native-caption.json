@@ -1,0 +1,54 @@
+[
+  {
+    "phase": "normal",
+    "reliable": true,
+    "dpi": 96,
+    "bounds": {
+      "Left": 1170,
+      "Top": 261,
+      "Right": 1217,
+      "Bottom": 287,
+      "Width": 47,
+      "Height": 26
+    }
+  },
+  {
+    "phase": "moved",
+    "reliable": true,
+    "dpi": 96,
+    "bounds": {
+      "Left": 890,
+      "Top": 111,
+      "Right": 937,
+      "Bottom": 137,
+      "Width": 47,
+      "Height": 26
+    }
+  },
+  {
+    "phase": "resized",
+    "reliable": true,
+    "dpi": 96,
+    "bounds": {
+      "Left": 1090,
+      "Top": 111,
+      "Right": 1137,
+      "Bottom": 137,
+      "Width": 47,
+      "Height": 26
+    }
+  },
+  {
+    "phase": "maximized",
+    "reliable": true,
+    "dpi": 96,
+    "bounds": {
+      "Left": 1872,
+      "Top": 4,
+      "Right": 1924,
+      "Bottom": 22,
+      "Width": 52,
+      "Height": 18
+    }
+  }
+]

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType><TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF><UseWindowsForms>true</UseWindowsForms><ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>550W-AI-Controller</AssemblyName><ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>../../assets/controller.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup><ProjectReference Include="../550W.Core/550W.Core.csproj"/><PackageReference Include="System.Management" Version="8.0.0"/></ItemGroup>
+  <ItemGroup><Content Include="../../assets/controller.ico" Link="controller.ico" CopyToOutputDirectory="PreserveNewest"/></ItemGroup>
+  <ItemGroup><Compile Include="../Shared/MechanicalCore.cs" Link="Native/MechanicalCore.cs"/></ItemGroup>
+  <ItemGroup><Compile Include="../Shared/OverlayCoverGuard.cs" Link="Native/OverlayCoverGuard.cs"/></ItemGroup>
+  <ItemGroup><Compile Include="../Shared/ParticleFirstFrame.cs" Link="ParticleFirstFrame.cs"/></ItemGroup>
+</Project>

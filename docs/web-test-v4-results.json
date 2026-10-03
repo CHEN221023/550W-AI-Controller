@@ -1,0 +1,49 @@
+[
+  {
+    "name": "V4 focused visual chain, original vectors, preserved HUD and transparent handoff",
+    "pass": true,
+    "core": {
+      "gap": 100,
+      "chinese": "12px",
+      "english": "9px",
+      "label": "MOSS 核心接入中550C JOINT CONTROL NODE",
+      "lensOpacity": "0",
+      "imageFilter": "brightness(1)",
+      "backgrounds": [
+        "rgb(0, 0, 0)",
+        "rgb(0, 0, 0)",
+        "rgb(0, 0, 0)",
+        "rgb(0, 0, 0)",
+        "rgb(0, 0, 0)",
+        "rgb(0, 0, 0)"
+      ],
+      "crt": "none"
+    },
+    "logoPaths": 6,
+    "originalVectorPathsExact": true,
+    "overlapSamples": 1408,
+    "phases": [
+      "CORE_SCANNING",
+      "CORE_REVEAL",
+      "CORE_ILLUMINATED",
+      "CORE_LABEL",
+      "CORE_HOLD",
+      "CORE_PARTICLES",
+      "PARTICLE_RESIDUE",
+      "LOGO_ASSEMBLING",
+      "LOGO_HOLD",
+      "LOGO_BURST",
+      "MULTIWINDOW_REVEAL",
+      "MULTIWINDOW_ACTIVE"
+    ],
+    "handoff": {
+      "scale": 0.796578,
+      "opacity": 0.916045,
+      "body": "rgba(0, 0, 0, 0)"
+    },
+    "originalWindows": 9,
+    "originalNodes": 47,
+    "errors": [],
+    "desktopWindowsShown": 0
+  }
+]

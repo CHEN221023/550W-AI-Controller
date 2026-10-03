@@ -1,0 +1,20 @@
+2026-09-30T23:53:46.4810176+08:00 [WatcherStart] processEvents=True, fallback=5s
+2026-09-30T23:53:47.7358484+08:00 [BootTrigger] Fixture AI, pids=1, windows=1
+2026-09-30T23:53:47.8048848+08:00 [FIRST_VISUAL] Fixture AI, mode=passive, latency=66.6ms
+2026-09-30T23:53:48.7333913+08:00 [FIRST_FRAME] Fixture AI, hostElapsed=994ms
+2026-09-30T23:53:48.7835835+08:00 [Diagnostics] asynchronous checks completed
+2026-09-30T23:53:49.0247647+08:00 [Ready] Fixture AI
+2026-09-30T23:53:49.1742811+08:00 [ManagedCloseState] Fixture AI, CloseRequested, session=d7345d858d934197948d187672e975b2
+2026-09-30T23:53:49.1753693+08:00 [ManagedCloseState] Fixture AI, ShutdownPreparing, session=d7345d858d934197948d187672e975b2
+2026-09-30T23:53:49.1835740+08:00 [ManagedCloseState] Fixture AI, WaitingConfirmation, session=d7345d858d934197948d187672e975b2
+2026-09-30T23:53:49.1847106+08:00 [ManagedCloseState] Fixture AI, ShutdownAnimating, session=d7345d858d934197948d187672e975b2
+2026-09-30T23:53:49.3188380+08:00 [SHUTDOWN_OVERLAY_VISIBLE] Fixture AI, confirmElapsed=104ms
+2026-09-30T23:53:49.3197163+08:00 [ShutdownNativeFallback] Fixture AI
+2026-09-30T23:53:49.3219432+08:00 [SHUTDOWN_BEGIN_CONFIRMED] Fixture AI
+2026-09-30T23:53:49.3227287+08:00 [ManagedCloseState] Fixture AI, AppClosing, session=d7345d858d934197948d187672e975b2
+2026-09-30T23:53:49.3239981+08:00 [WM_CLOSE] Fixture AI, hwnd=528538, sent=True
+2026-09-30T23:53:49.3332768+08:00 [CloseTargetUnavailable] Fixture AI
+2026-09-30T23:53:49.3428044+08:00 [CloseTargetUnavailable] Fixture AI
+2026-09-30T23:53:50.0495949+08:00 [FIRST_FRAME] Fixture AI, 
+2026-09-30T23:53:51.7838636+08:00 [TargetStopped] Fixture AI, pids=0, windows=0
+2026-09-30T23:53:51.9308645+08:00 [ManagedCloseState] Fixture AI, Stopped, session=d7345d858d934197948d187672e975b2

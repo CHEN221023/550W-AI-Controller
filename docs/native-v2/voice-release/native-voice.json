@@ -1,0 +1,17 @@
+{
+  "available": true,
+  "engine": "eSpeak NG 1.52.0",
+  "released": true,
+  "clips": [
+    {
+      "phrase": "550W \u7CFB\u7EDF\u5C31\u7EEA\u3002",
+      "file": "C:\\Users\\Administrator\\Documents\\codex\\2026-09-30\\files-pasted-by-the-user-windows\\work\\desktop-v2-evidence\\20261001-011958-9e90ba\\1ffca14bc1ad4ee5b5660b1eef183e2e.wav",
+      "bytes": 116618
+    },
+    {
+      "phrase": "DeepSeek interface ready",
+      "file": "C:\\Users\\Administrator\\Documents\\codex\\2026-09-30\\files-pasted-by-the-user-windows\\work\\desktop-v2-evidence\\20261001-011958-9e90ba\\c72619300e004138944c4cbcfff69185.wav",
+      "bytes": 68510
+    }
+  ]
+}

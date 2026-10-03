@@ -1,0 +1,107 @@
+[
+  {
+    "name": "cancel-confirmation-releases-preload",
+    "pass": true,
+    "detail": {
+      "confirmationCount": 1,
+      "targetStillRunning": true,
+      "preloadReady": true,
+      "animationReleased": true,
+      "noFullScreen": true,
+      "noShutdownBegin": true,
+      "noNormalClose": true,
+      "logs": [
+        "2026-09-30T23:45:48.1773337\u002B08:00 [WatcherStart] processEvents=True, fallback=5s",
+        "2026-09-30T23:45:48.8328292\u002B08:00 [ManagedCloseState] Fixture AI, CloseRequested, session=086b3b0307954a3b9558793ce1078335",
+        "2026-09-30T23:45:48.8338653\u002B08:00 [ManagedCloseState] Fixture AI, ShutdownPreparing, session=086b3b0307954a3b9558793ce1078335",
+        "2026-09-30T23:45:48.8615162\u002B08:00 [ManagedCloseState] Fixture AI, WaitingConfirmation, session=086b3b0307954a3b9558793ce1078335",
+        "2026-09-30T23:45:49.4821449\u002B08:00 [CloseConfirmationShown] Fixture AI",
+        "2026-09-30T23:45:50.2387649\u002B08:00 [FIRST_FRAME] Fixture AI, ",
+        "2026-09-30T23:45:53.4553339\u002B08:00 [VISUAL_READY] Fixture AI, ",
+        "2026-09-30T23:45:53.5389716\u002B08:00 [ShutdownPreloadReady] Fixture AI, ",
+        "2026-09-30T23:45:53.6373789\u002B08:00 [ManagedCloseState] Fixture AI, Running, session=086b3b0307954a3b9558793ce1078335",
+        "2026-09-30T23:45:53.7795394\u002B08:00 [ShutdownCancelled] Fixture AI"
+      ]
+    }
+  },
+  {
+    "name": "custom-core-svg",
+    "pass": true,
+    "detail": {
+      "ExitCode": 0,
+      "bytes": 110095,
+      "output": "C:\\Users\\Administrator\\Documents\\codex\\2026-09-30\\files-pasted-by-the-user-windows\\work\\desktop-v2-evidence\\20260930-234545-46a136\\converted-svg.png"
+    }
+  },
+  {
+    "name": "custom-core-webp",
+    "pass": true,
+    "detail": {
+      "ExitCode": 0,
+      "bytes": 177495,
+      "output": "C:\\Users\\Administrator\\Documents\\codex\\2026-09-30\\files-pasted-by-the-user-windows\\work\\desktop-v2-evidence\\20260930-234545-46a136\\converted-webp.png"
+    }
+  },
+  {
+    "name": "native-caption-move-resize-maximize",
+    "pass": true,
+    "detail": {
+      "ExitCode": 0,
+      "output": "C:\\Users\\Administrator\\Documents\\codex\\2026-09-30\\files-pasted-by-the-user-windows\\work\\desktop-v2-evidence\\20260930-234545-46a136\\native-caption.json",
+      "positions": [
+        {
+          "phase": "normal",
+          "reliable": true,
+          "dpi": 96,
+          "bounds": {
+            "Left": 1170,
+            "Top": 261,
+            "Right": 1217,
+            "Bottom": 287,
+            "Width": 47,
+            "Height": 26
+          }
+        },
+        {
+          "phase": "moved",
+          "reliable": true,
+          "dpi": 96,
+          "bounds": {
+            "Left": 890,
+            "Top": 111,
+            "Right": 937,
+            "Bottom": 137,
+            "Width": 47,
+            "Height": 26
+          }
+        },
+        {
+          "phase": "resized",
+          "reliable": true,
+          "dpi": 96,
+          "bounds": {
+            "Left": 1090,
+            "Top": 111,
+            "Right": 1137,
+            "Bottom": 137,
+            "Width": 47,
+            "Height": 26
+          }
+        },
+        {
+          "phase": "maximized",
+          "reliable": true,
+          "dpi": 96,
+          "bounds": {
+            "Left": 1872,
+            "Top": 4,
+            "Right": 1924,
+            "Bottom": 22,
+            "Width": 52,
+            "Height": 18
+          }
+        }
+      ]
+    }
+  }
+]

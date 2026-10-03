@@ -1,0 +1,165 @@
+{
+  "version": "V4.3 Beta",
+  "productVersion": "4.3.0-beta",
+  "releaseBuild": "PASS",
+  "webChecks": [
+    {
+      "name": "existing particle visual is pixel-identical from residue through HUD crossfade",
+      "pass": true,
+      "comparisons": [
+        {
+          "phase": "residue-start",
+          "particleSha256": "ce77b11e0211f4ff76f6cd049604791f172cb332702c271c94cd93915b68f56c",
+          "logoSha256": "0da3e54dc0b83e71fe471d182d0ddaf852b6a11ae5a2a117a2d4a024b2fff203"
+        },
+        {
+          "phase": "residue-middle",
+          "particleSha256": "9979497a45dfae00bb857afea7bc18ae6d0b0a6419beb20cf46c2e53b072d0b9",
+          "logoSha256": "0da3e54dc0b83e71fe471d182d0ddaf852b6a11ae5a2a117a2d4a024b2fff203"
+        },
+        {
+          "phase": "logo-assembling",
+          "particleSha256": "c9296cada6c310a21ff8eb4ad360f8d5f0cd4b9acd2127a7501be37b72d4b56b",
+          "logoSha256": "0da3e54dc0b83e71fe471d182d0ddaf852b6a11ae5a2a117a2d4a024b2fff203"
+        },
+        {
+          "phase": "logo-hold",
+          "particleSha256": "cd6c7a7a75babee806b588a78f3501588f0b04bbf8b6c567a3b8f009ad43f2a9",
+          "logoSha256": "0da3e54dc0b83e71fe471d182d0ddaf852b6a11ae5a2a117a2d4a024b2fff203"
+        },
+        {
+          "phase": "logo-burst",
+          "particleSha256": "86cb413df2a07dbbe4b3c2c8a7b50d3de547ab87c75010d453919c044d049bf9",
+          "logoSha256": "0da3e54dc0b83e71fe471d182d0ddaf852b6a11ae5a2a117a2d4a024b2fff203"
+        },
+        {
+          "phase": "hud-crossfade",
+          "particleSha256": "21896b60fa25f4cfd525453fd91af3bfc2b176fcd21a895b87f6838519526735",
+          "logoSha256": "0da3e54dc0b83e71fe471d182d0ddaf852b6a11ae5a2a117a2d4a024b2fff203"
+        }
+      ],
+      "events": [
+        "PARTICLE_RESIDUE",
+        "LOGO_ASSEMBLING",
+        "LOGO_BEGIN",
+        "LOGO_HOLD",
+        "LOGO_BURST",
+        "MULTIWINDOW_REVEAL"
+      ]
+    },
+    {
+      "name": "full boot starts at residue; no robot requests or obsolete sound; existing HUD and handoff complete",
+      "pass": true,
+      "timing": [
+        {
+          "from": "PARTICLE_RESIDUE",
+          "to": "LOGO_ASSEMBLING",
+          "expected": 350,
+          "actual": 348
+        },
+        {
+          "from": "LOGO_ASSEMBLING",
+          "to": "LOGO_HOLD",
+          "expected": 850,
+          "actual": 850
+        },
+        {
+          "from": "LOGO_HOLD",
+          "to": "LOGO_BURST",
+          "expected": 450,
+          "actual": 450
+        },
+        {
+          "from": "LOGO_BURST",
+          "to": "MULTIWINDOW_REVEAL",
+          "expected": 900,
+          "actual": 902
+        },
+        {
+          "from": "MULTIWINDOW_REVEAL",
+          "to": "MULTIWINDOW_ACTIVE",
+          "expected": 850,
+          "actual": 854
+        }
+      ],
+      "removedNodes": 0,
+      "robotRequests": 0,
+      "obsoleteAudioRequests": 0,
+      "oldCoreDurationSettingsIgnored": true,
+      "particles": 700,
+      "hudNodes": 47,
+      "hudWindows": 9,
+      "errors": []
+    }
+  ],
+  "hiddenUiChecks": {
+    "pass": true,
+    "checks": [
+      "Removed core timing controls in global/independent settings",
+      "Retained active particle/logo/HUD/handoff settings",
+      "Removed obsolete visible descriptions",
+      "Removed core timing controls in global/independent settings",
+      "Retained active particle/logo/HUD/handoff settings",
+      "Removed obsolete visible descriptions",
+      "Removed robot voice/sound selectors",
+      "Retained logo/HUD audio selectors",
+      "Removed robot voice/sound selectors",
+      "Retained logo/HUD audio selectors",
+      "Removed obsolete core asset picker",
+      "Changelog starts at V4.2 Beta and includes V4.3 Beta",
+      "Beta notice is present above changelog entries",
+      "No settings window displayed"
+    ],
+    "desktopWindowsShown": 0
+  },
+  "portableSmoke": {
+    "pass": true,
+    "exitCode": 0,
+    "fileVersion": "4.3.0.0",
+    "productVersion": "4.3.0-beta",
+    "profileCount": 0,
+    "controllerStarted": true,
+    "controllerStopped": true,
+    "watcherStopped": true,
+    "errors": false,
+    "settingsWindowsShown": 0,
+    "targetAppsStarted": 0,
+    "fullscreenAnimations": 0,
+    "isolatedDataDirectory": true,
+    "log": "2026-10-02T17:23:23.0918911+08:00 [ControllerStart] level=INFO, \r\n2026-10-02T17:23:23.8380688+08:00 [ProcessEventsUnavailable] level=WARN, ManagementException\r\n2026-10-02T17:23:23.8415769+08:00 [WatcherStart] level=INFO, processEvents=False, fallback=5s\r\n2026-10-02T17:23:25.1806848+08:00 [WatcherStop] level=INFO, \r\n2026-10-02T17:23:25.1819286+08:00 [ControllerStop] level=INFO, \r\n"
+  },
+  "firstPhase": "PARTICLE_RESIDUE",
+  "v42ChangelogBodyUnchanged": true,
+  "shutdownAndHandoffFunctionsUnchanged": true,
+  "unchangedSourceFiles": 738,
+  "protectedFiles": {
+    "Themes/550W/assets/core.png": "51a26921618ac45089320b03ed1ae3bc76538bfbca5709ecd1fa4f18266d833c",
+    "Themes/550W/js/mother-assets.js": "db474577e105d401abc5620bc36eebb6a1b06322ba3dbe2f178e157bbe3d0591",
+    "Themes/550W/js/mother-show.js": "7557dc5bcc0762ac374170fa81c9fa93d8b7d9aaf0040bd704413b420f2953a3",
+    "Themes/550W/js/audio.js": "c6f184dd294b63f8e7ff3fab9c7ffce9d568508d5d5adf709d1caca3aec6a697",
+    "src/Shared/OverlayCoverGuard.cs": "ba4178bf71f6dd042c6bc0eaf99b1e174ee9851aa1fda7f6692a5056aed32278",
+    "src/550W.Core/Models.cs": "d1508f45a4450e56ca94d58fa61de139259b27f33aab75c5cea4b8e8ed293deb",
+    "src/550W.Core/ConfigStore.cs": "44504f2df00a0d068992fa9ef3c4d388f7da11f138e71c1be46345e61bcf08b7",
+    "src/550W.Core/ProfileSettingsResolver.cs": "7d0100d78ea65c081518b3d4f8831295f2a39055bc4442bb3e82432c2104ba05"
+  },
+  "changedExistingSourceFiles": [
+    "Build.ps1",
+    "CHANGELOG.md",
+    "Directory.Build.props",
+    "package.json",
+    "README.md",
+    "src/550W.Animation/AnimationWindow.cs",
+    "src/550W.Controller/Program.cs",
+    "src/550W.Controller/Services/AnimationCoordinator.cs",
+    "src/550W.Controller/Services/ProductChangelog.cs",
+    "src/550W.Controller/Views/FirstFrameWindow.cs",
+    "src/550W.Controller/Views/SettingsWindow.cs",
+    "TEST-REPORT.md",
+    "Themes/550W/css/controller.css",
+    "Themes/550W/js/controller.js",
+    "Themes/550W/js/debug.js",
+    "Themes/550W/js/intro.js",
+    "Themes/550W/theme.json"
+  ],
+  "nativeFullscreenTests": 0
+}
