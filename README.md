@@ -60,6 +60,21 @@
 
 550W AI Controller 本身不是 AI 模型，也不是聊天客户端。
 
+## 软件界面预览
+
+### 主界面
+<img width="1920" height="1080" alt="00339271daee6e2e18c5e7d67043e3ab" src="https://github.com/user-attachments/assets/47575603-bad3-4633-a5ea-58b03053bf3f" />
+
+
+### 应用动画效果
+<img width="1920" height="1080" alt="d9932f48af370cff4af8b991c49ee212" src="https://github.com/user-attachments/assets/008b3cc0-3874-40ad-903a-633e16ad024e" />
+
+
+### 启动动画效果
+<img width="1920" height="1080" alt="ffd0f05fa9cbcfbd27966efc81c06919" src="https://github.com/user-attachments/assets/efd0eabe-eda0-4ed0-b132-30478a655e8f" />
+
+
+
 它不会替代原来的 ChatGPT、Claude 或其他程序，而是作为一个独立运行的 Windows 控制器，为这些应用提供：
 
 - 启动检测
@@ -78,8 +93,25 @@
 1. 如果旧版 550W 正在后台运行，先从旧版 550W 托盘菜单选择“退出”。
 2. 完整解压 `550W-AI-Controller-V4.6-Beta-Portable.zip`，保持目录结构，运行 `550W-AI-Controller.exe`。
 3. 在“应用管理”中添加或选择应用，修改后“保存并应用”。“关于”可查看完整 Beta 更新日志并导出故障诊断包。
-
 支持 Windows 10/11 x64。便携包包含 .NET 运行时；动画需要本机已安装的 Microsoft Edge WebView2 Evergreen Runtime。可选离线语音需要 Microsoft Visual C++ v14 x64 运行库，无可用语音引擎时静默继续。
+
+## 作者推荐参数参考
+
+### 作者推荐参数 1
+<img width="1920" height="1080" alt="7c80dba80d8933671022f780c1718acf" src="https://github.com/user-attachments/assets/dc731ab5-2adf-4466-adc2-acd621d6daf7" />
+
+
+### 作者推荐参数 2
+<img width="1920" height="1080" alt="fc9046b73c059768cbf5400f34901b56" src="https://github.com/user-attachments/assets/06e7b2b1-3c80-4862-8766-f61c409dae1e" />
+
+
+### 作者推荐参数 3
+<img width="1920" height="1080" alt="fee9c35ee58ff15eecc8216dd8f0fb17" src="https://github.com/user-attachments/assets/7ed53420-9516-4723-865d-3959fd347f1c" />
+
+
+### 作者推荐参数 4
+<img width="1920" height="1080" alt="755f3cef272db006203aac07f134ba79" src="https://github.com/user-attachments/assets/e316bd1f-74b1-4e6f-95d0-586acd571eb9" />
+
 
 ## 三个开场时间参数
 
